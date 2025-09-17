@@ -4,13 +4,33 @@
 
 ### 1.1.1. Descripción de la StartUp
 
-EazyLogistics es una startup inovadora que ofrece la aplicacion "LogisticsMaster", app que permite a los hoteles gestionar sus operaciones de manera más eficiente y mejorar la experiencia de sus huéspedes. LogisticsMaster no solo es una herramienta para administrar reservas y personal, sino también para ofrecer servicios de manera accesible e intuitiva.
+EazyLogistics es una startup tecnológica enfocada en el desarrollo de soluciones IoT (Internet of Things) para la industria hotelera. Su producto principal, IoT Hotel Management, es una plataforma integral que conecta dispositivos inteligentes con aplicaciones web y móviles, permitiendo a los hoteles transformar su operación en espacios inteligentes, seguros y eficientes.
 
+El sistema integra:
 
-- Misión: Empoderar a los hoteles mediante una plataforma inteligente e intuitiva que optimiza sus operaciones, mejora la eficiencia del personal y eleva la experiencia del huésped, combinando tecnología accesible con una atención al detalle centrada en el cliente.
-<br>
-- Visión (Metas a medio o largo plazo): Ser la solución tecnológica líder en gestión hotelera a nivel global, reconocida por transformar la forma en que los hoteles operan y ofrecen experiencias memorables, sostenibles y personalizadas a sus huéspedes.
+- Gestión Web para Gerentes: creación y administración de habitaciones, reservas, credenciales y monitoreo de dispositivos.
 
+- Aplicación Móvil para Huéspedes: acceso seguro a su habitación mediante NFC/Bluetooth/tarjetas físicas, control de luces, cortinas, temperatura y pedidos de servicios en tiempo real.
+
+- Infraestructura IoT: sensores de humo y gas con alertas instantáneas, luces inteligentes con detección de presencia, cerraduras electrónicas y termostatos conectados.
+
+Con este ecosistema, la startup busca cerrar la brecha tecnológica en el sector hotelero peruano y latinoamericano, donde predominan procesos manuales, baja digitalización y poca integración de dispositivos inteligentes.
+
+- **Misión**
+
+Impulsar la transformación digital del sector hotelero mediante una plataforma IoT accesible y confiable que mejore la seguridad, optimice la eficiencia energética y eleve la experiencia de los huéspedes.
+
+- **Visión**
+
+Convertirse en la solución IoT hotelera líder en Latinoamérica, reconocida por su capacidad de integrar la gestión operativa con tecnologías inteligentes que generen hoteles sostenibles, rentables y centrados en el cliente.
+
+Propuesta de Valor
+
+- **Para Gerentes:** control total de habitaciones y dispositivos en tiempo real, reducción de costos operativos y seguridad reforzada.
+
+- **Para Huéspedes:** acceso rápido, seguro y personalizado a su habitación, con ambientes adaptados a sus preferencias.
+
+- **Para el Hotel:** un sistema escalable, adaptable y con soporte local que combina la gestión digital con la automatización IoT. 
 
 ### 1.1.2. Perfiles de Integrantes del equipo
 
@@ -25,241 +45,257 @@ EazyLogistics es una startup inovadora que ofrece la aplicacion "LogisticsMaster
 
 ## 1.2. Solution Profile
 
-### 1.2.1. Antecedentes y Problemática
+## 1.2.1 Antecedentes y Problemática
 
-Los antecedentes son esenciales para una comprensión más profunda de la problemática en cuestión. Por esta razón, hemos aplicado la técnica de las "5W 2H":
+### What (¿Qué ofrece nuestra aplicación?)
+- **IoT Hotel Management** es una plataforma que integra **IoT con gestión hotelera digital**.  
+- Permite a los hoteles gestionar reservas, accesos y dispositivos inteligentes desde una sola solución.  
+- **Administradores (Web):** creación de habitaciones, gestión de reservas, monitoreo de sensores de humo/gas, control de iluminación y energía.  
+- **Huéspedes (App móvil):** apertura de cerraduras con NFC/Bluetooth, personalización del ambiente (luces, cortinas, termostato) y pedidos de servicio.  
 
-**What:**
+**¿Qué soluciones específicas aporta la aplicación?**
+- Elimina procesos manuales, centralizando toda la gestión.  
+- Eleva la seguridad hotelera mediante sensores y accesos digitales.  
+- Reduce costos energéticos con luces y climatización inteligentes.  
+- Mejora la experiencia del huésped con automatización personalizada.  
 
-- ¿Qué ofrece nuestra aplicacion?
+---
 
-LogisticsMaster ofrece una plataforma digital integral que permite a los hoteles gestionar de manera eficiente sus operaciones, incluyendo reservas, personal y servicios para huéspedes.
+### Where (¿Dónde se aplica la solución?)
+- La plataforma puede implementarse en hoteles de todo el Perú y Latinoamérica.  
+- Especialmente en destinos turísticos con alto flujo (Cusco, Arequipa, Lima, Riviera Maya).  
 
-- ¿Qué soluciones específicas aporta la aplicacion?
+**¿Dónde impacta más?**
+- En hoteles pequeños y medianos que no cuentan con sistemas digitales ni infraestructura tecnológica avanzada.  
+- **IoT Hotel Management** actúa como un puente entre la informalidad y la profesionalización tecnológica.  
 
-Soluciona la desorganización operativa y eleva la calidad del servicio al cliente mediante herramientas intuitivas que automatizan procesos y centralizan la información del hotel.
+---
 
-**Where:**
+### When (¿Cuándo es más útil?)
+- La solución es relevante todo el año.  
+- Tiene mayor valor en **temporadas altas de turismo**, cuando la demanda de habitaciones se incrementa.  
 
-- ¿Dónde pueden operar los hoteles con nuestra plataforma?
+**¿Cuándo surgió la necesidad?**
+- Tras la pandemia, cuando el turismo se reactivó rápidamente.  
+- Los hoteles evidenciaron **limitaciones tecnológicas** para atender la demanda con seguridad y eficiencia.  
 
-Nuestra plataforma es completamente en línea, por lo que puede ser utilizada por hoteles en todo el Perú, especialmente en zonas con alto flujo turístico como Cusco, Arequipa y la costa norte.
+---
 
-- ¿Dónde impacta más el uso de LogisticsMaster?
+### Who (¿Quiénes se benefician y quiénes enfrentan el problema?)
+- **Beneficiarios directos:**
+  - **Administradores:** control total de reservas y dispositivos desde la web.  
+  - **Personal operativo:** mayor claridad de tareas y alertas en tiempo real.  
+  - **Huéspedes:** estancia personalizada, segura y fluida.  
 
-Impacta especialmente en hoteles pequeños y medianos ubicados en regiones donde la informalidad del sector dificulta una gestión eficiente.
+- **Quienes enfrentan el problema actualmente:**
+  - Hoteles sin digitalización, con procesos manuales y llaves físicas.  
+  - Establecimientos medianos que no pueden costear soluciones IoT premium internacionales.  
 
-**When:**
+---
 
-- ¿Cuándo es más útil implementar LogisticsMaster?
+### Why (¿Por qué ofrecemos esta aplicación?)
+- Porque existe una **brecha tecnológica**: muchos hoteles operan con sistemas manuales o básicos.  
+- Esto genera **errores en reservas, inseguridad en accesos y altos costos de energía**.  
 
-Durante todo el año, especialmente en temporadas altas donde la demanda turística aumenta y la eficiencia operativa es crucial para ofrecer una buena experiencia al huésped.
+**¿Por qué es importante mejorar la gestión hotelera con IoT?**
+- Porque la eficiencia operativa y la seguridad son factores clave para la competitividad turística.  
+- Un hotel inteligente no solo reduce costos, sino que también **aumenta la satisfacción y fidelización de los huéspedes**.  
 
-- ¿Cuándo comenzó a ser evidente la necesidad de nuestra solución?
+---
 
-Después de la pandemia, cuando el turismo se reactivó rápidamente, pero muchos hoteles no estaban preparados tecnológicamente para una gestión escalable y profesional.
+### How (¿Cómo funciona la plataforma?)
+- **Para administradores:** panel web con gestión de reservas, monitoreo de sensores, control de dispositivos y seguridad de accesos.  
+- **Para huéspedes:** app móvil con acceso seguro a su habitación y control total de su ambiente.  
+- **Integración IoT:** dispositivos conectados mediante protocolos seguros (MQTT/REST) que reportan y reciben órdenes en tiempo real.  
 
-**Who:**
+**¿Cómo apoyamos la implementación?**
+- Brindamos **capacitación, soporte técnico y despliegue gradual**.  
+- Incluso hoteles con poca experiencia tecnológica podrán usar el sistema de manera efectiva.  
 
-- ¿Quiénes se benefician directamente con LogisticsMaster?
+---
 
-Los administradores de hoteles, el personal operativo y los huéspedes. Los primeros obtienen control total sobre sus procesos; los segundos, mayor claridad en sus tareas; y los últimos, una mejor experiencia.
-
-- ¿Quiénes enfrentan los problemas que resolvemos?
-
-Hoteles sin digitalización ni procesos estandarizados, especialmente aquellos que operan con herramientas básicas o de forma manual.
-
-**Why:**
-
-- ¿Por qué ofrecemos esta aplicacion?
-
-Porque existe una brecha importante entre la creciente demanda turística y la capacidad operativa de muchos hoteles peruanos. Queremos cerrar esa brecha mediante tecnología accesible y eficiente.
-
-- ¿Por qué es importante mejorar la gestión hotelera?
-
-Porque una operación hotelera desorganizada afecta negativamente la experiencia del turista y, en consecuencia, la imagen del Perú como destino turístico competitivo.
-
-**How:**
-
-- ¿Cómo funciona nuestra plataforma?
-
-A través de una interfaz sencilla y personalizable, los hoteles pueden administrar reservas, asignar tareas al personal, monitorear el rendimiento operativo y gestionar servicios al huésped desde un solo lugar.
-
-- ¿Cómo apoyamos a los hoteles durante la implementación?
-
-Brindamos capacitación y soporte continuo para asegurar que incluso los equipos con poca experiencia tecnológica puedan usar la plataforma de manera efectiva.
-
-**How much:**
-
-- ¿Cuánto cuesta LogisticsMaster para un hotel?
-
-Ofrecemos planes flexibles por suscripción mensual, adaptados al tamaño y necesidades de cada hotel, con precios competitivos para facilitar la adopción incluso en negocios más pequeños.
-
-- ¿Cuánto se puede ahorrar usando LogisticsMaster?
-
-Los hoteles pueden reducir significativamente los errores operativos y mejorar la productividad hasta en un 30–40%, lo que se traduce en mayor rentabilidad y satisfacción del huésped.
+### How Much (¿Cuánto cuesta y cuánto se puede ahorrar?)
+- **Modelo de negocio:** planes de suscripción mensual por número de habitaciones + costos de instalación inicial de dispositivos IoT.  
+- **Ahorro estimado:**
+  - Hasta **30% en consumo energético** con luces y climatización inteligentes.  
+  - Reducción del **80% en errores de reservas y accesos**.  
+  - Incremento proyectado de **15–20% en satisfacción y retención de huéspedes**.  
 
 
 ### 1.2.2. Lean UX Process
 
-### 1.2.2.1  Problem Statement
- 
-El crecimiento acelerado del turismo en Perú ha generado la creación de numerosas agencias de viajes y hoteles, impulsados por la alta demanda del sector. Sin embargo, la informalidad y la desorganización dentro del sector han llevado a una disminución en la productividad, afectando tanto a turistas como a trabajadores del sector. Además, la falta de coordinación y estándares de servicio en las agencias informales provoca una experiencia deficiente para los turistas, lo que puede impactar negativamente la reputación del turismo en el país.
+### 1.2.2.1 Problem Statement
+- El sector hotelero en Perú y Latinoamérica enfrenta problemas de **informalidad, baja digitalización y deficiencias en seguridad y eficiencia operativa**.  
+- Los hoteles pequeños y medianos suelen operar con procesos manuales, llaves físicas y sistemas dispersos, lo que genera **errores en reservas, pérdidas económicas y experiencias negativas en huéspedes**.  
+- Al mismo tiempo, los huéspedes demandan **estancias más seguras, rápidas y personalizadas**, en línea con la transformación digital global.  
+
+**Pregunta clave:**  
+¿Cómo podemos integrar tecnología IoT en la gestión hotelera para mejorar la eficiencia, garantizar la seguridad y ofrecer experiencias personalizadas a los huéspedes?  
+
+---
+
+### Domain
+- El dominio de **IoT Hotel Management** es el sector turístico y hotelero, con enfoque en la **automatización inteligente de hoteles**.  
+- Se centra en la conexión de **dispositivos IoT (cerraduras, sensores, luces, termostatos, cortinas inteligentes)** con aplicaciones digitales (web y móvil).  
+- El objetivo es profesionalizar los procesos hoteleros, elevar la competitividad y transformar la experiencia de los huéspedes.  
+
+---
+
+### Customer Segments
+- **Administradores de hoteles:** buscan digitalizar procesos, reducir costos energéticos, controlar accesos y mejorar la seguridad.  
+- **Personal operativo:** necesita claridad en las tareas y notificaciones en tiempo real para responder a emergencias o solicitudes.  
+- **Huéspedes:** desean accesos rápidos y seguros (NFC/Bluetooth), personalización de la habitación y procesos de check-in/out más fluidos.  
+
+---
+
+### Pain Points
+1. **Administradores:**  
+   - Procesos manuales en reservas y accesos.  
+   - Falta de control en consumo energético.  
+   - Baja visibilidad en la seguridad de habitaciones y ambientes.  
+
+2. **Personal operativo:**  
+   - Comunicación deficiente con recepción.  
+   - Alertas poco claras ante incidentes (fugas, incendios, ocupación).  
+   - Duplicidad de tareas y tiempos muertos.  
+
+3. **Huéspedes:**  
+   - Check-in lento y dependiente de llaves físicas.  
+   - Habitaciones poco adaptadas a sus preferencias.  
+   - Baja percepción de seguridad y confianza.  
+
+---
+
+### Gap (Brecha Identificada)
+- Actualmente, no existe en el mercado una solución IoT integral que combine:  
+  - **Gestión de reservas + automatización de habitaciones + control de accesos + sensores de seguridad.**  
+- Las soluciones existentes (PMS tradicionales, domótica de lujo, integraciones parciales) son **costosas, poco accesibles o no adaptadas al contexto hotelero latinoamericano**.  
+- **IoT Hotel Management llena esta brecha** ofreciendo un ecosistema accesible, modular y escalable.  
+
+---
+
+### Vision / Strategy
+- **Visión:** construir un ecosistema de **hoteles inteligentes** que integren seguridad, eficiencia y confort.  
+- **Estrategia:**  
+  - Centralizar en una sola plataforma la gestión de reservas, accesos y dispositivos IoT.  
+  - Reducir costos operativos mediante sensores y automatización energética.  
+  - Mejorar la experiencia del huésped con accesos seguros y ambientes personalizados.  
+  - Implementar un modelo escalable y accesible para hoteles pequeños y medianos.  
+
+---
+
+### Initial Segment
+- Los primeros en adoptar serán **hoteles independientes y medianos** en zonas de alto turismo (Cusco, Arequipa, Lima, Cartagena).  
+- Estos hoteles carecen de digitalización, pero enfrentan **alta demanda turística** y están más motivados en modernizar sus servicios.  
+- Representan el grupo más propenso a adoptar soluciones IoT por su necesidad de:  
+  - Reducir errores en reservas y accesos.  
+  - Mejorar la seguridad.  
+  - Diferenciarse de la competencia informal.  
+
+---
+
+### 1.2.2.2 Lean UX Assumptions
+
+**Business Assumptions**
+- Los hoteles necesitan mejorar eficiencia, seguridad y gestión energética.  
+- La aplicación IoT que centralice reservas, accesos y dispositivos cubrirá esta necesidad.  
+- El valor más importante para los clientes será la **automatización segura y confiable de sus procesos**.  
+- La adquisición de clientes será principalmente mediante **alianzas estratégicas con agencias de turismo, publicidad digital y referencias entre hoteles**.  
+- El modelo de ingresos combinará **suscripciones mensuales** y **instalación inicial de dispositivos IoT**.  
+- La competencia serán PMS internacionales y sistemas de domótica de lujo, a los cuales superaremos con una solución **más accesible y contextualizada al mercado local**.  
+- El principal riesgo será la **resistencia al cambio tecnológico**. Esto se mitigará con **capacitaciones y soporte continuo**.  
+- El éxito se medirá en:  
+  - Reducción de errores en reservas y accesos.  
+  - Ahorro energético comprobado.  
+  - Incremento en satisfacción y retención de huéspedes.  
+
+**User Assumptions**
+- **Usuarios:** administradores, personal operativo y huéspedes.  
+- **Problemas resueltos:** reservas desorganizadas, accesos inseguros, consumo energético excesivo y mala experiencia de huéspedes.  
+- **Características clave:**  
+  - Accesos inteligentes (NFC, Bluetooth, tarjeta).  
+  - Automatización de luces, cortinas y temperatura.  
+  - Reservas y gestión centralizada desde la web.  
+  - Alertas de humo/gas en tiempo real.  
+- **Uso en la vida real:**  
+  - **Administrador:** cada vez que gestiona reservas, controla dispositivos o responde a alertas.  
+  - **Huésped:** cada vez que abre su habitación, personaliza el ambiente o solicita un servicio.  
+- **Expectativas:**  
+  - Interfaz intuitiva.  
+  - Seguridad y confiabilidad.  
+  - Experiencia rápida y sin fricciones.  
+
+---
 
-**_¿Cómo podemos mejorar la eficiencia y organización en el sector hotelero y turístico, garantizando al mismo tiempo que los servicios ofrecidos cumplan con altos estándares de calidad?_**
+### 1.2.2.3 User Outcomes
 
-<br>
+1. **Administradores:**  
+   - Control total sobre reservas y accesos.  
+   - Monitoreo en tiempo real de sensores y dispositivos.  
+   - Ahorro energético comprobado.  
 
+2. **Huéspedes:**  
+   - Acceso rápido y seguro.  
+   - Ambientes personalizados durante su estancia.  
+   - Experiencia confiable y sin complicaciones.  
 
-- **_Domain_**
+3. **Personal operativo:**  
+   - Tareas claras y en tiempo real.  
+   - Alertas automáticas para responder a incidentes.  
+   - Menos tiempos muertos y duplicidad de esfuerzos.  
 
-El dominio de Logistics Master es el sector turístico y hotelero en Perú, específicamente enfocado en mejorar la gestión, organización y calidad de los servicios ofrecidos por agencias de viajes, operadores turísticos y hoteles. Este sector es altamente sensible a la experiencia del usuario y depende en gran medida de la coordinación entre múltiples actores.
+---
 
-- **_Customer Segments_**
+### 1.2.2.4 Business Outcomes
+- Reducción de **errores en reservas y accesos en un 80%**.  
+- Ahorro de **30% en consumo energético promedio**.  
+- Incremento de **15–20% en satisfacción y retención de huéspedes**.  
+- Formalización y escalabilidad del hotel, permitiendo certificaciones y alianzas.  
 
-1. Agencias de viajes pequeñas y medianas que operan de manera informal o semi-formal.
-2. Hoteles independientes que no cuentan con sistemas integrados de gestión.
-3. Turistas nacionales e internacionales que buscan servicios confiables, organizados y de calidad.
-4. Operadores turísticos locales que necesitan coordinar logística con agencias y hospedajes.
+---
 
-- **_Pain Points_**
+### 1.2.2.5 Feature Outcomes
+- **Gestión de reservas y accesos:** reservas en línea, credenciales digitales autodestructivas al hacer check-out.  
+- **Automatización inteligente:** luces con detección de movimiento, termostatos regulados automáticamente, cortinas inteligentes.  
+- **Seguridad reforzada:** sensores de humo y gas con alertas inmediatas al sistema.  
+- **Experiencia huésped:** aplicación móvil para pedidos, control de ambiente y acceso seguro. 
 
-1. Falta de digitalización en los procesos operativos (reservas, seguimiento de clientes, coordinación de servicios).
-2. Dificultad para verificar la calidad y legalidad de los servicios contratados.
-3. Problemas logísticos al coordinar con múltiples actores sin una plataforma centralizada.
-4. Mala experiencia del turista debido a errores de coordinación o incumplimientos.
-5. Reputación negativa del destino por experiencias desorganizadas o poco profesionales.
+### 1.2.2.6 Lean UX Hypothesis Statements
 
-- **_Gap (Brecha Identificada)_**
+- **Hipótesis 1 — Acceso sin llaves (NFC/Bluetooth)**
+  - *Creemos que*, al implementar credenciales móviles (NFC/Bluetooth) con revocación automática en checkout, **reduciremos el tiempo de check-in** y acceso a habitaciones para los huéspedes.
+  - *Sabremos que hemos tenido éxito cuando* el **tiempo medio de check-in** disminuya **≥ 60%** y los **incidentes por llaves extraviadas** bajen **≥ 90%** durante los **primeros 3 meses** post-lanzamiento.
 
-Actualmente no existe una solución digital robusta, accesible y centralizada que permita a las agencias informales profesionalizarse y operar con estándares de calidad altos. Las herramientas existentes son costosas, genéricas, o no adaptadas al contexto local. Tampoco hay una forma estandarizada de evaluar y asegurar la calidad del servicio entre los actores turísticos locales.
+- **Hipótesis 2 — Seguridad IoT (sensores de humo/gas)**
+  - *Creemos que*, al integrar sensores de humo y gas con alertas en tiempo real hacia la API y panel web, **mejoraremos la detección temprana de incidentes** y la respuesta operativa.
+  - *Sabremos que hemos tenido éxito cuando* el **tiempo de detección-a-alerta** sea **< 5 s**, y el **tiempo de atención de alertas críticas (p95)** se reduzca **≥ 40%** en **90 días**.
 
-- **_Vision / Strategy_**
+- **Hipótesis 3 — Ahorro energético (luces + termostato + ocupación)**
+  - *Creemos que*, al automatizar iluminación y climatización mediante detección de presencia y escenas eco, **disminuiremos el consumo energético por habitación-noche**.
+  - *Sabremos que hemos tenido éxito cuando* el **kWh/hab-noche** baje **≥ 25–35%** y el **tiempo con luces encendidas en habitaciones desocupadas** se reduzca **≥ 70%** dentro de los **primeros 4 meses**.
 
-Desarrollar Logistics Master como una plataforma SaaS accesible que permita a las agencias de viaje, hoteles y operadores turísticos:
+- **Hipótesis 4 — Automatización de ambiente (luces, cortinas, termostato)**
+  - *Creemos que*, al permitir al huésped personalizar su ambiente desde la app, **incrementaremos la satisfacción de la estancia** y la percepción de confort.
+  - *Sabremos que hemos tenido éxito cuando* el **NPS** suba **≥ +15 puntos** y la **puntuación de “confort de la habitación”** en encuestas in-app aumente **≥ 20%** en **3 meses**.
 
-- Coordinar eficientemente todos los servicios ofrecidos al turista (alojamiento, transporte, tours).
+- **Hipótesis 5 — Reservas web (administración)**
+  - *Creemos que*, al centralizar reserva/cancelación/modificación en la web del gerente con validaciones y calendario, **reduciremos errores operativos y sobreasignaciones**.
+  - *Sabremos que hemos tenido éxito cuando* los **errores de reserva** disminuyan **≥ 80%** y el **tiempo de gestión por reserva** baje **≥ 50%** en los **primeros 2 sprints**.
 
-- Establecer estándares de calidad y cumplirlos mediante evaluaciones automáticas y feedback.
+- **Hipótesis 6 — IAM unificado (web y móvil)**
+  - *Creemos que*, al implementar registro de hotel (post-pago), validación/edición/recuperación de credenciales y RBAC, **disminuiremos fricciones de acceso al sistema** y **mejoraremos la seguridad**.
+  - *Sabremos que hemos tenido éxito cuando* la **tasa de incidencias por credenciales** caiga **≥ 70%** y el **tiempo de recuperación de cuenta** sea **< 2 min** en **3 meses**.
 
-- Integrarse a un sistema que valide la formalidad y reputación de los proveedores.
+- **Hipótesis 7 — Pedidos a habitación (in-app)**
+  - *Creemos que*, al habilitar pedidos y servicios desde la app del huésped, **aumentaremos el consumo de amenities y el ingreso por upselling**.
+  - *Sabremos que hemos tenido éxito cuando* el **ingreso por servicios complementarios/hab-noche** crezca **≥ 10–15%** y el **tiempo de atención de pedidos (p50)** se reduzca **≥ 30%** en **90 días**.
 
-- Ofrecer a los turistas una experiencia fluida, centralizada y confiable desde la planificación hasta la ejecución del viaje.
-<br>
+- **Hipótesis 8 — Operación y respuesta (housekeeping/mantenimiento)**
+  - *Creemos que*, al orquestar alertas IoT hacia tareas operativas (luces encendidas, ventana abierta, fuga), **aceleraremos los tiempos de resolución** y **reduciremos reprocesos**.
+  - *Sabremos que hemos tenido éxito cuando* el **MTTR** (tiempo medio de resolución) baje **≥ 40%** y los **reingresos por la misma incidencia** disminuyan **≥ 50%** durante los **primeros 3 meses**.
 
-- **_Initial Segment (Primer segmento a impactar)_**
 
-Agencias de viajes semi-formales ubicadas en destinos turísticos clave del Perú (por ejemplo, Cusco y Arequipa) que enfrentan alta demanda pero carecen de sistemas eficientes de gestión. Este grupo es el más propenso a adoptar soluciones que les permitan crecer, diferenciarse de la informalidad total, y brindar un mejor servicio al turista con menos esfuerzo administrativo.
 
-### 1.2.2.2 Lean Ux Assumptions 
-
-### Business Assumptions
-
-- Creo que mis clientes (hoteles) necesitan una mejora en la eficiencia y organización del proceso de reservas para reducir errores, mejorar la calidad del servicio y competir con las operaciones informales.
-
-- Estas necesidades se pueden resolver con una aplicación que centralice y automatice el proceso de reservas, integrando servicios como la reserva de habitaciones, excursiones, y restaurantes, y mejorando la comunicación entre hoteles
-
-- Mis clientes iniciales serán hoteles que enfrentan problemas de desorganización y errores en sus sistemas de reservas 
-
-- El valor número 1 que un cliente quiere obtener de mi producto es una gestión de reservas más eficiente y sin errores, lo que mejora la experiencia del cliente final y optimiza la ocupación hotelera.
-
-- Obteneré la mayoría de mis clientes a través de recomendaciones, asociaciones con agencias de viaje y publicidad dirigida en plataformas digitales.
-
-- Ganaré dinero mediante comisiones sobre cada reserva procesada a través de la aplicación, así como tarifas de suscripción para el uso de la plataforma por parte de los hoteles.
-
-- Mi competencia en el mercado serán las soluciones de gestión de reservas ya establecidas y las operaciones informales que ofrecen precios más bajos a costa de la calidad.
-
-- Los venceremos debido a nuestra capacidad de integrar múltiples servicios en una sola plataforma, mejorar la precisión en las reservas, y ofrecer soporte continuo a los usuarios.
-
-- Mi mayor riesgo es la resistencia al cambio por parte de los hoteles y agencias acostumbrados a métodos tradicionales o informales de gestión.
-
-- Resolveremos esto proporcionando formación y soporte continuo, demostrando las ventajas de la automatización y la mejora de la eficiencia.
-
-- Sabremos que tenemos éxito cuando veamos un aumento en la adopción de la plataforma, una reducción en los errores de reserva, y un incremento en la satisfacción del cliente final.
-
-### User Assumptions
-- **¿Quién es el usuario?**
-
-Los usuarios incluyen hoteles que buscan mejorar la gestión de sus reservas, agencias de viaje que necesitan coordinar mejor los servicios turísticos y huéspedes que desean una experiencia de reserva más fluida y personalizada.
-
-- **¿Qué problemas resuelve nuestro producto?**
-
-Nuestro producto resuelve problemas de desorganización, errores en la gestión de reservas, y la falta de coordinación entre hoteles, agencias de viaje y huéspedes. Además, mejora la experiencia de los huéspedes al ofrecer un proceso de reserva más transparente y eficiente.
-
-- **¿Qué características son importantes?**
-
-Es crucial que el producto permita la gestión integral de reservas y servicios asociados en una sola plataforma de manera eficiente, confiable y sin errores. Para los huéspedes, es importante que puedan acceder fácilmente a la información de su reserva, opciones de servicios adicionales, y comunicarse con el hotel o la agencia en cualquier momento.
-
-- **¿Dónde encaja nuestro producto en su trabajo o vida?**
-
-Para los hoteles y agencias de viaje, el producto encaja en su operación diaria, optimizando la gestión de reservas y mejorando la coordinación de servicios. Para los huéspedes, el producto se integra en su experiencia de viaje, facilitando la reserva y personalización de servicios antes y durante su estancia.
-
-- **¿Cuándo y cómo es nuestro producto usado?**
-
-El producto es utilizado cada vez que los hoteles o agencias necesitan gestionar reservas y coordinar servicios turísticos, y cada vez que los huéspedes necesitan reservar alojamiento, personalizar su estancia o consultar su itinerario.
-
-- **¿Cómo debe verse nuestro producto y cómo debe comportarse?**
-
-El producto debe ser intuitivo, fácil de usar y altamente funcional. Los usuarios deben poder gestionar reservas, coordinar servicios y realizar consultas de manera rápida, sencilla y precisa, mientras los huéspedes disfrutan de un proceso de reserva claro y una comunicación fluida con el hotel .
-
-- **_User Outcomes_**
-
-1. Mejora en la eficiencia operativa diaria del hotel:
-
-Los administradores de hoteles desean reducir errores en la gestión de reservas, distribución de habitaciones y tareas internas. Este outcome refleja la necesidad de contar con un sistema centralizado que automatice procesos clave, lo cual mejora la eficiencia operativa y disminuye el estrés del personal.
-
-2. Experiencia personalizada y sin fricciones para los huéspedes:
-
-Los hoteles buscan ofrecer una experiencia diferenciadora al cliente final, permitiéndoles acceder fácilmente a su información de reserva, elegir servicios adicionales (como tours o transporte), y comunicarse con el hotel desde un solo canal. El éxito se mide por una mayor satisfacción y fidelización del cliente.
-
-3. Control y seguimiento del personal en tiempo real:
-
-Los encargados de operaciones requieren visibilidad sobre el desempeño del personal (limpieza, mantenimiento, atención al huésped). Este outcome apunta a reducir los tiempos muertos, mejorar la asignación de tareas y garantizar que se cumplan los estándares de servicio establecidos.
-
-- **_Business Outcomes_**
-
-1. Reducción de errores en reservas y operaciones:
-
-Esperamos que al menos el 80% de los hoteles que implementen LogisticsMaster reduzcan los errores operativos relacionados con reservas dobles, cancelaciones mal gestionadas o asignaciones incorrectas de habitaciones, en los primeros tres meses de uso.
-
-2. Aumento en la ocupación hotelera y retención de clientes:
-
-Al facilitar una experiencia más fluida tanto para huéspedes como para operadores, proyectamos un incremento del 15% en la tasa de ocupación mensual y un aumento del 20% en la retención de clientes habituales a través de funcionalidades como promociones personalizadas y programas de fidelización.
-
-3. Formalización y escalabilidad del negocio hotelero:
-
-En el primer año, se espera que el 60% de los hoteles que adopten LogisticsMaster hayan mejorado su organización interna al punto de estar listos para procesos de certificación, auditorías o incluso expansión, gracias a la estandarización que promueve la plataforma.
-
-
-- **_Feature Outcomes_**
-
-1. Mejora en la gestión de reservas y coordinación de servicios:
-
-- Calendario inteligente de reservas: Visualización clara de ocupación y disponibilidad, con alertas automáticas de sobreasignación o conflictos.
-
-- Integración de servicios turísticos: Reserva cruzada de tours, transporte o experiencias, permitiendo paquetes integrados desde la misma plataforma.
-
-2. Seguimiento de tareas y desempeño del personal hotelero:
-
-- Panel de tareas operativas en tiempo real: Asignación, seguimiento y cierre de tareas para limpieza, mantenimiento o atención al cliente con tiempos estimados y alertas.
-
-- Sistema de notificación interna: Comunicación ágil entre áreas, minimizando malentendidos y retrasos.
-
-3. Mejora de la experiencia del huésped:
-
-- Portal del huésped personalizado: Acceso a su reserva, servicios adicionales, estado de solicitudes y chat en vivo con recepción desde cualquier dispositivo.
-
-- Encuestas automatizadas post-estancia: Recolección de feedback útil para medir la experiencia y ajustar procesos internos.
-
-### 1.2.2.3 Lean Ux Proccess Hypothesis Statement
-
-- Creemos que, al desarrollar una aplicación que centralice y automatice el proceso de reservas y servicios turísticos, mejoraremos la experiencia de los huéspedes al ofrecerles un proceso de reserva más sencillo, rápido y personalizado. Lograremos que los huéspedes disfruten de una experiencia de hospedaje, sin complicaciones en las reservas y con opciones personalizadas según sus necesidades. Sabremos que hemos tenido éxito cuando el número de reservas realizadas a través de la aplicación haya incrementado sus ingresos durante los primeros tres meses posteriores al lanzamiento.
-<br>
-
-- Creemos que, al optimizar la gestión de reservas y la coordinación de servicios a través de nuestra plataforma, reduciremos los errores y desorganización, mejorando la ocupación y la satisfacción del cliente. Lograremos evitar problemas de desorganización y comunicación que resultan en cancelaciones y bajas tasas de ocupación, además de reducir los costos asociados con estos errores. Sabremos que hemos tenido éxito cuando la totalidad de las reservas gestionadas a través de la plataforma hayan sido procesadas sin errores, y los hoteles  reporten una mejora en su eficiencia operativa.
-<br>
-
-- Creemos que, al integrar un sistema de seguimiento en tiempo real para las tareas del personal hotelero dentro de nuestra plataforma, mejoraremos la eficiencia operativa al permitir una mejor coordinación entre áreas. Lograremos que el personal tenga claridad sobre sus responsabilidades diarias, reduciendo la duplicación de esfuerzos y tiempos muertos. Sabremos que hemos tenido éxito cuando el tiempo promedio de respuesta a solicitudes internas (como limpieza, mantenimiento o room service) se haya reducido en al menos un 25% durante los primeros dos meses de uso continuo de la herramienta.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -269,12 +305,44 @@ En el primer año, se espera que el 60% de los hoteles que adopten LogisticsMast
 
 ## 1.3. Segmento Objetivo
 
-#### 1. Empresas Hoteleras:
+### 1.3.1 Administradores / Gerentes
+- **Perfil:**  
+  Propietarios y administradores de hoteles pequeños y medianos, así como gerentes de operaciones en cadenas hoteleras.  
+- **Necesidades principales:**  
+  - Control centralizado de reservas y habitaciones.  
+  - Monitoreo de dispositivos IoT (sensores de humo/gas, iluminación, climatización).  
+  - Reducción de costos energéticos y operativos.  
+  - Seguridad reforzada en accesos a habitaciones y áreas comunes.  
+  - Reportes en tiempo real para toma de decisiones.  
+- **Expectativas:**  
+  - Disminuir errores de reserva y sobreasignación.  
+  - Obtener visibilidad en tiempo real de lo que ocurre en el hotel.  
+  - Profesionalizar la gestión, integrando tecnología sin depender de sistemas costosos o extranjeros.  
+- **Beneficios esperados:**  
+  - **Ahorro energético (≥ 30%)** con automatización de luces y climatización.  
+  - **Reducción de errores en reservas (≥ 80%)** mediante validaciones digitales.  
+  - **Mayor seguridad** con registros de accesos y credenciales digitales.  
 
-Este segmento se enfoca en cadenas hoteleras, hoteles boutique y resorts que buscan transformar sus operaciones mediante la implementación de soluciones tecnológicas avanzadas. Estas empresas están comprometidas con la mejora continua de sus procesos operativos y la optimización de la experiencia de sus huéspedes. Su principal objetivo es integrar herramientas que les permitan gestionar reservas, coordinar al personal y ofrecer un servicio al cliente de alta calidad de manera más eficiente. Buscan reducir la carga administrativa mediante la automatización de tareas y mejorar la comunicación interna para una gestión más fluida. Además, valoran las oportunidades de colaborar con otros profesionales del sector, compartir buenas prácticas y estar al tanto de las últimas tendencias en gestión hotelera para mantener un estándar elevado en sus operaciones.
+---
 
-#### 2. Huéspedes:
+### 1.3.2 Huéspedes / Usuarios
+- **Perfil:**  
+  Viajeros nacionales e internacionales que buscan una experiencia hotelera personalizada, rápida y segura.  
+- **Necesidades principales:**  
+  - Check-in ágil y sin llaves físicas.  
+  - Control de su habitación desde el móvil (luces, cortinas, temperatura).  
+  - Acceso seguro con NFC/Bluetooth o tarjeta física.  
+  - Posibilidad de hacer pedidos o solicitar servicios desde la app.  
+- **Expectativas:**  
+  - Procesos de check-in/out en segundos.  
+  - Habitaciones personalizadas según sus preferencias (ejemplo: temperatura a 22 °C, cortinas cerradas al dormir).  
+  - Comunicación rápida con el hotel sin depender de llamadas a recepción.  
+- **Beneficios esperados:**  
+  - **Mayor satisfacción (NPS +15 puntos)** gracias a experiencias personalizadas.  
+  - **Seguridad y confianza** en el acceso a la habitación.  
+  - **Comodidad en la estancia** mediante automatización IoT y servicios bajo demanda.  
 
-Este segmento está compuesto por viajeros que buscan una experiencia de alojamiento personalizada y de alta calidad. Los huéspedes valoran una experiencia que se ajuste a sus preferencias individuales, desde la facilidad de reserva hasta la atención personalizada durante su estancia. Están interesados en un proceso de reserva intuitivo que simplifique la planificación de su viaje y en recibir un servicio al cliente eficiente que pueda resolver cualquier inconveniente de manera rápida. Además, aprecian servicios y comodidades que mejoren su confort y hagan su estancia más placentera. La capacidad de personalizar su experiencia y acceder a un servicio excepcional son factores clave para su satisfacción y fidelización.
+---
+
 
 [Augusto VASQUEZ]: https://github.com/1ACC0238-2510-346-G3-EazyLogistics/FinalReport/blob/fdd867d8565c33ff95959e0def5b29d500a1020e/img/Augusto%20Vasquez.jpg
