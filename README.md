@@ -9,10 +9,10 @@ width=50%"/>
 
 <h5 style="text-align: center"> Área: Ingeniería de Software </h5>
 
-<h5 style="text-align: center"> Curso: Aplicaciones para dispositivos moviles </h5>
-<h5 style="text-align: center"> Sección: 346 </h5>
+<h5 style="text-align: center"> Curso: Desarrollo de soluciones IOT </h5>
+<h5 style="text-align: center"> Sección: 3475 </h5>
 
-<h5 style="text-align: center"> Docente:  </h5>
+<h5 style="text-align: center"> Docente: Marco Antonio Leon Baca </h5>
 
 <h5 style="text-align: center"> Startup: KamaqLabs </h5>
 
