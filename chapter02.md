@@ -5,136 +5,66 @@
 
 # 2 Capítulo II: Requirements Elicitation & Analysis
 ##  2.1 Competidores
-LogisticMaster se diferencia de competidores como Opera PMS, RoomRaccoon y Mews al combinar la gestión hotelera con una comunidad colaborativa para profesionales del sector. Mientras que Opera PMS es ideal para grandes cadenas pero costoso para pequeños hoteles, RoomRaccoon se centra en hoteles más pequeños con una solución integral, y Mews destaca por su automatización y diseño moderno, Logistic Master ofrece una solución versátil que no solo optimiza la operación, sino que también fomenta la interacción y el intercambio de conocimientos entre usuarios, elevando la calidad del servicio y la experiencia del cliente.
+
+IoT Hotel Management se diferencia de competidores como Cloudbeds, Opera PMS y Control4 al integrar la gestión hotelera tradicional con un ecosistema IoT accesible y escalable. Mientras que Opera PMS es robusto y orientado a grandes cadenas con altos costos de implementación, y Cloudbeds facilita la gestión de reservas pero carece de integración con dispositivos inteligentes, Control4 ofrece soluciones de domótica premium enfocadas en el lujo residencial más que en el sector hotelero. En cambio, IoT Hotel Management combina la digitalización de reservas y accesos con la automatización de luces, cortinas, termostatos y sensores de seguridad, brindando a los hoteles pequeños y medianos una solución integral, económica y contextualizada, que mejora la eficiencia operativa y eleva la experiencia personalizada del huésped.
+
 ## 2.1.1 Análisis Competitivo
-<table>
-   <tr>
-      <td align="center" colspan="6"><b>Competitive Analysis Landscape</b></td>
-   </tr>
-   <tr>
-      <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
-      <td colspan="4">¿Cómo podemos proporcionar una gestión hotelera eficiente que además de optimizar las operaciones, fomente una experiencia personalizada y excelente para los huéspedes?</td>
-   </tr>
-   <tr align="center">
-      <td colspan="2"></td>
-      <td><b>Logistic Master</b><br><img src="https://i.postimg.cc/vBcL7DLZ/fcc7a5f7-c7eb-4162-be3e-230931c2899f.jpg" alt="Logistic Master Logo" style="max-width: 80px;"/></td>
-      <td><b>Cloudbeds</b><br><img src="https://acortar.link/SDV6QT" alt="Cloudbeds Logo" style="max-width: 80px;"/></td>
-      <td><b>RoomRaccoon</b><br><img src="https://acortar.link/6yGl65" alt="RoomRaccoon" style="max-width: 80px;"/></td>
-      <td><b>Mews</b><br><img src="https://acortar.link/UGgluO" alt="Mews" style="max-width: 90px;"/></td>
-   </tr>
 
-   <tr>
-      <td rowspan="2"><b>Perfil</b></td>
-      <td><b>Overview</b></td>
-      <td> Logistic Master es una plataforma innovadora que ofrece una solución integral para la gestión hotelera, combinando funciones operativas con un enfoque en la experiencia del cliente. Además de optimizar la administración, se enfoca en crear un entorno que fomente la interacción social y la personalización.</td>
-      <td>Cloudbeds es una plataforma moderna para la gestión hotelera que integra PMS, motor de reservas y canal de distribución, destacándose por su facilidad de uso y su enfoque en la automatización y centralización de operaciones para hoteles de distintos tamaños.</td>
-      <td>RoomRaccoon es una solución todo-en-uno diseñada para pequeños y medianos hoteles, que combina gestión de reservas, un motor de reservas en línea y herramientas de facturación.</td>
-      <td>Mews ofrece una plataforma moderna y flexible que automatiza gran parte de las operaciones hoteleras, enfocándose en mejorar la eficiencia y la experiencia del huésped.</td>
-   </tr>
-   <tr>
-      <td><b>Ventaja competitiva. ¿Qué valor ofrece a los clientes?</b></td>
-      <td>LogisticMaster se diferencia al integrar la gestión hotelera con funciones sociales para crear una comunidad interactiva entre los hoteles y sus huéspedes, mejorando la experiencia del cliente a través de la personalización y comunicación directa.</td>
-      <td>Cloudbeds combina gestión, distribución y automatización en una única plataforma, facilitando la administración hotelera desde una interfaz intuitiva y accesible.</td>
-      <td>RoomRaccoon ofrece una interfaz intuitiva para pequeños hoteles, con un enfoque en la facilidad de uso y precios accesibles.</td>
-      <td>Mews se centra en la automatización y la experiencia del usuario, con un diseño moderno y adaptable, aunque su integración personalizada puede ser limitada.</td>
-   </tr>
-   <tr>
-      <td rowspan="2"><b>Perfil de Marketing</b></td>
-      <td><b>Mercado Objetivo</b></td>
-      <td>El mercado objetivo de Logistic Master incluye hoteles de tamaño mediano y grande que buscan optimizar sus operaciones y mejorar la experiencia del huésped mediante la tecnología. También apunta a cadenas hoteleras que desean mejorar la personalización y el servicio al cliente.</td>
-      <td>Hoteles y alojamientos de diversos tamaños que buscan una solución todo-en-uno para centralizar y automatizar su gestión operativa y de reservas.</td>
-      <td>Pequeños y medianos hoteles que buscan una solución todo-en-uno con funcionalidades simples y una curva de aprendizaje baja.</td>
-      <td>Hoteles que valoran la automatización y buscan mejorar la experiencia del huésped a través de una plataforma moderna y flexible.</td>
-   </tr>
-   <tr>
-      <td><b>Estrategias de Marketing</b></td>
-      <td>Logistic Master se centrará en campañas digitales dirigidas a hoteles medianos y grandes, promoviendo su capacidad para mejorar la personalización y la experiencia del huésped. Además, se buscarán alianzas estratégicas con grupos hoteleros y eventos del sector.</td>
-      <td>Cloudbeds promueve su solución como una plataforma integral que simplifica la gestión hotelera mediante la automatización, dirigida a alojamientos que buscan centralizar y optimizar sus operaciones.</td>
-      <td>RoomRaccoon se promociona principalmente a través de campañas en línea, con un enfoque en la facilidad de uso y los precios accesibles para pequeños hoteles.</td>
-      <td>Mews invierte en marketing digital y en la creación de una marca que se asocia con la modernidad y la innovación en la gestión hotelera.</td>
-   </tr>
-   <tr>
-      <td rowspan="3"><b>Perfil de Producto</b></td>
-      <td><b>Productos & Servicios</b></td>
-      <td>Solución integral de gestión hotelera, combinando administración de reservas, comunicación directa con huéspedes, y herramientas para personalizar la experiencia del cliente.</td>
-      <td>PMS, motor de reservas, gestor de canales, y herramientas para automatizar operaciones y mejorar la experiencia del huésped.</td>
-      <td>Gestión de reservas, motor de reservas en línea, herramientas de facturación y PMS, diseñado para pequeños hoteles.</td>
-      <td>Automatización de operaciones, gestión de reservas y experiencias del huésped, todo dentro de una interfaz moderna.</td>
-   </tr>
-   <tr>
-      <td><b>Precios & Costos</b></td>
-      <td>Ofreceremos un modelo de suscripción con opciones escalables según el tamaño del hotel y las funciones necesarias, además de herramientas adicionales para personalización y servicios exclusivos.</td>
-      <td>Modelo de suscripción escalable según las necesidades del hotel, con opciones de pago mensuales y personalización de funcionalidades.</td>
-      <td>Precios accesibles con paquetes todo-en-uno adaptados a pequeños hoteles.</td>
-      <td>Suscripción basada en el tamaño del hotel y las funcionalidades necesarias, con opciones adicionales para automatización avanzada.</td>
-   </tr>
-   <tr>
-      <td><b>Canales de Distribución (Web y/o Móvil)</b></td>
-      <td>Web y app móvil con sincronización en tiempo real entre dispositivos para una gestión fluida en múltiples plataformas.</td>
-      <td>Web y app móvil con sincronización entre todas las herramientas, accesible desde cualquier dispositivo.</td>
-      <td>Web y aplicaciones móviles, con una interfaz sencilla y accesible desde cualquier dispositivo.</td>
-      <td>Web y móvil, con un diseño adaptable para distintos tipos de dispositivos.</td>
-   </tr>
+| **Criterio**            | **SmartSuite**                                                                                              | **Facebook (Indirecto)**                                                                 | **Mercado Libre (Indirecto)**                                                                                           | **Xafiro (Directo)**                                                                                  | **Binz360 (Directo)**                                                                                  |
+|--------------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Overview**             | Aplicación integral de gestión hotelera diseñada para simplificar y optimizar operaciones de administración. | Plataforma de redes sociales para promoción y publicidad de hoteles.                      | Plataforma líder de comercio electrónico que ofrece sistemas y servicios relacionados con la gestión hotelera.           | Software hotelero que optimiza operaciones diarias con registro de clientes, reservas e inventarios.   | Empresa enfocada en gestión de recursos hoteleros y control de clientes con precios accesibles.         |
+| **Ventaja Competitiva**  | Solución integral: seguimiento de ingresos, gastos, proveedores y clientes. Flexibilidad y accesibilidad.   | Alcance masivo y herramientas de segmentación de público.                                 | Amplia variedad de productos y servicios relacionados con el sector.                                                      | Enfoque en eficiencia de operaciones diarias del hotel.                                                | Precio asequible para hoteles pequeños y medianos.                                                     |
+| **Mercado Objetivo**     | Gerentes y propietarios de hoteles que buscan solución integral.                                             | Hoteles de todos los tamaños que desean aumentar su visibilidad en línea.                 | Propietarios y gerentes que buscan soluciones de gestión.                                                                 | Hoteles medianos y grandes que buscan solución completa y eficiente.                                   | Hoteles independientes y pequeñas cadenas hoteleras.                                                   |
+| **Estrategia Marketing** | Campañas en redes sociales, anuncios digitales y participación en eventos de la industria hotelera.         | Publicidad segmentada con contenido visual.                                               | Promoción de productos relacionados con gestión hotelera.                                                                 | Colaboración con asociaciones hoteleras y campañas en redes sociales.                                  | Enfoque en ahorro de costos, marketing de contenidos para resaltar importancia de la gestión hotelera. |
+| **Productos & Servicios**| Seguimiento de ingresos y gastos, control de inventarios, gestión de proveedores y clientes.                 | Opciones de publicidad y promoción digital, métricas de campañas.                         | Variedad de sistemas y códigos relacionados con la gestión hotelera.                                                     | Gestión de clientes, reservas y opciones de personalización.                                           | Gestión hotelera integral con modelo de precios simple y transparente.                                 |
+| **Precios & Costos**     | Suscripción mensual/anual escalable según tamaño del hotel.                                                 | No aplica.                                                                                | No aplica.                                                                                                               | Precio accesible y competitivo.                                                                        | Precios cómodos para pequeñas y medianas empresas.                                                     |
+| **Canales Distribución** | Disponible en versiones web y móviles.                                                                      | A través de la plataforma de Facebook.                                                    | Principalmente mediante la plataforma de Mercado Libre.                                                                   | Ventas directas y demostraciones online.                                                               | Ventas directas y mediante socios de distribución.                                                     |
+| **Fortalezas**           | Interfaz sencilla, intuitiva y fácil de usar.                                                              | Alcance masivo y capacidad de segmentación.                                               | Amplia variedad de productos y servicios.                                                                                | Especialización en operaciones hoteleras diarias.                                                      | Precio competitivo.                                                                                    |
+| **Debilidades**          | Competencia de grandes empresas de software hotelero.                                                      | Menor especialización en la industria hotelera.                                           | Poco enfoque en soluciones específicas para hotelería.                                                                   | Menor reconocimiento de marca frente a competidores.                                                   | Menos funcionalidades avanzadas que otras soluciones.                                                  |
+| **Oportunidades**        | Crecimiento en industria hotelera y demanda de digitalización.                                              | Uso de datos para personalización publicitaria.                                           | Expansión a nuevos mercados verticales.                                                                                  | Posibilidad de expansión internacional.                                                                | Expansión a nuevos mercados.                                                                           |
+| **Amenazas**             | Competencia directa de empresas establecidas.                                                              | Cambios en algoritmos que afecten visibilidad.                                            | Competencia de otros mercados en línea.                                                                                  | Competencia directa de otros software hoteleros.                                                       | Competencia con proveedores de software más baratos.                                                   |
 
-   <tr>
-      <td rowspan="5"><b>Análisis SWOT</b></td>
-      <td><b>Fortalezas</b></td>
-      <td>Enfoque en la experiencia personalizada del huésped, comunidad interactiva, e integración fluida entre funciones operativas y sociales.</td>
-      <td>Plataforma integral que centraliza la gestión y distribución, con una interfaz intuitiva y accesible para hoteles de distintos tamaños.</td>
-      <td>Interfaz fácil de usar y precios accesibles para pequeños hoteles.</td>
-      <td>Automatización avanzada y diseño moderno.</td>
-   </tr>
-   <tr>
-      <td><b>Debilidades</b></td>
-      <td>Dependencia inicial de alianzas estratégicas para atraer grandes cadenas hoteleras.</td>
-      <td>Dependencia en su modelo SaaS para alojamientos de menor tamaño, lo que puede limitar su adopción en cadenas grandes.</td>
-      <td>Limitado a hoteles pequeños y medianos.</td>
-      <td>Limitaciones en integraciones personalizadas.</td>
-   </tr>
-   <tr>
-      <td><b>Oportunidades</b></td>
-      <td>Expansión en mercados internacionales, adopción de tecnologías emergentes, y crecimiento en la digitalización hotelera.</td>
-      <td>Creciente demanda de soluciones automatizadas y centralizadas, expansión a nuevos mercados geográficos.</td>
-      <td>Mayor demanda de soluciones accesibles y eficientes para hoteles pequeños y medianos.</td>
-      <td>Creciente interés en automatización hotelera y tecnología moderna.</td>
-   </tr>
-   <tr>
-      <td><b>Amenazas</b></td>
-      <td>Competencia fuerte en el mercado de gestión hotelera, cambios en las tendencias tecnológicas.</td>
-      <td>Aumento de la competencia en soluciones todo-en-uno y herramientas más especializadas para hoteles grandes.</td>
-      <td>Aumento en la competencia de otras soluciones todo-en-uno.</td>
-      <td>Nuevas plataformas que ofrezcan soluciones más flexibles o especializadas.</td>
-   </tr>
-</table>
 
-### 2.1.2 Estrategias y tácticas frente a competidores
+### 2.1.2 Estrategias y Tácticas frente a Competidores
 
-**Diferenciación mediante la Experiencia del Cliente y Comunidad Colaborativa:**
+Para diferenciarse en un mercado competitivo donde destacan soluciones como Cloudbeds, Opera PMS, RoomRaccoon o plataformas de domótica premium (Control4, Lutron), **IoT Hotel Management** plantea una estrategia basada en accesibilidad, integración IoT y soporte local.  
 
-**Estrategia:** Resaltar el enfoque único de Logistic Master en la creación de una comunidad interactiva y colaborativa, donde los usuarios no solo gestionan operaciones, sino que también comparten conocimientos, experiencias y mejores prácticas dentro de la industria hotelera.<br>
+#### Estrategias
+- **Accesibilidad económica:**  
+  Ofrecer planes de suscripción escalables adaptados al tamaño del hotel, junto con precios competitivos en la instalación de dispositivos IoT.  
 
-**Táctica:** Desarrollar y promover funciones sociales exclusivas dentro de la plataforma, como foros, grupos de discusión y programas de fidelización basados en la interacción comunitaria. Implementar herramientas de análisis que permitan a los usuarios personalizar las interacciones y mejorar la experiencia del huésped basándose en datos compartidos por otros miembros de la comunidad.<br>
+- **Soporte y capacitación local:**  
+  Acompañar la implementación con soporte en español, entrenamientos virtuales y presenciales, y guías de buenas prácticas, minimizando la resistencia al cambio tecnológico.  
 
-**Enfoque en la Personalización y la Comunicación Directa:**
+- **Experiencia integral IoT:**  
+  Diferenciarse integrando en una sola plataforma:  
+  - Reservas web.  
+  - Accesos inteligentes (NFC/Bluetooth).  
+  - Sensores de humo y gas con alertas.  
+  - Automatización de luces, cortinas y termostatos.  
 
-**Estrategia:** Destacar la capacidad de Logistic Master para ofrecer experiencias personalizadas y comunicación directa con los huéspedes, diferenciándose de competidores que se enfocan más en la automatización que en la personalización.<br>
+- **Escalabilidad:**  
+  Permitir que hoteles pequeños empiecen con un número reducido de habitaciones conectadas e incrementen el alcance de forma gradual sin necesidad de migrar a otra plataforma.  
 
-**Táctica:** Incluir opciones avanzadas de personalización que permitan a los hoteles adaptar sus servicios a las preferencias de cada huésped. Integrar un sistema de mensajería instantánea que facilite la comunicación directa entre hotel y cliente antes, durante y después de la estancia.<br>
+- **Estrategia de marca y marketing:**  
+  Posicionarse como la **primera plataforma IoT accesible para hoteles en Latinoamérica**, resaltando la reducción de costos energéticos, la seguridad reforzada y la mejora en la experiencia del huésped.  
 
-**Alianzas Estratégicas con Grupos Hoteleros y Eventos del Sector:**
+#### Tácticas
+- **Partnerships estratégicos:**  
+  Colaboración con proveedores de hardware IoT (cerraduras, sensores, iluminación inteligente) para reducir costos de integración.  
 
-**Estrategia:** Aprovechar alianzas estratégicas con grupos hoteleros y participación en eventos de la industria para expandir la adopción de Logic Master  en mercados clave.<br>
-**Táctica:** Realizar acuerdos con asociaciones hoteleras para ofrecer demos personalizadas y precios exclusivos a sus miembros. Patrocinar y participar en eventos del sector para posicionar a Logic Master como una solución innovadora y necesaria en la digitalización hotelera.
+- **Campañas digitales segmentadas:**  
+  Promoción en LinkedIn y Facebook Ads enfocada en **administradores hoteleros y propietarios de hoteles independientes**.  
 
-**Escalabilidad y Flexibilidad en la Oferta de Servicios:**
+- **Casos de éxito locales:**  
+  Mostrar pilotos y hoteles que ya han reducido costos y mejorado la satisfacción de huéspedes tras la implementación.  
 
-**Estrategia:** Ofrecer un modelo de suscripción escalable que se adapte tanto a hoteles pequeños como a cadenas grandes, brindando la flexibilidad para agregar o eliminar funcionalidades según las necesidades del cliente.
-**Táctica:** Crear paquetes de suscripción modulares que permitan a los hoteles seleccionar solo las funciones que necesitan, y que puedan expandirse conforme crezcan o cambien sus requerimientos. Proporcionar soporte técnico y actualizaciones continuas que se ajusten a la evolución tecnológica del sector.
+- **Marketing de contenidos:**  
+  Publicación de artículos, webinars y talleres sobre beneficios de la hotelería inteligente (ahorro energético, seguridad, eficiencia operativa).  
 
-**Innovación Continua en Tecnologías Emergentes:**
+- **Expansión progresiva:**  
+  Iniciar en mercados turísticos clave (Cusco, Arequipa, Lima, Cartagena) y luego escalar a otros países de la región, validando métricas de éxito en cada etapa.  
 
-**Estrategia:** Mantenerse a la vanguardia en la adopción de tecnologías emergentes para optimizar la experiencia del usuario y la eficiencia operativa.
-**Táctica:** Invertir en la investigación y desarrollo de tecnologías como inteligencia artificial y análisis predictivo para anticipar las necesidades de los huéspedes y ofrecer recomendaciones personalizadas. Implementar mejoras continuas en la plataforma basadas en feedback de los usuarios y avances tecnológicos en la industria.
 ## 2.2 Entrevistas
 
 ### 2.2.1   Diseño de Entrevistas
