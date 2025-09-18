@@ -10,20 +10,105 @@ IoT Hotel Management se diferencia de competidores como Cloudbeds, Opera PMS y C
 
 ## 2.1.1 Análisis Competitivo
 
-| **Criterio**            | **SmartSuite**                                                                                              | **Facebook (Indirecto)**                                                                 | **Mercado Libre (Indirecto)**                                                                                           | **Xafiro (Directo)**                                                                                  | **Binz360 (Directo)**                                                                                  |
-|--------------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| **Overview**             | Aplicación integral de gestión hotelera diseñada para simplificar y optimizar operaciones de administración. | Plataforma de redes sociales para promoción y publicidad de hoteles.                      | Plataforma líder de comercio electrónico que ofrece sistemas y servicios relacionados con la gestión hotelera.           | Software hotelero que optimiza operaciones diarias con registro de clientes, reservas e inventarios.   | Empresa enfocada en gestión de recursos hoteleros y control de clientes con precios accesibles.         |
-| **Ventaja Competitiva**  | Solución integral: seguimiento de ingresos, gastos, proveedores y clientes. Flexibilidad y accesibilidad.   | Alcance masivo y herramientas de segmentación de público.                                 | Amplia variedad de productos y servicios relacionados con el sector.                                                      | Enfoque en eficiencia de operaciones diarias del hotel.                                                | Precio asequible para hoteles pequeños y medianos.                                                     |
-| **Mercado Objetivo**     | Gerentes y propietarios de hoteles que buscan solución integral.                                             | Hoteles de todos los tamaños que desean aumentar su visibilidad en línea.                 | Propietarios y gerentes que buscan soluciones de gestión.                                                                 | Hoteles medianos y grandes que buscan solución completa y eficiente.                                   | Hoteles independientes y pequeñas cadenas hoteleras.                                                   |
-| **Estrategia Marketing** | Campañas en redes sociales, anuncios digitales y participación en eventos de la industria hotelera.         | Publicidad segmentada con contenido visual.                                               | Promoción de productos relacionados con gestión hotelera.                                                                 | Colaboración con asociaciones hoteleras y campañas en redes sociales.                                  | Enfoque en ahorro de costos, marketing de contenidos para resaltar importancia de la gestión hotelera. |
-| **Productos & Servicios**| Seguimiento de ingresos y gastos, control de inventarios, gestión de proveedores y clientes.                 | Opciones de publicidad y promoción digital, métricas de campañas.                         | Variedad de sistemas y códigos relacionados con la gestión hotelera.                                                     | Gestión de clientes, reservas y opciones de personalización.                                           | Gestión hotelera integral con modelo de precios simple y transparente.                                 |
-| **Precios & Costos**     | Suscripción mensual/anual escalable según tamaño del hotel.                                                 | No aplica.                                                                                | No aplica.                                                                                                               | Precio accesible y competitivo.                                                                        | Precios cómodos para pequeñas y medianas empresas.                                                     |
-| **Canales Distribución** | Disponible en versiones web y móviles.                                                                      | A través de la plataforma de Facebook.                                                    | Principalmente mediante la plataforma de Mercado Libre.                                                                   | Ventas directas y demostraciones online.                                                               | Ventas directas y mediante socios de distribución.                                                     |
-| **Fortalezas**           | Interfaz sencilla, intuitiva y fácil de usar.                                                              | Alcance masivo y capacidad de segmentación.                                               | Amplia variedad de productos y servicios.                                                                                | Especialización en operaciones hoteleras diarias.                                                      | Precio competitivo.                                                                                    |
-| **Debilidades**          | Competencia de grandes empresas de software hotelero.                                                      | Menor especialización en la industria hotelera.                                           | Poco enfoque en soluciones específicas para hotelería.                                                                   | Menor reconocimiento de marca frente a competidores.                                                   | Menos funcionalidades avanzadas que otras soluciones.                                                  |
-| **Oportunidades**        | Crecimiento en industria hotelera y demanda de digitalización.                                              | Uso de datos para personalización publicitaria.                                           | Expansión a nuevos mercados verticales.                                                                                  | Posibilidad de expansión internacional.                                                                | Expansión a nuevos mercados.                                                                           |
-| **Amenazas**             | Competencia directa de empresas establecidas.                                                              | Cambios en algoritmos que afecten visibilidad.                                            | Competencia de otros mercados en línea.                                                                                  | Competencia directa de otros software hoteleros.                                                       | Competencia con proveedores de software más baratos.                                                   |
+<table>
+   <tr>
+      <td align="center" colspan="6"><b>Competitive Analysis Landscape</b></td>
+   </tr>
+   <tr>
+      <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
+      <td colspan="4">¿Cómo podemos proporcionar una gestión hotelera eficiente que además de optimizar las operaciones, fomente una experiencia personalizada y excelente para los huéspedes?</td>
+   </tr>
+   <tr align="center">
+      <td colspan="2"></td>
+      <td><b>IoT Hotel Management</b><br><img src="https://i.postimg.cc/vBcL7DLZ/fcc7a5f7-c7eb-4162-be3e-230931c2899f.jpg" alt="Logistic Master Logo" style="max-width: 80px;"/></td>
+      <td><b>Cloudbeds</b><br><img src="https://acortar.link/SDV6QT" alt="Cloudbeds Logo" style="max-width: 80px;"/></td>
+      <td><b>RoomRaccoon</b><br><img src="https://acortar.link/6yGl65" alt="RoomRaccoon" style="max-width: 80px;"/></td>
+      <td><b>Mews</b><br><img src="https://acortar.link/UGgluO" alt="Mews" style="max-width: 90px;"/></td>
+   </tr>
 
+   <tr>
+      <td rowspan="2"><b>Perfil</b></td>
+      <td><b>Overview</b></td>
+      <td>IoT Hotel Management es una plataforma innovadora que ofrece una solución integral para la gestión hotelera, combinando funciones operativas con un enfoque en la experiencia del cliente. Además de optimizar la administración, se enfoca en crear un entorno que fomente la interacción social y la personalización.</td>
+      <td>Cloudbeds es una plataforma moderna para la gestión hotelera que integra PMS, motor de reservas y canal de distribución, destacándose por su facilidad de uso y su enfoque en la automatización y centralización de operaciones para hoteles de distintos tamaños.</td>
+      <td>RoomRaccoon es una solución todo-en-uno diseñada para pequeños y medianos hoteles, que combina gestión de reservas, un motor de reservas en línea y herramientas de facturación.</td>
+      <td>Mews ofrece una plataforma moderna y flexible que automatiza gran parte de las operaciones hoteleras, enfocándose en mejorar la eficiencia y la experiencia del huésped.</td>
+   </tr>
+   <tr>
+      <td><b>Ventaja competitiva. ¿Qué valor ofrece a los clientes?</b></td>
+      <td>IoT Hotel Management se diferencia al integrar la gestión hotelera con funciones sociales para crear una comunidad interactiva entre los hoteles y sus huéspedes, mejorando la experiencia del cliente a través de la personalización y comunicación directa.</td>
+      <td>Cloudbeds combina gestión, distribución y automatización en una única plataforma, facilitando la administración hotelera desde una interfaz intuitiva y accesible.</td>
+      <td>RoomRaccoon ofrece una interfaz intuitiva para pequeños hoteles, con un enfoque en la facilidad de uso y precios accesibles.</td>
+      <td>Mews se centra en la automatización y la experiencia del usuario, con un diseño moderno y adaptable, aunque su integración personalizada puede ser limitada.</td>
+   </tr>
+   <tr>
+      <td rowspan="2"><b>Perfil de Marketing</b></td>
+      <td><b>Mercado Objetivo</b></td>
+      <td>El mercado objetivo de IoT Hotel Management incluye hoteles de tamaño mediano y grande que buscan optimizar sus operaciones y mejorar la experiencia del huésped mediante la tecnología. También apunta a cadenas hoteleras que desean mejorar la personalización y el servicio al cliente.</td>
+      <td>Hoteles y alojamientos de diversos tamaños que buscan una solución todo-en-uno para centralizar y automatizar su gestión operativa y de reservas.</td>
+      <td>Pequeños y medianos hoteles que buscan una solución todo-en-uno con funcionalidades simples y una curva de aprendizaje baja.</td>
+      <td>Hoteles que valoran la automatización y buscan mejorar la experiencia del huésped a través de una plataforma moderna y flexible.</td>
+   </tr>
+   <tr>
+      <td><b>Estrategias de Marketing</b></td>
+      <td>IoT Hotel Management se centrará en campañas digitales dirigidas a hoteles medianos y grandes, promoviendo su capacidad para mejorar la personalización y la experiencia del huésped. Además, se buscarán alianzas estratégicas con grupos hoteleros y eventos del sector.</td>
+      <td>Cloudbeds promueve su solución como una plataforma integral que simplifica la gestión hotelera mediante la automatización, dirigida a alojamientos que buscan centralizar y optimizar sus operaciones.</td>
+      <td>RoomRaccoon se promociona principalmente a través de campañas en línea, con un enfoque en la facilidad de uso y los precios accesibles para pequeños hoteles.</td>
+      <td>Mews invierte en marketing digital y en la creación de una marca que se asocia con la modernidad y la innovación en la gestión hotelera.</td>
+   </tr>
+   <tr>
+      <td rowspan="3"><b>Perfil de Producto</b></td>
+      <td><b>Productos & Servicios</b></td>
+      <td>Solución integral de gestión hotelera, combinando administración de reservas, comunicación directa con huéspedes, y herramientas para personalizar la experiencia del cliente.</td>
+      <td>PMS, motor de reservas, gestor de canales, y herramientas para automatizar operaciones y mejorar la experiencia del huésped.</td>
+      <td>Gestión de reservas, motor de reservas en línea, herramientas de facturación y PMS, diseñado para pequeños hoteles.</td>
+      <td>Automatización de operaciones, gestión de reservas y experiencias del huésped, todo dentro de una interfaz moderna.</td>
+   </tr>
+   <tr>
+      <td><b>Precios & Costos</b></td>
+      <td>Ofreceremos un modelo de suscripción con opciones escalables según el tamaño del hotel y las funciones necesarias, además de herramientas adicionales para personalización y servicios exclusivos.</td>
+      <td>Modelo de suscripción escalable según las necesidades del hotel, con opciones de pago mensuales y personalización de funcionalidades.</td>
+      <td>Precios accesibles con paquetes todo-en-uno adaptados a pequeños hoteles.</td>
+      <td>Suscripción basada en el tamaño del hotel y las funcionalidades necesarias, con opciones adicionales para automatización avanzada.</td>
+   </tr>
+   <tr>
+      <td><b>Canales de Distribución (Web y/o Móvil)</b></td>
+      <td>Web y app móvil con sincronización en tiempo real entre dispositivos para una gestión fluida en múltiples plataformas.</td>
+      <td>Web y app móvil con sincronización entre todas las herramientas, accesible desde cualquier dispositivo.</td>
+      <td>Web y aplicaciones móviles, con una interfaz sencilla y accesible desde cualquier dispositivo.</td>
+      <td>Web y móvil, con un diseño adaptable para distintos tipos de dispositivos.</td>
+   </tr>
+
+   <tr>
+      <td rowspan="5"><b>Análisis SWOT</b></td>
+      <td><b>Fortalezas</b></td>
+      <td>Enfoque en la experiencia personalizada del huésped, comunidad interactiva, e integración fluida entre funciones operativas y sociales.</td>
+      <td>Plataforma integral que centraliza la gestión y distribución, con una interfaz intuitiva y accesible para hoteles de distintos tamaños.</td>
+      <td>Interfaz fácil de usar y precios accesibles para pequeños hoteles.</td>
+      <td>Automatización avanzada y diseño moderno.</td>
+   </tr>
+   <tr>
+      <td><b>Debilidades</b></td>
+      <td>Dependencia inicial de alianzas estratégicas para atraer grandes cadenas hoteleras.</td>
+      <td>Dependencia en su modelo SaaS para alojamientos de menor tamaño, lo que puede limitar su adopción en cadenas grandes.</td>
+      <td>Limitado a hoteles pequeños y medianos.</td>
+      <td>Limitaciones en integraciones personalizadas.</td>
+   </tr>
+   <tr>
+      <td><b>Oportunidades</b></td>
+      <td>Expansión en mercados internacionales, adopción de tecnologías emergentes, y crecimiento en la digitalización hotelera.</td>
+      <td>Creciente demanda de soluciones automatizadas y centralizadas, expansión a nuevos mercados geográficos.</td>
+      <td>Mayor demanda de soluciones accesibles y eficientes para hoteles pequeños y medianos.</td>
+      <td>Creciente interés en automatización hotelera y tecnología moderna.</td>
+   </tr>
+   <tr>
+      <td><b>Amenazas</b></td>
+      <td>Competencia fuerte en el mercado de gestión hotelera, cambios en las tendencias tecnológicas.</td>
+      <td>Aumento de la competencia en soluciones todo-en-uno y herramientas más especializadas para hoteles grandes.</td>
+      <td>Aumento en la competencia de otras soluciones todo-en-uno.</td>
+      <td>Nuevas plataformas que ofrezcan soluciones más flexibles o especializadas.</td>
+   </tr>
+</table>
 
 ### 2.1.2 Estrategias y Tácticas frente a Competidores
 
@@ -69,9 +154,9 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 
 ### 2.2.1   Diseño de Entrevistas
 
-### 1. Preguntas para Gestores de Empresas Hoteleras
+#### 2.2.1.1. Preguntas para Gestores de Empresas Hoteleras
 
-#### 1.1. Información Demográfica
+#### 2.2.1.2. Información Demográfica
 
 <table class="min-w-full bg-white border border-gray-300 mb-6">  
         <thead>  
@@ -140,7 +225,7 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
                 <td class="border border-gray-300 p-2">Expectativas tecnológicas</td>  
                 <td class="border border-gray-300 p-2">  
                     - ¿Qué características tecnológicas consideras esenciales en un sistema de gestión hotelera? <br>  
-                    - ¿Qué te gustaría que una plataforma como LogisticsMasters mejorara o incluyera para facilitar la gestión de tu hotel?  
+                    - ¿Qué te gustaría que una plataforma como IoT Hotel Management mejorara o incluyera para facilitar la gestión de tu hotel?  
                 </td>  
             </tr>  
         </tbody>  
@@ -259,7 +344,7 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Link del video:** [Entrevista1](https://drive.google.com/file/d/11cj9FE4x4g5A6O6EUy-XkMY1FOC01aiJ/view?usp=sharing)  |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Ate |
-| ![Entrevista](../assets/Entrevista3.png)|
+| ![Entrevista](/asetss/Entrevista%201.png)|
 | **Resumen:** .  Gael Dario Lopez es un joven estudiante de 20 años que suele ir a hoteles y nos menciona que en lo que se fija para escoger un hotel se fija en la atención y  respuesta rapida a la hora de reservar lo que le hace valorar un hotel de acuerdo al trato que reciba , sugiere que podriamos implementar la atención de llamada  a la hora de realizar reserva   |
 
 
@@ -270,7 +355,7 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Minuto del video:**  [Entrevista2](https://drive.google.com/file/d/1i1ivouwuWsTCrAaC_HuoveDsd3FyW8On/view?usp=sharing)   |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Lima |
-| ![Entrevista](../assets/Entrevista2.png)|
+| ![Entrevista](/asetss/Entrevista%202.png)|
 | **Resumen:** Jose Shuan Saavedra es un estudiante de 24 años nos menciona que valora en un hotel la atención y trato que le dan al cliente , como sugerencia que puedas ver notificaciones por alguna promoción o descuento que se llegue a dar en el hotel |
 
 #### Entrevista 3
@@ -280,7 +365,7 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Edad:** 19 años |
 | **Minuto del video:**  10:23 |
 | **Procedencia:** San Miguel, Lima |
-| ![Entrevista](../assets/Entrevista5.png)|
+| ![Entrevista](/asetss/Entrevista%203.png)|
 | **Resumen:**  Estudiante de 19 años nos menciona que prefieree reservar hoteles en distintos lugares del país debido a que le gusta viajar , nos menciona que su mayor dificultad a la de reservar es que hay veces que los hoteles suelen confundirse con el tipo de habitación que el solicita y que una sugerencia puede ser realizar una mejor organización a la hora de agendar sus reservas   |
 
 ### Segmento: Empresas Hoteleras
@@ -292,7 +377,7 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Edad:** 21 años |
 | **Link  del video:**  [Entrevista4](https://drive.google.com/file/d/1W5k2HvF7aKuh52XiQ8ZY9lHs8-faRJr7/view?usp=sharing)  |
 | **Procedencia:**  Lima |
-| ![Entrevista](../assets/Entrevistaa2.png) |
+| ![Entrevista](/asetss/Entrevista%204.png) |
 | **Resumen:** Gino Tineo es un joven Gestor Hotelero de 21 años el considera que su edad si influye para gestionar un hotel porque aún no tiene tanta experiencia y nos menciona que tiene una herramienta tecnologica para su hotel pero esta no es tan especializada y su principal desafio es que su pagina web ayude a automatizar los procesos de pedido de reserva y que gestione las redes sociales de su empresa    |
 
 #### Entrevista 5
@@ -302,13 +387,13 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Edad:** 21 años |
 | **Link del video:** [Entrevista5](https://drive.google.com/file/d/1tkAYCXns-7XTWoCbqovsGES0hfqhnQ8G/view?usp=sharing)   |
 | **Procedencia:**  Perú |
-| ![EntrevistaMaria](../assets/Entre.png) |
+| ![EntrevistaMaria](/asetss/Entrevista%205.png) |
 | **Resumen:**  Nauricio Muñoz es un Gestor Hotelero de 21 años el considera que su edad si influye a la hora de gestionar un hotel ademas nos menciona que si utiliza herramientas tecnologicas para gestionar su hotel sin embargo le gusta usar metodos tradicionales como lapiz y papel porque se siente más familiarizado y su principal desafio que ha enfrentado es la comunicación con el staff . |
 
 
 
 ### 2.2.3 Análisis de entrevistas
-Después de llevar a cabo y describir los registros de los entrevistados, esta sección desarrollará una estrategia conjunta que permitirá al equipo identificar ciertos aspectos y puntos en común. Este análisis ayudará a obtener una visión más analítica y concreta sobre el desarrollo de la aplicación Logistic Master.
+Después de llevar a cabo y describir los registros de los entrevistados, esta sección desarrollará una estrategia conjunta que permitirá al equipo identificar ciertos aspectos y puntos en común. Este análisis ayudará a obtener una visión más analítica y concreta sobre el desarrollo de la aplicación IoT Hotel Management.
 
 ### Segmento 1: Huéspedes
 
@@ -345,26 +430,30 @@ Después de llevar a cabo y describir los registros de los entrevistados, esta s
 
 ##### Huesped
 
- ![image](../assets/UserPerson1.png)
-##### Empresas Hoteleras
-![María Delia Martínez](../assets/User-Person2.png)
+ ![image](/asetss/User%20Persona%20Huesped.png)
+
+##### Administrador
+![María Delia Martínez](/asetss/User%20persona%20Admin.png)
 
 #### 2.3.2 User Task Matrix
 
-##### Matriz de Tareas del Usuario
+En esta sección se presenta el user task matrix, que es una herramienta que nos permite identificar las tareas más importantes y frecuentes que realizan los User Personas en su entorno laboral. A través de esta matriz, podemos comparar y contrastar las tareas realizadas por los gerentes y los trabajadores, identificando las diferencias y similitudes en términos de frecuencia e importancia. Esto nos ayuda a comprender mejor las necesidades y desafíos de nuestros usuarios y a priorizar las características y funcionalidades de nuestro producto en función de sus tareas críticas. 
 
+### 2.3.2 Matriz de Tareas del Usuario
 
-| **Tareas**                           | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
-|--------------------------------------|----------------|-----------------|----------------|-----------------|
-| Gestionar reservas de huéspedes      | Alta           | Alta            | -            | -             |
-| Coordinar y asignar tareas al personal| Media          | Alta            | -            | -             |
-| Automatizar la facturación           | Media          | Media           | -            | -             |
-| Monitorear rendimiento de operaciones| Alta           | Alta            | -            | -             |
-| Buscar y comparar opciones de alojamiento| -            | -             | Alta           | Alta            |
-| Realizar reservas en línea           | -            | -             | Alta           | Alta            |
-| Personalizar experiencia de estancia | -            | -             | Media          | Alta            |
-| Recibir notificaciones y actualizaciones| -            | -             | Alta           | Media           |
-| Comunicarse con el hotel             | -            | -             | Media          | Alta            |
+| **Tareas**                               | **Frecuencia (Admin)** | **Importancia (Admin)** | **Frecuencia (Huésped)** | **Importancia (Huésped)** |
+|------------------------------------------|-------------------------|--------------------------|---------------------------|----------------------------|
+| Gestionar reservas de huéspedes           | Alta                    | Alta                     | -                         | -                          |
+| Coordinar y asignar tareas al personal    | Media                   | Alta                     | -                         | -                          |
+| Automatizar la facturación                | Media                   | Media                    | -                         | -                          |
+| Monitorear rendimiento de operaciones     | Alta                    | Alta                     | -                         | -                          |
+| Controlar accesos digitales (NFC/Bluetooth)| Alta                   | Alta                     | Media                     | Alta                       |
+| Buscar y comparar opciones de alojamiento | -                       | -                        | Alta                      | Alta                       |
+| Realizar reservas en línea                | -                       | -                        | Alta                      | Alta                       |
+| Personalizar experiencia de estancia      | -                       | -                        | Media                     | Alta                       |
+| Recibir notificaciones y actualizaciones  | -                       | -                        | Alta                      | Media                      |
+| Comunicarse con el hotel                  | -                       | -                        | Media                     | Alta                       |
+
 
 ### Explicación de las Tareas
 
@@ -383,27 +472,28 @@ Después de llevar a cabo y describir los registros de los entrevistados, esta s
 
 #### Huesped
 
- ![image](../assets/HuespedesJourney.png)
+ ![image](/asetss/User%20Journey%20Mapping%20Huesped.png)
 
-#### Empresas Hoteleras
-![image](../assets/Hoteles-journey-map.png)
+#### Administrador
+![image](/asetss/User%20Journey%20Mapping%20Admin.png)
 
 ### 2.3.4 Empathy Mapping
 
 #### Huesped
-![Huesped empathy map](../assets/Empathy-map-Huesped.png)
+![Huesped empathy map](/asetss/Empathy%20map%20Huesped.png)
 
-#### Empresas Hoteleras
-![Hotel empathy map](../assets/Empathy-map-Hoteles.png)
+#### Administrador
+![Hotel empathy map](/asetss/Empathy%20map%20Admin.png)
 
 ###  2.3.5 As-is Scenario Mapping
+
 #### Empresas Hoteleras:
 
-![image](../assets/AS-IS_MAPPING-EMPRESAS_HOTELERAS_1.png)
-![image](../assets/AS-IS_MAPPING-EMPRESAS_HOTELERAS_2.png)
+![image](/asetss/as%20is%20admin.png)
+
 #### Huéspedes:
-![image](../assets/AS-IS_MAPPING-HUESPEDES_1.png)
-![image](../assets/AS-IS_MAPPING-HUESPEDES_2.png)
+![image](./asetss/as%20is%20huesped.png)
+
 
 ## 2.4  Ubiquitous Language
 
