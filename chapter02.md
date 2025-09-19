@@ -485,17 +485,10 @@ En esta sección se presenta el user task matrix, que es una herramienta que nos
 #### Administrador
 ![Hotel empathy map](/asetss/Empathy%20map%20Admin.png)
 
-###  2.3.5 As-is Scenario Mapping
-
-#### Empresas Hoteleras:
-
-![image](/asetss/as%20is%20admin.png)
-
-#### Huéspedes:
-![image](./asetss/as%20is%20huesped.png)
+###  2.4 Big Picture EventStorming
 
 
-## 2.4  Ubiquitous Language
+## 2.5  Ubiquitous Language
 
 | **Término (Inglés)** | **Término (Español)** | **Definición** |
 |----------------------|-----------------------|----------------|
