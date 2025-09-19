@@ -25,20 +25,18 @@ Durante una sesión de aproximadamente 1 hora y 30 minutos, se desarrollaron las
 1. **Identificación de eventos**: Se identificaron los eventos clave del dominio del problema, como "Reserva de
    habitación", "Check-in", "Check-out", entre otros. Estos eventos fueron representados en post-its de color naranja,
    lo que facilitó su visualización y comprensión.
-2. **Identificación de actores**: Se identificaron los actores involucrados en el proceso, como "Huésped", "
-   Recepcionista", "Gerente de hotel", entre otros.
+2. **Identificación de actores**: Se identificaron los actores involucrados en el proceso, como "Huésped" y "Gerente de hotel".
 3. **Interacciones entre eventos y actores**: Se establecieron las interacciones entre los eventos y los actores, lo que
    permitió visualizar cómo se relacionan y cómo influyen en el proceso general del negocio hotelero.
 4. **Identificación de comandos y agregados**: Se identificaron los comandos y agregados asociados a cada evento, lo que
    permitió comprender cómo se gestionan los datos y las acciones dentro del sistema.
 
-**Herramienta utilizada:** Para esta sesión se empleó Lucidchart, una herramienta colaborativa que permite crear
+**Herramienta utilizada:** Para esta sesión se empleó Miro, una herramienta colaborativa que permite crear
 diagramas y visualizar procesos de manera efectiva. Esta herramienta facilitó la colaboración entre los participantes y
 permitió documentar de manera clara y concisa los resultados de la sesión.
 
-**Figura 1:**
 
-![EventStorming](images/eventstorming.png)
+Link del Miro: https://miro.com/app/board/uXjVJG7btVM=/
 
 En esta figura se puede observar el resultado de la sesión de EventStorming, donde el equipo identificó los eventos
 clave del dominio del problema, los actores involucrados y sus interacciones.
