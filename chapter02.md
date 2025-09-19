@@ -485,7 +485,7 @@ En esta sección se presenta el user task matrix, que es una herramienta que nos
 #### Administrador
 ![Hotel empathy map](/asetss/Empathy%20map%20Admin.png)
 
-###  2.4 Big Picture EventStorming
+## 2.4 Big Picture EventStorming
 
 
 ## 2.5  Ubiquitous Language
