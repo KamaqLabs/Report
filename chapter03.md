@@ -1,20 +1,8 @@
 # Capítulo III: Requirements Specification
-##### 3.1. To-Be Scenario Mapping.
-###### Segmento 1: Empresas Hoteleras
- ![image](/assets/To%20be%20Admin%201.png)
- ![image](/assets/To%20be%20admin%202.png)
 
-###### Segmento 2: Huespedes
-
-![image](/assets/To%20be%20huesped%201.png)
-![image](/assets/To%20be%20huesped%202.png)
-
-
-##### 3.2. User Stories.
+## 3.2. User Stories.
 
 Las User Stories son una herramienta fundamental para definir los requisitos del proyecto. Cada User Story incluye criterios de aceptación que deben ser comprobables y redactados en tiempo presente, tercera persona, siguiendo la estructura de Gherkin (Given-When-Then). Además, se consideran User Stories para el sitio web estático (Landing Page) y Technical Stories para los features del RESTful API.
-
-## 3.2 User Stories
 
 ### Épicas del Proyecto
 - **EPIC001 – Gestión de Habitaciones y Reservas**  
@@ -80,7 +68,7 @@ Las User Stories son una herramienta fundamental para definir los requisitos del
 
 
 
-##### 3.3. Impact Mapping.
+## 3.2. Impact Mapping.
 
 ##### Segmento 1: Empresas Hoteleras
 ![Impact Map Empresas Hoteleras](/assets/Impact%20map%20Admin.png)
@@ -88,9 +76,7 @@ Las User Stories son una herramienta fundamental para definir los requisitos del
 ##### Segmento 2: Huespedes
 ![Impact Map Huespedes](/assets/Impact%20map%20huesped.png)
 
-##### 3.4. Product Backlog.
-
-## 3.4 Product Backlog
+## 3.3 Product Backlog
 
 | **Orden** | **User Story** | **Título**                                | **Descripción** | **Story Points** |
 |-----------|----------------|-------------------------------------------|-----------------|------------------|
