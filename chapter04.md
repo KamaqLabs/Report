@@ -9,7 +9,7 @@ cadenas hoteleras, hoteles boutique y resorts.
 
 El proceso se desarrolló mediante herramientas colaborativas como Event Storming y el Bounded Context Canvas.
 
-### 4.1.1. EventStorming
+### 4.1.1. Design-Level EventStorming
 
 Con el objetivo de comprender en profundidad el dominio del problema, se llevó a cabo una sesión de EventStorming. Con
 esta dinámica se pudieron identificar eventos clave dentro del negocio hotelero, facilitando la visualización de
