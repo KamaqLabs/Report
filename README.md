@@ -1263,17 +1263,17 @@ En el nivel más alto, el diseño C4 nos muestra el contexto del sistema, identi
 Estos diseños proporcionan una visión clara de la arquitectura del sistema, lo que facilita la comunicación entre los miembros del equipo y ayuda a identificar posibles problemas o mejoras. Al utilizar los diseños C4 en el proyecto LogistcsMasters, podemos asegurarnos de que todos los involucrados tengan una comprensión común de la arquitectura y puedan colaborar de manera efectiva en su implementación y evolución.
 
 ### 4.1.3.1. Software Architecture Context Level Diagrams
-![KingReserve-diagram-context](assets/profiles/Context-Diagram.png)
+![img_3.png](assets/img_3.png)
 ### 4.1.3.2. Software Architecture Container Level Diagrams
-![KingReserve-diagram-containers](assets/profiles/Container-Diagrams.png)
+![img_5.png](assets/img_5.png)
 ### 4.1.3.3. Software Architecture Deployment Diagrams
-![KingReserve-diagram-components](assets/profiles/Components-Diagrams.png)
+![img_4.png](assets/img_4.png)
 
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
 Esta es la propuesta táctica para el diseño de software de Dedalus, aplicando Domain-Driven Design (DDD).
-![image](assets/profiles/Class_Diagram.jpeg)
+![img_6.png](assets/img_6.png)
 
 ### 4.2.1. Bounded Context: Guia de Reservas
 
@@ -1312,7 +1312,7 @@ CalendarioAPI | External API | Servicio externo para validar disponibilidad de f
 
 **Figura 10:**
 
-![Bounded Context Software Architecture - Component Level Diagrams](assets/profiles/Component-Level-Diagrams1.png)
+![img_7.png](assets/img_7.png)
 
 Este diagrama muestra la arquitectura de componentes del Bounded Context "Guía de Reservas". En él se pueden observar los distintos componentes que interactúan entre sí, así como sus responsabilidades y relaciones.
 
@@ -1515,6 +1515,6 @@ El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Co
 ![Bounded Context Domain Layer Class Diagrams](assets/profiles/Domain-Layer-Class-Diagrams4.png)
 
 ### 2.6.x.6.2.Bounded Context Database Design Diagram
-![LM_DB_diagram](assets/profiles/LogistcsMasters_DB_diagram.png)
+![img_8.png](assets/img_8.png)
 
 
