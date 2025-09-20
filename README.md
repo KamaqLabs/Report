@@ -26,7 +26,7 @@ width=50%"/>
 |  Cervantes Erequita Valentino Sebastian  | U202110140 |
 |  Ccotarma Ttito, Sihuar Eduardo Eusebio  | U20211c736 |
 |    Carpio Cornejo, Miguel Ángel Jesús    | u20221c360 |
-|                                          |            |
+|Braithuaite Toledo, Gabriel Anthony       | u20201e889 |
 
 <h5 style="text-align: center"> Ciclo 2025-02 </h5>
 
@@ -43,7 +43,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 ## Project Report Collaboration Insights
 
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: https://github.com/KamaqLabs/Report
 
 
 
@@ -59,7 +59,7 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 |   Cervantes Erequita Valentino Sebastian  | Chapters 01,02,03,04,05|
 |   Ccotarma Ttito, Sihuar Eduardo Eusebio   | Chapters 01,02,03,04,05  |
 | Carpio Cornejo, Miguel Ángel Jesús | Chapters 01,02,03,04,05|
-| | Chapters 01,02,03,04,05|
+|Braithuaite Toledo, Gabriel Anthony  | Chapters 01,02,03,04,05|
 
 
 Los integrantes son:
@@ -137,8 +137,12 @@ Los integrantes son:
 - [Anexos](#anexos)
 
 # Student Outcome
+ABET – EAC - Student Outcome 5 
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros 
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, 
+establecen objetivos, planifican tareas y cumplen objetivos. 
 
 | Criterio Específico                                                                            | Acciones Realizadas | Conclusiones |
 |------------------------------------------------------------------------------------------------|--------------------|---------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                |**Persona1** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona2** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona3** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona4** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona5** <br> TB1: Objetivo 1: <br> Objetivo 2: <br> | |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos |**Persona1** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona2** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona3** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona4** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona5** <br> TB1: Objetivo 1: <br> Objetivo 2: <br>| |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                |**Persona1** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona2** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona3** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona4** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Gabriel Braithuaite** <br> TB1: Trabajó con el equipo de manera conjunta decidiendo los objetivos de la primera entrega.  | |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos |**Persona1** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona2** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona3** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Persona4** <br> TB1: Objetivo 1: <br> Objetivo 2: <br><br>**Gabriel Braithuaite** <br> TB1: En Base a los objetivos de la primera entrega, planificón las tareas que debía cumplir para aportar al equipo trabajando de manera colaborativa | |
