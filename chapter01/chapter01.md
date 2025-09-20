@@ -4,7 +4,7 @@
 
 ### 1.1.1. Descripción de la StartUp
 
-EazyLogistics es una startup tecnológica enfocada en el desarrollo de soluciones IoT (Internet of Things) para la industria hotelera. Su producto principal, IoT Hotel Management, es una plataforma integral que conecta dispositivos inteligentes con aplicaciones web y móviles, permitiendo a los hoteles transformar su operación en espacios inteligentes, seguros y eficientes.
+EazyLogistics es una startup tecnológica enfocada en el desarrollo de soluciones IoT (Internet of Things) para la industria hotelera. Su producto principal, EazyLogistics IoT, es una plataforma integral que conecta dispositivos inteligentes con aplicaciones web y móviles, permitiendo a los hoteles transformar su operación en espacios inteligentes, seguros y eficientes.
 
 El sistema integra:
 
@@ -36,18 +36,18 @@ Propuesta de Valor
 
 | Nombre Completo del integrante         | Descripcion de Carrera                                                                          | Fotografía                                                                                                                                                                          | Conocimientos y Habilidades a apuntar                                                                                                                                                                                                                                               |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Augusto Mathias Vasquez Requejo        | Ingeniería de Software<br> 6to Ciclo<br>2024-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="https://github.com/1ACC0238-2510-346-G3-EazyLogistics/FinalReport/blob/feature/chapter-01/img/Augusto%20Vasquez.jpg?raw=true" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |
+| Augusto Mathias Vasquez Requejo        | Ingeniería de Software<br> 6to Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="https://github.com/1ACC0238-2510-346-G3-EazyLogistics/FinalReport/blob/feature/chapter-01/img/Augusto%20Vasquez.jpg?raw=true" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |
 | Miguel Ángel Carpio Cornejo         | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="../assets/profiles/carpio.jpg" alt="pr" style="width: auto height: auto;">                                                                                  | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |
-| Gabriel Anthony Braithuaite Toledo     | Ingeniería de Software<br> 6to Ciclo <br> 2024-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="https://i.postimg.cc/wvY8Z72w/gabriell.png" alt="pr" style="width: auto height: auto;">                                                                                   | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. |.      
-| Eduardo Eusebio SIhuar Ccotarma Ttito  | Ingeniería de Software<br> 7mo Ciclo<br>2024-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="../assets/profiles/sihuar.jpg" alt="pr" style="width: auto height: auto;">                                                                                                | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |
-| Valentino Sebastián Cervantes Erequita | Ingeniería de Software<br> 7mo Ciclo<br>2024-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="../assets/profiles/valentino.jpg" alt="pr" style="width: auto height: auto;">                                                                                                | - Soy un estudiante de 6 ciclo de la UPC, me especializo en frontend y base de datos, me gusta la música y los videojuegos.                                                                                                                                                         |
+| Gabriel Anthony Braithuaite Toledo     | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="https://i.postimg.cc/wvY8Z72w/gabriell.png" alt="pr" style="width: auto height: auto;">                                                                                   | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. |.      
+| Eduardo Eusebio SIhuar Ccotarma Ttito  | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="../assets/profiles/sihuar.jpg" alt="pr" style="width: auto height: auto;">                                                                                                | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |
+| Valentino Sebastián Cervantes Erequita | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="../assets/profiles/valentino.jpg" alt="pr" style="width: auto height: auto;">                                                                                                | - Soy un estudiante de 6 ciclo de la UPC, me especializo en frontend y base de datos, me gusta la música y los videojuegos.                                                                                                                                                         |
 
 ## 1.2. Solution Profile
 
 ## 1.2.1 Antecedentes y Problemática
 
 ### What (¿Qué ofrece nuestra aplicación?)
-- **IoT Hotel Management** es una plataforma que integra **IoT con gestión hotelera digital**.  
+- **EazyLogistics IoT** es una plataforma que integra **IoT con gestión hotelera digital**.  
 - Permite a los hoteles gestionar reservas, accesos y dispositivos inteligentes desde una sola solución.  
 - **Administradores (Web):** creación de habitaciones, gestión de reservas, monitoreo de sensores de humo/gas, control de iluminación y energía.  
 - **Huéspedes (App móvil):** apertura de cerraduras con NFC/Bluetooth, personalización del ambiente (luces, cortinas, termostato) y pedidos de servicio.  
@@ -66,7 +66,7 @@ Propuesta de Valor
 
 **¿Dónde impacta más?**
 - En hoteles pequeños y medianos que no cuentan con sistemas digitales ni infraestructura tecnológica avanzada.  
-- **IoT Hotel Management** actúa como un puente entre la informalidad y la profesionalización tecnológica.  
+- **EazyLogistics IoT** actúa como un puente entre la informalidad y la profesionalización tecnológica.  
 
 ---
 
@@ -134,7 +134,7 @@ Propuesta de Valor
 ---
 
 ### Domain
-- El dominio de **IoT Hotel Management** es el sector turístico y hotelero, con enfoque en la **automatización inteligente de hoteles**.  
+- El dominio de **EazyLogistics IoT** es el sector turístico y hotelero, con enfoque en la **automatización inteligente de hoteles**.  
 - Se centra en la conexión de **dispositivos IoT (cerraduras, sensores, luces, termostatos, cortinas inteligentes)** con aplicaciones digitales (web y móvil).  
 - El objetivo es profesionalizar los procesos hoteleros, elevar la competitividad y transformar la experiencia de los huéspedes.  
 
@@ -169,7 +169,7 @@ Propuesta de Valor
 - Actualmente, no existe en el mercado una solución IoT integral que combine:  
   - **Gestión de reservas + automatización de habitaciones + control de accesos + sensores de seguridad.**  
 - Las soluciones existentes (PMS tradicionales, domótica de lujo, integraciones parciales) son **costosas, poco accesibles o no adaptadas al contexto hotelero latinoamericano**.  
-- **IoT Hotel Management llena esta brecha** ofreciendo un ecosistema accesible, modular y escalable.  
+- **EazyLogistics IoT llena esta brecha** ofreciendo un ecosistema accesible, modular y escalable.  
 
 ---
 
@@ -300,7 +300,7 @@ Propuesta de Valor
 
 - Mediante la realizacion Lean UX Canvas podemos mostrar toda informacion anterior pero de una manera resumida, didactica y mas accesible al lector. Tambien se resume la problematica que estamos abordando y la solucion que proponemos, junto con los supuestos de las hipotesis y los puntos mas importantes de las mismas.
 
-![Lean UX Canvas](../img/Lean%20UX%20Canvas%20Logistics%20Master.png)
+![Lean UX Canvas](/assets/profiles/Lean%20UX%20Canvas%20Logistics%20Master.png)
 
 ## 1.3. Segmento Objetivo
 
