@@ -1,6 +1,6 @@
 # Capítulo III: Requirements Specification
 
-## 3.2. User Stories.
+## 3.1. User Stories.
 
 Las User Stories son una herramienta fundamental para definir los requisitos del proyecto. Cada User Story incluye criterios de aceptación que deben ser comprobables y redactados en tiempo presente, tercera persona, siguiendo la estructura de Gherkin (Given-When-Then). Además, se consideran User Stories para el sitio web estático (Landing Page) y Technical Stories para los features del RESTful API.
 
