@@ -152,7 +152,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 ### 1.1.1. Descripción de la StartUp
 
-EazyLogistics es una startup tecnológica enfocada en el desarrollo de soluciones IoT (Internet of Things) para la industria hotelera. Su producto principal, EazyLogistics IoT, es una plataforma integral que conecta dispositivos inteligentes con aplicaciones web y móviles, permitiendo a los hoteles transformar su operación en espacios inteligentes, seguros y eficientes.
+Kamaqlabs es una startup tecnológica enfocada en el desarrollo de soluciones IoT (Internet of Things) para la industria hotelera. Su producto principal, Dedalus IoT, es una plataforma integral que conecta dispositivos inteligentes con aplicaciones web y móviles, permitiendo a los hoteles transformar su operación en espacios inteligentes, seguros y eficientes.
 
 El sistema integra:
 
@@ -184,7 +184,7 @@ Propuesta de Valor
 
 | Nombre Completo del integrante         | Descripcion de Carrera                                                                          | Fotografía                                                                                                                                                                 | Conocimientos y Habilidades a apuntar                                                                                                                                                                                                                                               |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Augusto Mathias Vasquez Requejo        | Ingeniería de Software<br> 6to Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="https://github.com/1ACC0238-2510-346-G3-EazyLogistics/FinalReport/blob/feature/chapter-01/img/Augusto%20Vasquez.jpg?raw=true" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |
+| Augusto Mathias Vasquez Requejo        | Ingeniería de Software<br> 6to Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="/assets/profiles/Augusto Vasquez.jpg" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |
 | Miguel Ángel Carpio Cornejo         | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil Miguel](assets/profiles/carpio.jpg)                                                                                  | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |
 | Gabriel Anthony Braithuaite Toledo     | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="https://i.postimg.cc/wvY8Z72w/gabriell.png" alt="pr" style="width: auto height: auto;">                                                                          | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. |.      
 | Eduardo Eusebio SIhuar Ccotarma Ttito  | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     |![Imagen de sihuar](assets/profiles/sihuar.jpg);">                                                                                           | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |
@@ -195,7 +195,7 @@ Propuesta de Valor
 ## 1.2.1 Antecedentes y Problemática
 
 ### What (¿Qué ofrece nuestra aplicación?)
-- **EazyLogistics IoT** es una plataforma que integra **IoT con gestión hotelera digital**.
+- **Dedalus** es una plataforma que integra **IoT con gestión hotelera digital**.
 - Permite a los hoteles gestionar reservas, accesos y dispositivos inteligentes desde una sola solución.
 - **Administradores (Web):** creación de habitaciones, gestión de reservas, monitoreo de sensores de humo/gas, control de iluminación y energía.
 - **Huéspedes (App móvil):** apertura de cerraduras con NFC/Bluetooth, personalización del ambiente (luces, cortinas, termostato) y pedidos de servicio.
@@ -214,7 +214,7 @@ Propuesta de Valor
 
 **¿Dónde impacta más?**
 - En hoteles pequeños y medianos que no cuentan con sistemas digitales ni infraestructura tecnológica avanzada.
-- **EazyLogistics IoT** actúa como un puente entre la informalidad y la profesionalización tecnológica.
+- **Dedalus** actúa como un puente entre la informalidad y la profesionalización tecnológica.
 
 ---
 
@@ -282,7 +282,7 @@ Propuesta de Valor
 ---
 
 ### Domain
-- El dominio de **EazyLogistics IoT** es el sector turístico y hotelero, con enfoque en la **automatización inteligente de hoteles**.
+- El dominio de **Dedalus** es el sector turístico y hotelero, con enfoque en la **automatización inteligente de hoteles**.
 - Se centra en la conexión de **dispositivos IoT (cerraduras, sensores, luces, termostatos, cortinas inteligentes)** con aplicaciones digitales (web y móvil).
 - El objetivo es profesionalizar los procesos hoteleros, elevar la competitividad y transformar la experiencia de los huéspedes.
 
@@ -317,7 +317,7 @@ Propuesta de Valor
 - Actualmente, no existe en el mercado una solución IoT integral que combine:
     - **Gestión de reservas + automatización de habitaciones + control de accesos + sensores de seguridad.**
 - Las soluciones existentes (PMS tradicionales, domótica de lujo, integraciones parciales) son **costosas, poco accesibles o no adaptadas al contexto hotelero latinoamericano**.
-- **EazyLogistics IoT llena esta brecha** ofreciendo un ecosistema accesible, modular y escalable.
+- **Dedalus llena esta brecha** ofreciendo un ecosistema accesible, modular y escalable.
 
 ---
 
@@ -831,10 +831,10 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Datos del entrevistado**                                                                                                                                                                                                                                                                                                                                                  | 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre:**  Gael Dario Lopez Diaz                                                                                                                                                                                                                                                                                                                                          |
-| **Link del video:** [Entrevista1](https://drive.google.com/file/d/11cj9FE4x4g5A6O6EUy-XkMY1FOC01aiJ/view?usp=sharing)                                                                                                                                                                                                                                                       |
+| **Link del video:** [Entrevista1](https://drive.google.com/file/d/1EPXh2uOpNsgF34G0p8iSC4UL8Y7gb2Qx/view?usp=sharing)                                                                                                                                                                                                                                                       |
 | **Edad:**  20 años                                                                                                                                                                                                                                                                                                                                                          |
 | **Procedencia:**  Lima, Ate                                                                                                                                                                                                                                                                                                                                                 |
-| ![Entrevista]assets/Entrevista%201.png)                                                                                                                                                                                                                                                                                                                                     |
+| ![Entrevista](assets/Entrevista%201.png)                                                                                                                                                                                                                                                                                                                                     |
 | **Resumen:** .  Gael Dario Lopez es un joven estudiante de 20 años que suele ir a hoteles y nos menciona que en lo que se fija para escoger un hotel se fija en la atención y  respuesta rapida a la hora de reservar lo que le hace valorar un hotel de acuerdo al trato que reciba , sugiere que podriamos implementar la atención de llamada  a la hora de realizar reserva |
 
 
@@ -842,10 +842,10 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Datos del entrevistado**                                                                                                                                                                                                                                | 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre:**  Jose Shuan Saavedra                                                                                                                                                                                                                          |
-| **Minuto del video:**  [Entrevista2](https://drive.google.com/file/d/1i1ivouwuWsTCrAaC_HuoveDsd3FyW8On/view?usp=sharing)                                                                                                                                  |
+| **Minuto del video:**  [Entrevista2](https://drive.google.com/file/d/1X4yapYgPJr4VhR2G6nROnUhCia8YWVfc/view?usp=sharing)                                                                                                                                  |
 | **Edad:**  20 años                                                                                                                                                                                                                                        |
 | **Procedencia:**  Lima, Lima                                                                                                                                                                                                                              |
-| ![Entrevista]assets/Entrevista%202.png)                                                                                                                                                                                                                   |
+| ![Entrevista](assets/Entrevista%202.png)                                                                                                                                                                                                                   |
 | **Resumen:** Jose Shuan Saavedra es un estudiante de 24 años nos menciona que valora en un hotel la atención y trato que le dan al cliente , como sugerencia que puedas ver notificaciones por alguna promoción o descuento que se llegue a dar en el hotel |
 
 #### Entrevista 3
@@ -855,7 +855,7 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Edad:** 19 años                                                                                                                                                                                                                                                                                                                                                                               |
 | **Minuto del video:**  10:23                                                                                                                                                                                                                                                                                                                                                                    |
 | **Procedencia:** San Miguel, Lima                                                                                                                                                                                                                                                                                                                                                               |
-| ![Entrevista]assets/Entrevista%203.png)                                                                                                                                                                                                                                                                                                                                                         |
+| ![Entrevista](assets/Entrevista%203.png)                                                                                                                                                                                                                                                                                                                                                         |
 | **Resumen:**  Estudiante de 19 años nos menciona que prefieree reservar hoteles en distintos lugares del país debido a que le gusta viajar , nos menciona que su mayor dificultad a la de reservar es que hay veces que los hoteles suelen confundirse con el tipo de habitación que el solicita y que una sugerencia puede ser realizar una mejor organización a la hora de agendar sus reservas |
 
 ### Segmento: Empresas Hoteleras
@@ -867,7 +867,7 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Edad:** 21 años                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Link  del video:**  [Entrevista4](https://drive.google.com/file/d/1W5k2HvF7aKuh52XiQ8ZY9lHs8-faRJr7/view?usp=sharing)                                                                                                                                                                                                                                                                                               |
 | **Procedencia:**  Lima                                                                                                                                                                                                                                                                                                                                                                                                |
-| ![Entrevista]assets/Entrevista%204.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| ![Entrevista](assets/Entrevista%204.png)                                                                                                                                                                                                                                                                                                                                                                               |
 | **Resumen:** Gino Tineo es un joven Gestor Hotelero de 21 años el considera que su edad si influye para gestionar un hotel porque aún no tiene tanta experiencia y nos menciona que tiene una herramienta tecnologica para su hotel pero esta no es tan especializada y su principal desafio es que su pagina web ayude a automatizar los procesos de pedido de reserva y que gestione las redes sociales de su empresa |
 
 #### Entrevista 5
@@ -877,7 +877,7 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 | **Edad:** 21 años                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Link del video:** [Entrevista5](https://drive.google.com/file/d/1tkAYCXns-7XTWoCbqovsGES0hfqhnQ8G/view?usp=sharing)                                                                                                                                                                                                                                                                                 |
 | **Procedencia:**  Perú                                                                                                                                                                                                                                                                                                                                                                                |
-| ![EntrevistaMaria]assets/Entrevista%205.png)                                                                                                                                                                                                                                                                                                                                                          |
+| ![EntrevistaMaria](assets/Entrevista%205.png)                                                                                                                                                                                                                                                                                                                                                          |
 | **Resumen:**  Nauricio Muñoz es un Gestor Hotelero de 21 años el considera que su edad si influye a la hora de gestionar un hotel ademas nos menciona que si utiliza herramientas tecnologicas para gestionar su hotel sin embargo le gusta usar metodos tradicionales como lapiz y papel porque se siente más familiarizado y su principal desafio que ha enfrentado es la comunicación con el staff . |
 
 
@@ -982,7 +982,7 @@ Link Miro: https://miro.com/app/board/uXjVJF6ySiI=/?share_link_id=547814286151
 
 **Storytelling:**
 
-Imagina que eres un huésped que decide hospedarse en un hotel gestionado por EazyLogistics.
+Imagina que eres un huésped que decide hospedarse en un hotel gestionado por Kamaqlabs.
 
 Desde tu casa, haces una reserva en línea a través de la plataforma web del hotel. El administrador revisa la solicitud y confirma la reserva. El sistema genera automáticamente una credencial digital para acceso a tu habitación, y la envía junto con una invitación a tu correo o app.
 
@@ -1256,7 +1256,7 @@ Se genera un acoplamiento innecesario. La creación de un servicio compartido pu
 
 ### 4.1.3. Software Architecture
 
-Los diseños C4 son una forma efectiva de representar la arquitectura de un sistema de software de manera clara y concisa. En el caso del proyecto LogisticsMasters, los diseños C4 nos permiten visualizar la estructura y las interacciones entre los diferentes componentes del sistema.
+Los diseños C4 son una forma efectiva de representar la arquitectura de un sistema de software de manera clara y concisa. En el caso del proyecto Dedalus, los diseños C4 nos permiten visualizar la estructura y las interacciones entre los diferentes componentes del sistema.
 
 En el nivel más alto, el diseño C4 nos muestra el contexto del sistema, identificando los actores externos y los sistemas con los que interactúa LogistcsMasters. A medida que descendemos en los niveles de detalle, podemos ver los contenedores que componen el sistema, como la aplicación web, la base de datos y los servicios externos. Además, los diagramas C4 nos permiten visualizar los componentes internos de cada contenedor, como los módulos y las clases.
 
@@ -1272,7 +1272,7 @@ Estos diseños proporcionan una visión clara de la arquitectura del sistema, lo
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-Esta es la propuesta táctica para el diseño de software de LogisticsMasters, aplicando Domain-Driven Design (DDD).
+Esta es la propuesta táctica para el diseño de software de Dedalus, aplicando Domain-Driven Design (DDD).
 ![image](assets/profiles/Class_Diagram.jpeg)
 
 ### 4.2.1. Bounded Context: Guia de Reservas
