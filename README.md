@@ -25,7 +25,7 @@ width=50%"/>
 | Vasquez Requejo Augusto Mathias Leonardo | u20221A955 |
 |  Cervantes Erequita Valentino Sebastian  | U202110140 |
 |  Ccotarma Ttito, Sihuar Eduardo Eusebio  | U20211c736 |
-|                                          |            |
+|    Carpio Cornejo, Miguel Ángel Jesús    | u20221c360 |
 |                                          |            |
 
 <h5 style="text-align: center"> Ciclo 2025-02 </h5>
@@ -58,7 +58,7 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 | Vasquez Requejo Augusto Mathias Leonardo  |Chapters 01,02,03,04,05                   |
 |   Cervantes Erequita Valentino Sebastian  | Chapters 01,02,03,04,05|
 |   Ccotarma Ttito, Sihuar Eduardo Eusebio   | Chapters 01,02,03,04,05  |
-|  | Chapters 01,02,03,04,05|
+| Carpio Cornejo, Miguel Ángel Jesús | Chapters 01,02,03,04,05|
 | | Chapters 01,02,03,04,05|
 
 
@@ -68,6 +68,7 @@ Los integrantes son:
 - Braithuaite Toledo Gabriel Anthony | (Gaboo04)
 - Cervantes Erequita Valentino Sebastian |(KiwiAmenazante)
 - Ccotarma Ttito, Sihuar Eduardo Eusebio | (Anx0123)
+- Carpio Cornejo, Miguel Ángel Jesús | (MiguelCarpioC)
 ## Contenido
 ## Índice
 
