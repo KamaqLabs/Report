@@ -1,7 +1,7 @@
 <h1 style="text-align: center;"> Informe del TB1 </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
-<img src=https://github.com/Integradis-OpenSource/TFDocOpenSource/assets/114628079/4be29e42-94e4-4b80-85ae-3433dde891e4
+<img src=https://github.com/Integradis-OpenSource/TFDocOpenSourceassets/114628079/4be29e42-94e4-4b80-85ae-3433dde891e4
 style="display: block;
 margin-left:auto;
 margin-right: auto;
@@ -183,13 +183,13 @@ Propuesta de Valor
 
 ### 1.1.2. Perfiles de Integrantes del equipo
 
-| Nombre Completo del integrante         | Descripcion de Carrera                                                                          | Fotografía                                                                                                                                                                          | Conocimientos y Habilidades a apuntar                                                                                                                                                                                                                                               |
-|----------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Completo del integrante         | Descripcion de Carrera                                                                          | Fotografía                                                                                                                                                                 | Conocimientos y Habilidades a apuntar                                                                                                                                                                                                                                               |
+|----------------------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Augusto Mathias Vasquez Requejo        | Ingeniería de Software<br> 6to Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="https://github.com/1ACC0238-2510-346-G3-EazyLogistics/FinalReport/blob/feature/chapter-01/img/Augusto%20Vasquez.jpg?raw=true" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |
-| Miguel Ángel Carpio Cornejo         | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="../assets/profiles/carpio.jpg" alt="pr" style="width: auto height: auto;">                                                                                  | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |
-| Gabriel Anthony Braithuaite Toledo     | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="https://i.postimg.cc/wvY8Z72w/gabriell.png" alt="pr" style="width: auto height: auto;">                                                                                   | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. |.      
-| Eduardo Eusebio SIhuar Ccotarma Ttito  | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="../assets/profiles/sihuar.jpg" alt="pr" style="width: auto height: auto;">                                                                                                | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |
-| Valentino Sebastián Cervantes Erequita | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="../assets/profiles/valentino.jpg" alt="pr" style="width: auto height: auto;">                                                                                                | - Soy un estudiante de 6 ciclo de la UPC, me especializo en frontend y base de datos, me gusta la música y los videojuegos.                                                                                                                                                         |
+| Miguel Ángel Carpio Cornejo         | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src=assets/profiles/carpio.jpg" alt="pr" style="width: auto height: auto;">                                                                                  | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |
+| Gabriel Anthony Braithuaite Toledo     | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="https://i.postimg.cc/wvY8Z72w/gabriell.png" alt="pr" style="width: auto height: auto;">                                                                          | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. |.      
+| Eduardo Eusebio SIhuar Ccotarma Ttito  | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src=assets/profiles/sihuar.jpg" alt="pr" style="width: auto height: auto;">                                                                                           | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |
+| Valentino Sebastián Cervantes Erequita | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src=assets/profiles/valentino.jpg" alt="pr" style="width: auto height: auto;">                                                                                        | - Soy un estudiante de 6 ciclo de la UPC, me especializo en frontend y base de datos, me gusta la música y los videojuegos.                                                                                                                                                         |
 
 ## 1.2. Solution Profile
 
@@ -449,7 +449,7 @@ Propuesta de Valor
 
 - Mediante la realizacion Lean UX Canvas podemos mostrar toda informacion anterior pero de una manera resumida, didactica y mas accesible al lector. Tambien se resume la problematica que estamos abordando y la solucion que proponemos, junto con los supuestos de las hipotesis y los puntos mas importantes de las mismas.
 
-![Lean UX Canvas](/assets/profiles/Lean%20UX%20Canvas%20Logistics%20Master.png)
+![Lean UX Canvas](assets/profiles/Lean%20UX%20Canvas%20Logistics%20Master.png)
 
 ## 1.3. Segmento Objetivo
 
@@ -492,12 +492,6 @@ Propuesta de Valor
 
 ---
 
-
-[Augusto VASQUEZ]: https://github.com/1ACC0238-2510-346-G3-EazyLogistics/FinalReport/blob/fdd867d8565c33ff95959e0def5b29d500a1020e/img/Augusto%20Vasquez.jpg
-
-# Capítulo II: Requirements Elicitation & Analysis
-
-## 2.1. Competidores
 
 
 # 2 Capítulo II: Requirements Elicitation & Analysis
@@ -835,56 +829,56 @@ Para diferenciarse en un mercado competitivo donde destacan soluciones como Clou
 
 
 #### Entrevista 1
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:**  Gael Dario Lopez Diaz |
-| **Link del video:** [Entrevista1](https://drive.google.com/file/d/11cj9FE4x4g5A6O6EUy-XkMY1FOC01aiJ/view?usp=sharing)  |
-| **Edad:**  20 años |
-| **Procedencia:**  Lima, Ate |
-| ![Entrevista](/asetss/Entrevista%201.png)|
-| **Resumen:** .  Gael Dario Lopez es un joven estudiante de 20 años que suele ir a hoteles y nos menciona que en lo que se fija para escoger un hotel se fija en la atención y  respuesta rapida a la hora de reservar lo que le hace valorar un hotel de acuerdo al trato que reciba , sugiere que podriamos implementar la atención de llamada  a la hora de realizar reserva   |
+| **Datos del entrevistado**                                                                                                                                                                                                                                                                                                                                                  | 
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre:**  Gael Dario Lopez Diaz                                                                                                                                                                                                                                                                                                                                          |
+| **Link del video:** [Entrevista1](https://drive.google.com/file/d/11cj9FE4x4g5A6O6EUy-XkMY1FOC01aiJ/view?usp=sharing)                                                                                                                                                                                                                                                       |
+| **Edad:**  20 años                                                                                                                                                                                                                                                                                                                                                          |
+| **Procedencia:**  Lima, Ate                                                                                                                                                                                                                                                                                                                                                 |
+| ![Entrevista]assets/Entrevista%201.png)                                                                                                                                                                                                                                                                                                                                     |
+| **Resumen:** .  Gael Dario Lopez es un joven estudiante de 20 años que suele ir a hoteles y nos menciona que en lo que se fija para escoger un hotel se fija en la atención y  respuesta rapida a la hora de reservar lo que le hace valorar un hotel de acuerdo al trato que reciba , sugiere que podriamos implementar la atención de llamada  a la hora de realizar reserva |
 
 
 #### Entrevista 2
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:**  Jose Shuan Saavedra|
-| **Minuto del video:**  [Entrevista2](https://drive.google.com/file/d/1i1ivouwuWsTCrAaC_HuoveDsd3FyW8On/view?usp=sharing)   |
-| **Edad:**  20 años |
-| **Procedencia:**  Lima, Lima |
-| ![Entrevista](/asetss/Entrevista%202.png)|
+| **Datos del entrevistado**                                                                                                                                                                                                                                | 
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre:**  Jose Shuan Saavedra                                                                                                                                                                                                                          |
+| **Minuto del video:**  [Entrevista2](https://drive.google.com/file/d/1i1ivouwuWsTCrAaC_HuoveDsd3FyW8On/view?usp=sharing)                                                                                                                                  |
+| **Edad:**  20 años                                                                                                                                                                                                                                        |
+| **Procedencia:**  Lima, Lima                                                                                                                                                                                                                              |
+| ![Entrevista]assets/Entrevista%202.png)                                                                                                                                                                                                                   |
 | **Resumen:** Jose Shuan Saavedra es un estudiante de 24 años nos menciona que valora en un hotel la atención y trato que le dan al cliente , como sugerencia que puedas ver notificaciones por alguna promoción o descuento que se llegue a dar en el hotel |
 
 #### Entrevista 3
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:** Sebastian Mesias |
-| **Edad:** 19 años |
-| **Minuto del video:**  10:23 |
-| **Procedencia:** San Miguel, Lima |
-| ![Entrevista](/asetss/Entrevista%203.png)|
-| **Resumen:**  Estudiante de 19 años nos menciona que prefieree reservar hoteles en distintos lugares del país debido a que le gusta viajar , nos menciona que su mayor dificultad a la de reservar es que hay veces que los hoteles suelen confundirse con el tipo de habitación que el solicita y que una sugerencia puede ser realizar una mejor organización a la hora de agendar sus reservas   |
+| **Datos del entrevistado**                                                                                                                                                                                                                                                                                                                                                                      | 
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre:** Sebastian Mesias                                                                                                                                                                                                                                                                                                                                                                    |
+| **Edad:** 19 años                                                                                                                                                                                                                                                                                                                                                                               |
+| **Minuto del video:**  10:23                                                                                                                                                                                                                                                                                                                                                                    |
+| **Procedencia:** San Miguel, Lima                                                                                                                                                                                                                                                                                                                                                               |
+| ![Entrevista]assets/Entrevista%203.png)                                                                                                                                                                                                                                                                                                                                                         |
+| **Resumen:**  Estudiante de 19 años nos menciona que prefieree reservar hoteles en distintos lugares del país debido a que le gusta viajar , nos menciona que su mayor dificultad a la de reservar es que hay veces que los hoteles suelen confundirse con el tipo de habitación que el solicita y que una sugerencia puede ser realizar una mejor organización a la hora de agendar sus reservas |
 
 ### Segmento: Empresas Hoteleras
 
 #### Entrevista 4
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:** Gino Tineo |
-| **Edad:** 21 años |
-| **Link  del video:**  [Entrevista4](https://drive.google.com/file/d/1W5k2HvF7aKuh52XiQ8ZY9lHs8-faRJr7/view?usp=sharing)  |
-| **Procedencia:**  Lima |
-| ![Entrevista](/asetss/Entrevista%204.png) |
-| **Resumen:** Gino Tineo es un joven Gestor Hotelero de 21 años el considera que su edad si influye para gestionar un hotel porque aún no tiene tanta experiencia y nos menciona que tiene una herramienta tecnologica para su hotel pero esta no es tan especializada y su principal desafio es que su pagina web ayude a automatizar los procesos de pedido de reserva y que gestione las redes sociales de su empresa    |
+| **Datos del entrevistado**                                                                                                                                                                                                                                                                                                                                                                                            | 
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre:** Gino Tineo                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Edad:** 21 años                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Link  del video:**  [Entrevista4](https://drive.google.com/file/d/1W5k2HvF7aKuh52XiQ8ZY9lHs8-faRJr7/view?usp=sharing)                                                                                                                                                                                                                                                                                               |
+| **Procedencia:**  Lima                                                                                                                                                                                                                                                                                                                                                                                                |
+| ![Entrevista]assets/Entrevista%204.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| **Resumen:** Gino Tineo es un joven Gestor Hotelero de 21 años el considera que su edad si influye para gestionar un hotel porque aún no tiene tanta experiencia y nos menciona que tiene una herramienta tecnologica para su hotel pero esta no es tan especializada y su principal desafio es que su pagina web ayude a automatizar los procesos de pedido de reserva y que gestione las redes sociales de su empresa |
 
 #### Entrevista 5
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:** Mauricio Muñoz |
-| **Edad:** 21 años |
-| **Link del video:** [Entrevista5](https://drive.google.com/file/d/1tkAYCXns-7XTWoCbqovsGES0hfqhnQ8G/view?usp=sharing)   |
-| **Procedencia:**  Perú |
-| ![EntrevistaMaria](/asetss/Entrevista%205.png) |
+| **Datos del entrevistado**                                                                                                                                                                                                                                                                                                                                                                            | 
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre:** Mauricio Muñoz                                                                                                                                                                                                                                                                                                                                                                            |
+| **Edad:** 21 años                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Link del video:** [Entrevista5](https://drive.google.com/file/d/1tkAYCXns-7XTWoCbqovsGES0hfqhnQ8G/view?usp=sharing)                                                                                                                                                                                                                                                                                 |
+| **Procedencia:**  Perú                                                                                                                                                                                                                                                                                                                                                                                |
+| ![EntrevistaMaria]assets/Entrevista%205.png)                                                                                                                                                                                                                                                                                                                                                          |
 | **Resumen:**  Nauricio Muñoz es un Gestor Hotelero de 21 años el considera que su edad si influye a la hora de gestionar un hotel ademas nos menciona que si utiliza herramientas tecnologicas para gestionar su hotel sin embargo le gusta usar metodos tradicionales como lapiz y papel porque se siente más familiarizado y su principal desafio que ha enfrentado es la comunicación con el staff . |
 
 
@@ -927,10 +921,10 @@ Después de llevar a cabo y describir los registros de los entrevistados, esta s
 
 ##### Huesped
 
-![image](/asetss/User%20Persona%20Huesped.png)
+![image]assets/User%20Persona%20Huesped.png)
 
 ##### Administrador
-![María Delia Martínez](/asetss/User%20persona%20Admin.png)
+![María Delia Martínez]assets/User%20persona%20Admin.png)
 
 #### 2.3.2 User Task Matrix
 
@@ -969,21 +963,21 @@ En esta sección se presenta el user task matrix, que es una herramienta que nos
 
 #### Huesped
 
-![image](/asetss/User%20Journey%20Mapping%20Huesped.png)
+![image]assets/User%20Journey%20Mapping%20Huesped.png)
 
 #### Administrador
-![image](/asetss/User%20Journey%20Mapping%20Admin.png)
+![image]assets/User%20Journey%20Mapping%20Admin.png)
 
 ### 2.3.4 Empathy Mapping
 
 #### Huesped
-![Huesped empathy map](/asetss/Empathy%20map%20Huesped.png)
+![Huesped empathy map]assets/Empathy%20map%20Huesped.png)
 
 #### Administrador
-![Hotel empathy map](/asetss/Empathy%20map%20Admin.png)
+![Hotel empathy map]assets/Empathy%20map%20Admin.png)
 
 ## 2.4 Big Picture EventStorming
-![Event storming](/asetss/Big%20Picture%20Eventstorming.jpg)
+![Event storming]assets/Big%20Picture%20Eventstorming.jpg)
 
 Link Miro: https://miro.com/app/board/uXjVJF6ySiI=/?share_link_id=547814286151
 
@@ -1095,10 +1089,10 @@ Las User Stories son una herramienta fundamental para definir los requisitos del
 ## 3.2. Impact Mapping.
 
 ##### Segmento 1: Empresas Hoteleras
-![Impact Map Empresas Hoteleras](/assets/Impact%20map%20Admin.png)
+![Impact Map Empresas Hoteleras](assets/Impact%20map%20Admin.png)
 
 ##### Segmento 2: Huespedes
-![Impact Map Huespedes](/assets/Impact%20map%20huesped.png)
+![Impact Map Huespedes](assets/Impact%20map%20huesped.png)
 
 ## 3.3 Product Backlog
 
@@ -1197,7 +1191,7 @@ pueda crear diagramas y visualizar procesos de manera efectiva.
 
 **Figura 2:**
 
-![Candidate Context Discovery](images/candidate_context_discovery.png)
+![Candidate Context Discovery](assets/profiles/candidate_context_discovery.png)
 
 En esta figura se puede observar el resultado de la sesión de Candidate Context Discovery, donde el equipo utilizó las
 técnicas start-with
@@ -1209,19 +1203,19 @@ Una vez definidos los Bounded Contexts principales, se procedió a modelar los f
 
 **Figura 3:**
 
-![Domain Message Flows Modeling](images/domain_storytelling_1.png)
+![Domain Message Flows Modeling](assets/profiles/domain_storytelling_1.png)
 
 Esta figura muestra el flujo de colaboración entre el huésped y el sistema de reservas al momento de realizar una reserva. El proceso inicia con la solicitud del huésped, seguida por la verificación de disponibilidad y la confirmación de la reserva por parte del sistema. Posteriormente, se genera un registro de reserva.
 
 **Figura 4:**
 
-![Domain Message Flows Modeling](images/domain_storytelling_2.png)
+![Domain Message Flows Modeling](assets/profiles/domain_storytelling_2.png)
 
 Esta figura ilustra el flujo de Gestión de Usuarios, donde se observa la interacción entre el sistema y el usuario al ingresar a la plataforma. El proceso incluye la autenticación del usuario, la verificación de sus credenciales y la gestión de su perfil.
 
 **Figura 5:**
 
-![Domain Message Flows Modeling](images/domain_storytelling_3.png)
+![Domain Message Flows Modeling](assets/profiles/domain_storytelling_3.png)
 
 Esta figura representa el flujo de Gestión de Pagos y Suscripciones, donde se observa la interacción entre el sistema y el usuario al momento de realizar un pago. El proceso incluye la selección del método de pago, la validación de la transacción y la confirmación del pago.
 
@@ -1230,22 +1224,22 @@ Esta figura representa el flujo de Gestión de Pagos y Suscripciones, donde se o
 Los Bounded Contexts identificados en la sesión de Candidate Context Discovery fueron documentados utilizando el Bounded Context Canvas. Esta herramienta permite visualizar de manera clara y concisa los límites, interacciones y responsabilidades de cada contexto.
 
 **Figura 6:**
-![Bounded Context Canvases](images/bounded_context_canvas_1.png)
+![Bounded Context Canvases](assets/profiles/bounded_context_canvas_1.png)
 Esta figura muestra el Bounded Context Canvas del contexto de "Guía de Reservas", donde se detallan los límites, interacciones y responsabilidades del sistema de reservas.
 
 **Figura 7:**
-![Bounded Context Canvases](images/bounded_context_canvas_2.png)
+![Bounded Context Canvases](assets/profiles/bounded_context_canvas_2.png)
 Esta figura muestra el Bounded Context Canvas del contexto de "Gestión de Usuarios", donde se detallan los límites, interacciones y responsabilidades del sistema de gestión de usuarios.
 
 **Figura 8:**
-![Bounded Context Canvases](images/bounded_context_canvas_3.png)
+![Bounded Context Canvases](assets/profiles/bounded_context_canvas_3.png)
 Esta figura muestra el Bounded Context Canvas del contexto de "Pagos y Suscripciones", donde se detallan los límites, interacciones y responsabilidades del sistema de gestión de pagos y suscripciones.
 ### 4.1.2. Context Mapping
 
 Con el fin de establecer las relaciones entre los distintos Bounded Contexts identificados, se realizó un mapeo de contextos. Este mapeo permite visualizar cómo interactúan los diferentes contextos y cómo se comunican entre sí.
 
 **Figura 9:**
-![Context Mapping](images/context_mapping.jpg)
+![Context Mapping](assets/profiles/context_mapping.jpg)
 
 Esta figura muestra el mapeo de contextos, donde se pueden observar las relaciones entre los distintos Bounded Contexts. Cada línea representa una relación de comunicación entre los contextos, lo que permite entender cómo fluyen los datos y las interacciones entre ellos.
 
@@ -1270,17 +1264,17 @@ En el nivel más alto, el diseño C4 nos muestra el contexto del sistema, identi
 Estos diseños proporcionan una visión clara de la arquitectura del sistema, lo que facilita la comunicación entre los miembros del equipo y ayuda a identificar posibles problemas o mejoras. Al utilizar los diseños C4 en el proyecto LogistcsMasters, podemos asegurarnos de que todos los involucrados tengan una comprensión común de la arquitectura y puedan colaborar de manera efectiva en su implementación y evolución.
 
 ### 4.1.3.1. Software Architecture Context Level Diagrams
-![KingReserve-diagram-context](./images/Context-Diagram.png)
+![KingReserve-diagram-context](assets/profiles/Context-Diagram.png)
 ### 4.1.3.2. Software Architecture Container Level Diagrams
-![KingReserve-diagram-containers](./images/Container-Diagrams.png)
+![KingReserve-diagram-containers](assets/profiles/Container-Diagrams.png)
 ### 4.1.3.3. Software Architecture Deployment Diagrams
-![KingReserve-diagram-components](./images/Components-Diagrams.png)
+![KingReserve-diagram-components](assets/profiles/Components-Diagrams.png)
 
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
 Esta es la propuesta táctica para el diseño de software de LogisticsMasters, aplicando Domain-Driven Design (DDD).
-![image](./images/Class_Diagram.jpeg)
+![image](assets/profiles/Class_Diagram.jpeg)
 
 ### 4.2.1. Bounded Context: Guia de Reservas
 
@@ -1319,7 +1313,7 @@ CalendarioAPI | External API | Servicio externo para validar disponibilidad de f
 
 **Figura 10:**
 
-![Bounded Context Software Architecture - Component Level Diagrams](./images/Component-Level-Diagrams1.png)
+![Bounded Context Software Architecture - Component Level Diagrams](assets/profiles/Component-Level-Diagrams1.png)
 
 Este diagrama muestra la arquitectura de componentes del Bounded Context "Guía de Reservas". En él se pueden observar los distintos componentes que interactúan entre sí, así como sus responsabilidades y relaciones.
 
@@ -1327,7 +1321,7 @@ Este diagrama muestra la arquitectura de componentes del Bounded Context "Guía 
 
 **Figura 11:**
 
-![Bounded Context Software Architecture Code Level Diagrams](./images/Code-Level-Diagrams1.png)
+![Bounded Context Software Architecture Code Level Diagrams](assets/profiles/Code-Level-Diagrams1.png)
 
 Este diagrama muestra la estructura a nivel de clases para el Bounded Context "Guía de Reservas", siguiendo el modelo de capas de software. Se representan las principales entidades, servicios de dominio, controladores de interfaz, handlers de aplicación y componentes de infraestructura.
 
@@ -1335,7 +1329,7 @@ Este diagrama muestra la estructura a nivel de clases para el Bounded Context "G
 
 **Figura 12:**
 
-![Bounded Context Domain Layer Class Diagrams](./images/Domain-Layer-Class-Diagrams1.png)
+![Bounded Context Domain Layer Class Diagrams](assets/profiles/Domain-Layer-Class-Diagrams1.png)
 
 ### 4.2.2. Bounded Context: Gestión de Usuarios
 
@@ -1375,7 +1369,7 @@ EmailService | External Service | Notificación de bienvenida, recuperación de 
 
 **Figura 12:**
 
-![Bounded Context Software Architecture Component Level Diagrams](./images/Component-Level-Diagrams2.png)
+![Bounded Context Software Architecture Component Level Diagrams](assets/profiles/Component-Level-Diagrams2.png)
 
 Este diagrama muestra la arquitectura de componentes del Bounded Context "Gestión de Usuarios". En él se pueden observar los distintos componentes que interactúan entre sí, así como sus responsabilidades y relaciones.
 
@@ -1383,7 +1377,7 @@ Este diagrama muestra la arquitectura de componentes del Bounded Context "Gesti�
 
 **Figura 13:**
 
-![Bounded Context Software Architecture Code Level Diagrams](./images/Code-Level-Diagrams2.png)
+![Bounded Context Software Architecture Code Level Diagrams](assets/profiles/Code-Level-Diagrams2.png)
 
 El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Context Gestión de Usuarios, siguiendo el modelo de capas de software. Se representan las principales entidades, servicios de dominio, controladores de interfaz, handlers de aplicación y componentes de infraestructura.
 
@@ -1391,7 +1385,7 @@ El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Co
 
 **Figura 14:**
 
-![Bounded Context Domain Layer Class Diagrams](./images/Domain-Layer-Class-Diagrams2.png)
+![Bounded Context Domain Layer Class Diagrams](assets/profiles/Domain-Layer-Class-Diagrams2.png)
 
 ### 4.2.3. Bounded Context: Pagos y suscripciones
 Clase | Propósito | Atributos | Métodos
@@ -1438,7 +1432,7 @@ BillingEmailService | External Service | Notificaciones sobre cobros, renovació
 
 **Figura 14:**
 
-![Bounded Context Software Architecture Component Level Diagrams](./images/Component-Level-Diagrams3.png)
+![Bounded Context Software Architecture Component Level Diagrams](assets/profiles/Component-Level-Diagrams3.png)
 
 Este diagrama muestra la arquitectura de componentes del Bounded Context "Pagos y Suscripciones". En él se pueden observar los distintos componentes que interactúan entre sí, así como sus responsabilidades y relaciones.
 
@@ -1446,7 +1440,7 @@ Este diagrama muestra la arquitectura de componentes del Bounded Context "Pagos 
 
 **Figura 15:**
 
-![Bounded Context Software Architecture Code Level Diagrams](./images/Code-Level-Diagrams3.png)
+![Bounded Context Software Architecture Code Level Diagrams](assets/profiles/Code-Level-Diagrams3.png)
 
 El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Context "Pagos y Suscripciones", siguiendo el modelo de capas de software. Se representan las principales entidades, servicios de dominio, controladores de interfaz, handlers de aplicación y componentes de infraestructura.
 
@@ -1454,7 +1448,7 @@ El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Co
 
 **Figura 16:**
 
-![Bounded Context Domain Layer Class Diagrams](./images/Domain-Layer-Class-Diagrams3.png)
+![Bounded Context Domain Layer Class Diagrams](assets/profiles/Domain-Layer-Class-Diagrams3.png)
 
 ### 4.2.4. Bounded Context: Notificaciones y órdenes
 Clase | Propósito | Atributos | Métodos
@@ -1503,7 +1497,7 @@ RealtimeNotificationAdapter | External Service | WebSocket o Pusher para actuali
 
 **Figura 16:**
 
-![Bounded Context Software Architecture - Component Level Diagrams](./images/Component-Level-Diagrams4.png)
+![Bounded Context Software Architecture - Component Level Diagrams](assets/profiles/Component-Level-Diagrams4.png)
 
 Este diagrama muestra la arquitectura de componentes del Bounded Context "Notificaciones y Órdenes". En él se pueden observar los distintos componentes que interactúan entre sí, así como sus responsabilidades y relaciones.
 
@@ -1511,7 +1505,7 @@ Este diagrama muestra la arquitectura de componentes del Bounded Context "Notifi
 
 **Figura 17:**
 
-![Bounded Context Software Architecture - Code Level Diagrams](./images/Code-Level-Diagrams4.png)
+![Bounded Context Software Architecture - Code Level Diagrams](assets/profiles/Code-Level-Diagrams4.png)
 
 El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Context "Notificaciones y Órdenes", siguiendo el modelo de capas de software. Se representan las principales entidades, servicios de dominio, controladores de interfaz, handlers de aplicación y componentes de infraestructura.
 
@@ -1519,9 +1513,9 @@ El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Co
 
 **Figura 18:**
 
-![Bounded Context Domain Layer Class Diagrams](./images/Domain-Layer-Class-Diagrams4.png)
+![Bounded Context Domain Layer Class Diagrams](assets/profiles/Domain-Layer-Class-Diagrams4.png)
 
 ### 2.6.x.6.2.Bounded Context Database Design Diagram
-![LM_DB_diagram](./images/LogistcsMasters_DB_diagram.png)
+![LM_DB_diagram](assets/profiles/LogistcsMasters_DB_diagram.png)
 
 

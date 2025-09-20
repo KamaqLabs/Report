@@ -64,7 +64,7 @@ pueda crear diagramas y visualizar procesos de manera efectiva.
 
 **Figura 2:**
 
-![Candidate Context Discovery](images/candidate_context_discovery.png)
+![Candidate Context Discovery](assets/profiles/candidate_context_discovery.png)
 
 En esta figura se puede observar el resultado de la sesión de Candidate Context Discovery, donde el equipo utilizó las
 técnicas start-with
@@ -76,19 +76,19 @@ Una vez definidos los Bounded Contexts principales, se procedió a modelar los f
 
 **Figura 3:**
 
-![Domain Message Flows Modeling](images/domain_storytelling_1.png)
+![Domain Message Flows Modeling](assets/profiles/domain_storytelling_1.png)
 
 Esta figura muestra el flujo de colaboración entre el huésped y el sistema de reservas al momento de realizar una reserva. El proceso inicia con la solicitud del huésped, seguida por la verificación de disponibilidad y la confirmación de la reserva por parte del sistema. Posteriormente, se genera un registro de reserva.
 
 **Figura 4:**
 
-![Domain Message Flows Modeling](images/domain_storytelling_2.png)
+![Domain Message Flows Modeling](assets/profiles/domain_storytelling_2.png)
 
 Esta figura ilustra el flujo de Gestión de Usuarios, donde se observa la interacción entre el sistema y el usuario al ingresar a la plataforma. El proceso incluye la autenticación del usuario, la verificación de sus credenciales y la gestión de su perfil.
 
 **Figura 5:**
 
-![Domain Message Flows Modeling](images/domain_storytelling_3.png)
+![Domain Message Flows Modeling](assets/profiles/domain_storytelling_3.png)
 
 Esta figura representa el flujo de Gestión de Pagos y Suscripciones, donde se observa la interacción entre el sistema y el usuario al momento de realizar un pago. El proceso incluye la selección del método de pago, la validación de la transacción y la confirmación del pago.
 
@@ -97,22 +97,22 @@ Esta figura representa el flujo de Gestión de Pagos y Suscripciones, donde se o
 Los Bounded Contexts identificados en la sesión de Candidate Context Discovery fueron documentados utilizando el Bounded Context Canvas. Esta herramienta permite visualizar de manera clara y concisa los límites, interacciones y responsabilidades de cada contexto.
 
 **Figura 6:**
-![Bounded Context Canvases](images/bounded_context_canvas_1.png)
+![Bounded Context Canvases](assets/profiles/bounded_context_canvas_1.png)
 Esta figura muestra el Bounded Context Canvas del contexto de "Guía de Reservas", donde se detallan los límites, interacciones y responsabilidades del sistema de reservas.
 
 **Figura 7:**
-![Bounded Context Canvases](images/bounded_context_canvas_2.png)
+![Bounded Context Canvases](assets/profiles/bounded_context_canvas_2.png)
 Esta figura muestra el Bounded Context Canvas del contexto de "Gestión de Usuarios", donde se detallan los límites, interacciones y responsabilidades del sistema de gestión de usuarios.
 
 **Figura 8:**
-![Bounded Context Canvases](images/bounded_context_canvas_3.png)
+![Bounded Context Canvases](assets/profiles/bounded_context_canvas_3.png)
 Esta figura muestra el Bounded Context Canvas del contexto de "Pagos y Suscripciones", donde se detallan los límites, interacciones y responsabilidades del sistema de gestión de pagos y suscripciones.
 ### 4.1.2. Context Mapping
 
 Con el fin de establecer las relaciones entre los distintos Bounded Contexts identificados, se realizó un mapeo de contextos. Este mapeo permite visualizar cómo interactúan los diferentes contextos y cómo se comunican entre sí.
 
 **Figura 9:**
-![Context Mapping](images/context_mapping.jpg)
+![Context Mapping](assets/profiles/context_mapping.jpg)
 
 Esta figura muestra el mapeo de contextos, donde se pueden observar las relaciones entre los distintos Bounded Contexts. Cada línea representa una relación de comunicación entre los contextos, lo que permite entender cómo fluyen los datos y las interacciones entre ellos.
 
@@ -137,17 +137,17 @@ En el nivel más alto, el diseño C4 nos muestra el contexto del sistema, identi
 Estos diseños proporcionan una visión clara de la arquitectura del sistema, lo que facilita la comunicación entre los miembros del equipo y ayuda a identificar posibles problemas o mejoras. Al utilizar los diseños C4 en el proyecto LogistcsMasters, podemos asegurarnos de que todos los involucrados tengan una comprensión común de la arquitectura y puedan colaborar de manera efectiva en su implementación y evolución. 
 
 ### 4.1.3.1. Software Architecture Context Level Diagrams
-![KingReserve-diagram-context](./images/Context-Diagram.png)
+![KingReserve-diagram-context](assets/profiles/Context-Diagram.png)
 ### 4.1.3.2. Software Architecture Container Level Diagrams
-![KingReserve-diagram-containers](./images/Container-Diagrams.png)
+![KingReserve-diagram-containers](assets/profiles/Container-Diagrams.png)
 ### 4.1.3.3. Software Architecture Deployment Diagrams
-![KingReserve-diagram-components](./images/Components-Diagrams.png)
+![KingReserve-diagram-components](assets/profiles/Components-Diagrams.png)
 
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
 Esta es la propuesta táctica para el diseño de software de LogisticsMasters, aplicando Domain-Driven Design (DDD).
-![image](./images/Class_Diagram.jpeg)
+![image](assets/profiles/Class_Diagram.jpeg)
 
 ### 4.2.1. Bounded Context: Guia de Reservas
 
@@ -186,7 +186,7 @@ CalendarioAPI | External API | Servicio externo para validar disponibilidad de f
 
 **Figura 10:**
 
-![Bounded Context Software Architecture - Component Level Diagrams](./images/Component-Level-Diagrams1.png)
+![Bounded Context Software Architecture - Component Level Diagrams](assets/profiles/Component-Level-Diagrams1.png)
 
 Este diagrama muestra la arquitectura de componentes del Bounded Context "Guía de Reservas". En él se pueden observar los distintos componentes que interactúan entre sí, así como sus responsabilidades y relaciones.
 
@@ -194,7 +194,7 @@ Este diagrama muestra la arquitectura de componentes del Bounded Context "Guía 
 
 **Figura 11:**
 
-![Bounded Context Software Architecture Code Level Diagrams](./images/Code-Level-Diagrams1.png)
+![Bounded Context Software Architecture Code Level Diagrams](assets/profiles/Code-Level-Diagrams1.png)
 
 Este diagrama muestra la estructura a nivel de clases para el Bounded Context "Guía de Reservas", siguiendo el modelo de capas de software. Se representan las principales entidades, servicios de dominio, controladores de interfaz, handlers de aplicación y componentes de infraestructura.
 
@@ -202,7 +202,7 @@ Este diagrama muestra la estructura a nivel de clases para el Bounded Context "G
 
 **Figura 12:**
 
-![Bounded Context Domain Layer Class Diagrams](./images/Domain-Layer-Class-Diagrams1.png)
+![Bounded Context Domain Layer Class Diagrams](assets/profiles/Domain-Layer-Class-Diagrams1.png)
 
 ### 4.2.2. Bounded Context: Gestión de Usuarios
 
@@ -242,7 +242,7 @@ EmailService | External Service | Notificación de bienvenida, recuperación de 
 
 **Figura 12:**
 
-![Bounded Context Software Architecture Component Level Diagrams](./images/Component-Level-Diagrams2.png)
+![Bounded Context Software Architecture Component Level Diagrams](assets/profiles/Component-Level-Diagrams2.png)
 
 Este diagrama muestra la arquitectura de componentes del Bounded Context "Gestión de Usuarios". En él se pueden observar los distintos componentes que interactúan entre sí, así como sus responsabilidades y relaciones.
 
@@ -250,7 +250,7 @@ Este diagrama muestra la arquitectura de componentes del Bounded Context "Gesti�
 
 **Figura 13:** 
 
-![Bounded Context Software Architecture Code Level Diagrams](./images/Code-Level-Diagrams2.png)
+![Bounded Context Software Architecture Code Level Diagrams](assets/profiles/Code-Level-Diagrams2.png)
 
 El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Context Gestión de Usuarios, siguiendo el modelo de capas de software. Se representan las principales entidades, servicios de dominio, controladores de interfaz, handlers de aplicación y componentes de infraestructura.
 
@@ -258,7 +258,7 @@ El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Co
 
 **Figura 14:**
 
-![Bounded Context Domain Layer Class Diagrams](./images/Domain-Layer-Class-Diagrams2.png)
+![Bounded Context Domain Layer Class Diagrams](assets/profiles/Domain-Layer-Class-Diagrams2.png)
 
 ### 4.2.3. Bounded Context: Pagos y suscripciones
 Clase | Propósito | Atributos | Métodos
@@ -305,7 +305,7 @@ BillingEmailService | External Service | Notificaciones sobre cobros, renovació
 
 **Figura 14:**
 
-![Bounded Context Software Architecture Component Level Diagrams](./images/Component-Level-Diagrams3.png)
+![Bounded Context Software Architecture Component Level Diagrams](assets/profiles/Component-Level-Diagrams3.png)
 
 Este diagrama muestra la arquitectura de componentes del Bounded Context "Pagos y Suscripciones". En él se pueden observar los distintos componentes que interactúan entre sí, así como sus responsabilidades y relaciones.
 
@@ -313,7 +313,7 @@ Este diagrama muestra la arquitectura de componentes del Bounded Context "Pagos 
 
 **Figura 15:**
 
-![Bounded Context Software Architecture Code Level Diagrams](./images/Code-Level-Diagrams3.png)
+![Bounded Context Software Architecture Code Level Diagrams](assets/profiles/Code-Level-Diagrams3.png)
 
 El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Context "Pagos y Suscripciones", siguiendo el modelo de capas de software. Se representan las principales entidades, servicios de dominio, controladores de interfaz, handlers de aplicación y componentes de infraestructura.
 
@@ -321,7 +321,7 @@ El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Co
 
 **Figura 16:**
 
-![Bounded Context Domain Layer Class Diagrams](./images/Domain-Layer-Class-Diagrams3.png)
+![Bounded Context Domain Layer Class Diagrams](assets/profiles/Domain-Layer-Class-Diagrams3.png)
 
 ### 4.2.4. Bounded Context: Notificaciones y órdenes
 Clase | Propósito | Atributos | Métodos
@@ -370,7 +370,7 @@ RealtimeNotificationAdapter | External Service | WebSocket o Pusher para actuali
 
 **Figura 16:**
 
-![Bounded Context Software Architecture - Component Level Diagrams](./images/Component-Level-Diagrams4.png)
+![Bounded Context Software Architecture - Component Level Diagrams](assets/profiles/Component-Level-Diagrams4.png)
 
 Este diagrama muestra la arquitectura de componentes del Bounded Context "Notificaciones y Órdenes". En él se pueden observar los distintos componentes que interactúan entre sí, así como sus responsabilidades y relaciones.
 
@@ -378,7 +378,7 @@ Este diagrama muestra la arquitectura de componentes del Bounded Context "Notifi
 
 **Figura 17:**
 
-![Bounded Context Software Architecture - Code Level Diagrams](./images/Code-Level-Diagrams4.png)
+![Bounded Context Software Architecture - Code Level Diagrams](assets/profiles/Code-Level-Diagrams4.png)
 
 El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Context "Notificaciones y Órdenes", siguiendo el modelo de capas de software. Se representan las principales entidades, servicios de dominio, controladores de interfaz, handlers de aplicación y componentes de infraestructura.
 
@@ -386,8 +386,8 @@ El siguiente diagrama muestra la estructura a nivel de clases para el Bounded Co
 
 **Figura 18:**
 
-![Bounded Context Domain Layer Class Diagrams](./images/Domain-Layer-Class-Diagrams4.png)
+![Bounded Context Domain Layer Class Diagrams](assets/profiles/Domain-Layer-Class-Diagrams4.png)
 
 ### 2.6.x.6.2.Bounded Context Database Design Diagram 
-![LM_DB_diagram](./images/LogistcsMasters_DB_diagram.png)
+![LM_DB_diagram](assets/profiles/LogistcsMasters_DB_diagram.png)
 
