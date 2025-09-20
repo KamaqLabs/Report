@@ -486,7 +486,26 @@ En esta sección se presenta el user task matrix, que es una herramienta que nos
 ![Hotel empathy map](/asetss/Empathy%20map%20Admin.png)
 
 ## 2.4 Big Picture EventStorming
+![Event storming](/asetss/Big%20Picture%20Eventstorming.jpg)
 
+Link Miro: https://miro.com/app/board/uXjVJF6ySiI=/?share_link_id=547814286151
+
+**Storytelling:**
+
+Imagina que eres un huésped que decide hospedarse en un hotel gestionado por EazyLogistics.
+
+Desde tu casa, haces una reserva en línea a través de la plataforma web del hotel. El administrador revisa la solicitud y confirma la reserva. El sistema genera automáticamente una credencial digital para acceso a tu habitación, y la envía junto con una invitación a tu correo o app.
+
+Días después, llegas al hotel. Al acercarte a la recepción, inicias el check‑in express desde tu celular. El sistema valida tu identidad, verifica la reserva, y completa el check‑in.
+
+Te diriges a tu habitación y, al acercar tu celular a la cerradura, la puerta se abre mediante NFC.
+Apenas entras, los sensores de movimiento activan la luz. La temperatura se ajusta sola, porque el sistema reconoce tus preferencias anteriores.
+
+Durante tu estadía, haces un pedido de servicio de habitación desde la app.
+Pero de repente, un sensor detecta humo en un área cercana. Se envía una alerta crítica al panel del administrador y se notifica al personal operativo.
+El personal es asignado, se dirige al lugar y resuelve el incidente rápidamente.
+
+Finalmente, decides partir. Desde tu móvil, inicias el check‑out, el cual se completa sin pasar por recepción. Las credenciales de acceso se revocan automáticamente.
 
 ## 2.5  Ubiquitous Language
 
