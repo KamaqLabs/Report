@@ -467,7 +467,7 @@ GitHub insights del landing page:
   - *Recomendación:* Mostrar siempre un resumen breve del porqué de la ruta seleccionada (Ejem: “ruta óptima por menor tiempo estimado y condiciones climáticas favorables”).
 <br>
 
-- ¨**Problema #5: Falta de alertas proactivas visibles**
+- **Problema #5: Falta de alertas proactivas visibles**
   - *Heurística:* Prevención de errores
   - *Recomendación:* Implementar un panel o ícono de alerta que indique eventos en tiempo real (cierres de puertos, tormentas, etc.) y permita actuar de inmediato.
 <br>
