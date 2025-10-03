@@ -1,33 +1,33 @@
 # **CAPÍTULO V: SOLUTION UI/UX DESIGN**
 
-## 5.1. Product design
+## 5.1. Style Guidelines
 
 En esta seccion definiremos los estilos de diseño front-end que serán la base para dar forma a nuestro producto, utilizando patrones que consideren los aspectos de arquitectura de la información y accesibilidad necesarios para la implementación exitosa de UrProvider tanto en una Landing Page como en una Aplicación Movil.
 
-### 5.1.1. Style Guidelines
+### 5.1.1. General Style Guidelines
 
-**Branding:** El branding del logo de nuestra plataforma “LogisticsMaster” es una combinación de elementos que transmiten una imagen sólida y confiable. Nos enfocamos en la confianza de nuestro clientes al momento de tomar un servicio prestado. El nombre “LogisticsMaster” se presenta en una tipografía elegante y profesional, mientras que la paleta de colores crea un contraste visual claro y transmite una sensación de miminalismo y profesionalismo. En resumen, este logo tiene un enfoque clásico y profesional, y podría ser un elemento distintivo en nuestro sitio web.
+**Branding:** El branding del logo de nuestra plataforma “Dedalus” es una combinación de elementos que transmiten una imagen sólida y confiable. Nos enfocamos en la confianza de nuestro clientes al momento de tomar un servicio prestado. El nombre “Dedalus” se presenta en una tipografía elegante y profesional, mientras que la paleta de colores crea un contraste visual claro y transmite una sensación de miminalismo y profesionalismo. En resumen, este logo tiene un enfoque clásico y profesional, y podría ser un elemento distintivo en nuestro sitio web.
 
 
 <img src="../assets/Logo Logistics Master 1.jpg">
 <img src="../assets/Logo Logistics Master 2.jpg">
 
 
-**Typography:** Al seleccionar la tipografía para nuestro proyecto, hemos optado por utilizar Roboto siguiendo las pautas de estilo general. Ya que ofrece una combinación única de legibilidad, versatilidad y modernidad que se alinea perfectamente con la identidad visual y los objetivos de LogisticsMaster. Su diseño limpio y contemporáneo proporciona una excelente lectura en una amplia gama de dispositivos, lo que garantiza una experiencia de usuario óptima para nuestros clientes, que incluyen tanto agencias de embarcaciones navieras como exportadores e importadores de alta rotacion.
+**Typography:** Al seleccionar la tipografía para nuestro proyecto, hemos optado por utilizar Roboto siguiendo las pautas de estilo general. Ya que ofrece una combinación única de legibilidad, versatilidad y modernidad que se alinea perfectamente con la identidad visual y los objetivos de Dedalus. Su diseño limpio y contemporáneo proporciona una excelente lectura en una amplia gama de dispositivos, lo que garantiza una experiencia de usuario óptima para nuestros clientes, que incluyen tanto agencias de embarcaciones navieras como exportadores e importadores de alta rotacion.
 
-<img src="../assets/Tipography-LogisticsMaster.png">
+<img src="../assets/Tipography-Dedalus.png">
 
 **Colors:** Hemos escogido una paleta basada en colores suaves y elegantes, algo fríos para dar sensación de ser una aplicacion "premium" . De tal modo, estos generan un ambiente profesional y acogedor para el usuario final. Los tonos más claros pueden ser utilizados para fondos o elementos de diseño amplios, mientras que los colores más oscuros serán para textos o detalles más específicos asegurando legibilidad y contraste entre ellos.
 
-<img src="../assets/Colors-LogisticsMaster.png">
+<img src="../assets/Colors-Dedalus.png">
 
-#### 5.1.1.1 General Style Guidelines
+### 5.1.2 Web, Mobile and IoT Style Guidelines
 
-Para los generals style guidelines del "LogisticsMaster" se utilizó con mayor presencia los colores pasteles en base a una paleta de colores que genere confianza y un ambiente acogedor para el usuario. El logo genera presencia por la combinación de elementos que transmiten una imagen sólida y confiable. A su vez, se ideó un estilo minimalista en el desarrollo del Landing Page para que el usuario tenga la facilidad de navegar y pueda observar las secciones con mayor orden. El tipo de Roboto combina con los colores anteriormente seleccionados, ya que brinda mayor flexibilidad y versatilidad. Para el desarrollo de los mockups y wireframes se utilizó en base a desarrollo web para pantallas de escritorio.
+Para los generals style guidelines del "Dedalus" se utilizó con mayor presencia los colores pasteles en base a una paleta de colores que genere confianza y un ambiente acogedor para el usuario. El logo genera presencia por la combinación de elementos que transmiten una imagen sólida y confiable. A su vez, se ideó un estilo minimalista en el desarrollo del Landing Page para que el usuario tenga la facilidad de navegar y pueda observar las secciones con mayor orden. El tipo de Roboto combina con los colores anteriormente seleccionados, ya que brinda mayor flexibilidad y versatilidad. Para el desarrollo de los mockups y wireframes se utilizó en base a desarrollo web para pantallas de escritorio.
 
-### 5.1.2 Information Architecture
+## 5.2 Information Architecture
 
-#### 5.1.2.1 Organization Systems
+### 5.2.1 Organization Systems
 
 - **Segmento Huésped**
 
@@ -51,7 +51,7 @@ Para los generals style guidelines del "LogisticsMaster" se utilizó con mayor p
 
     - Gestión de Perfil del Hotel: Los hoteles pueden mantener un perfil detallado con información sobre comodidades, servicios y opiniones de clientes, lo cual ayuda a construir confianza y atraer a nuevos huéspedes.
 
-#### 5.1.2.2 Labeling Systems
+### 5.2.2 Labeling Systems
 
 - **Segmento Huésped**
 
@@ -71,16 +71,16 @@ Para los generals style guidelines del "LogisticsMaster" se utilizó con mayor p
 
     - Etiqueta de Promociones y Ofertas: Resalta promociones y ofertas actuales tanto para huéspedes como para el personal, fomentando las ventas adicionales y aumentando el compromiso de los huéspedes.
 
-#### 5.1.2.3 SEO Tags and Meta Tags
+### 5.2.3 SEO Tags and Meta Tags
 
 Para la búsqueda eficiente de nuestra plataforma en los buscadores web se emplearon las siguientes tags:
-- Title: LogisticsMaster
+- Title: Dedalus
 - Meta Tags:
     - Description: Plataforma de optimización de logistica para hoteles y huespedes.
     - Keywords: hoteles, huespedes, busqueda de hoteles, gestion de hotel, logistica, logistica de hoteles.
-    - Author: LogisticsMaster
+    - Author: Dedalus
 
-#### 5.1.2.4 Searching Systems
+### 5.2.4 Searching Systems
 
 En esta parte, se indicarán los sistemas de búsqueda que se implementaran en la Landing Page y Mobile Application.
 
@@ -96,7 +96,7 @@ En esta parte, se indicarán los sistemas de búsqueda que se implementaran en l
 
     - Búsqueda por Filtros: Los filtros ayudan al personal a refinar los resultados de búsqueda por estado de reserva, tipo de habitación o preferencias de huéspedes, mejorando la eficiencia operativa.
 
-#### 5.1.2.5 Navigation Systems
+### 5.2.5 Navigation Systems
 
 En esta parte, se indicará los sistemas de navegación que se utilizaron para la búsqueda rápida de las secciones que son de interés para los usuarios para el la landing page y la aplicación web.
 
@@ -113,21 +113,22 @@ En esta parte, se indicará los sistemas de navegación que se utilizaron para l
 
     - Enlaces Rápidos: Ofrece acceso rápido a funciones críticas como gestión de reservas, actualizaciones de inventario y configuración de promociones, aumentando la velocidad operativa.
 
-## 5.1.3 Landing Page UI Design 
-### 5.1.3.1 Landing Page Wireframe
+## 5.3 Landing Page UI Design 
+### 5.3.1 Landing Page Wireframe
 
 <img src="../assets/Wireframe Landing 1.png">
 <img src="../assets/Wireframe Landing 2.png">
 <img src="../assets/Wireframe Landing 3.png">
 
-### 5.1.3.2 Landing Page Mock-up
+### 5.3.2 Landing Page Mock-up
 
 <img src="../assets/Wireframe Landing 1.png">
 <img src="../assets/Wireframe Landing 2.png">
 <img src="../assets/Wireframe Landing 3.png">
 
-## 5.1.4 Mobile Applications UX/UI Design
-### 5.1.4.1. Mobile Applications Wireframes
+## 5.4 Applications UX/UI Design
+
+### 5.4.1 Applications Wireframes
 
 <img src="../assets/Landing Mockup1.png">
 <img src="../assets/Landing Mockup2.png">
@@ -136,7 +137,7 @@ En esta parte, se indicará los sistemas de navegación que se utilizaron para l
 <img src="../assets/Landing Mockup5.png">
 <img src="../assets/Landing Mockup6.png">
 
-### 5.1.4.2. Mobile Applications Wireflow Diagrams
+### 5.4.2 Applications Wireflow Diagrams
 
 - **User Goal 1: Iniciar sesión**
 <br>
@@ -162,26 +163,26 @@ En esta parte, se indicará los sistemas de navegación que se utilizaron para l
 <br>
 <img src="../assets/UserGoal7.png">
 
-### 5.1.4.3. Mobile Applications Mock-ups
+#### 5.4.2.1 Applications Mock-ups
 
-<img src="../assets/Mockup1-LogisticsMaster.png">
-<img src="../assets/Mockup2-LogisticsMaster.png">
-<img src="../assets/Mockup3-LogisticsMaster.png">
+<img src="../assets/Mockup1-Dedalus.png">
+<img src="../assets/Mockup2-Dedalus.png">
+<img src="../assets/Mockup3-Dedalus.png">
 
-### 5.1.4.4. Mobile Applications User Flow Diagrams
+### 5.4.3 Applications User Flow Diagrams
 
-<img src="../assets/UserFlow1-LogisticsMaster.png">
-<img src="../assets/UserFlow2-LogisticsMaster.png">
-<img src="../assets/UserFlow3-LogisticsMaster.png">
-<img src="../assets/UserFlow4-LogisticsMaster.png">
-<img src="../assets/UserFlow5-LogisticsMaster.png">
-<img src="../assets/UserFlow6-LogisticsMaster.png">
+<img src="../assets/UserFlow1-Dedalus.png">
+<img src="../assets/UserFlow2-Dedalus.png">
+<img src="../assets/UserFlow3-Dedalus.png">
+<img src="../assets/UserFlow4-Dedalus.png">
+<img src="../assets/UserFlow5-Dedalus.png">
+<img src="../assets/UserFlow6-Dedalus.png">
 
 
-### 5.1.4.5. Mobile Applications Prototyping
+## 5.5 Applications Prototyping
 
 <a href="https://youtu.be/DpDvyiFZYfk" target="_blank">
-  <img src="../assets/Prototyping-LogisticsMaster.png" alt="Haz clic para ver el video en YouTube">
+  <img src="../assets/Prototyping-Dedalus.png" alt="Haz clic para ver el video en YouTube">
 </a>
 
-Link de figma: https://www.figma.com/design/xEox7AGlCy67DsKpgUtasc/LogisticsMaster?node-id=0-1&t=KZmjaqr84QZfGvSJ-1 
+Link de figma: https://www.figma.com/design/xEox7AGlCy67DsKpgUtasc/Dedalus?node-id=0-1&t=KZmjaqr84QZfGvSJ-1 
