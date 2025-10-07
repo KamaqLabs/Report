@@ -222,7 +222,7 @@ dist/LandingPage/browser/
 
 #### Resultado del despliegue 
 Una vez finalizado el flujo, GitHub Pages publica automáticamente la última versión compilada del sitio en la siguiente URL: <br>
-🔗 [Enlace de landing page deplegada]: https://kamaqlabs.github.io/Dedalus_Landing_Page/
+🔗 [Enlace de landing page desplegada]: https://kamaqlabs.github.io/Dedalus_Landing_Page/
 
 Este proceso elimina la necesidad de desplegar manualmente, garantizando que cada modificación aprobada en la rama `develop` se refleje directamente en la versión pública.
 
