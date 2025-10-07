@@ -17,62 +17,82 @@ Asimismo, se detallan las configuraciones iniciales requeridas para compilar, ej
 - **Visual Studio Code**: Editor de código utilizado para desarrollar la Landing Page. Su entorno ligero, personalizable y con soporte para múltiples lenguajes facilitó la colaboración entre desarrolladores y la implementación ágil de componentes web.
 
 <div style="text-align: center;">
-  <img src="../images/visualstudio.png" alt="Visual Studio Code" style="width:10%;"/>
+  <img src="./assets/visualstudio.png" alt="Visual Studio Code" style="width:10%;"/>
 </div>
 
 - **HTML5**: Lenguaje de marcado base para estructurar el contenido de la Landing Page. Permitió organizar la información de forma semántica y accesible, mejorando la navegación y la experiencia del usuario.
 
 <div style="text-align: center;">
-  <img src="../images/html5.png" alt="HTML 5" style="width:10%;"/>
+  <img src="./assets/html5.png" alt="HTML 5" style="width:10%;"/>
 </div>
 
 - **CSS3**: Utilizado para aplicar estilos visuales a la Landing Page. Ayudó a mantener una identidad gráfica coherente, responsiva y atractiva, lo cual es clave para captar la atención del usuario final.
 
 <div style="text-align: center;">
-  <img src="../images/css3.png" alt="CSS 3" style="width:10%;"/>
+  <img src="./assets/css3.png" alt="CSS 3" style="width:10%;"/>
 </div>
 
 - **JavaScript**: Lenguaje que permitió incorporar lógica e interactividad a la Landing Page, como animaciones, validaciones y mejoras en la experiencia dinámica del usuario.
 
 <div style="text-align: center;">
-  <img src="../images/js.png" alt="JavaScript" style="width:10%;"/>
+  <img src="./assets/js.png" alt="JavaScript" style="width:10%;"/>
 </div>
 
 - **GitHub**: Plataforma de control de versiones que centralizó el código del proyecto. Facilitó el trabajo colaborativo del equipo, permitió el seguimiento de cambios y mejoró la trazabilidad del desarrollo.
 
 <div style="text-align: center;">
-  <img src="../images/github.png" alt="Github" style="width:10%;"/>
+  <img src="./assets/github.png" alt="Github" style="width:10%;"/>
 </div>
 
 - **LucidChart**: Herramienta usada para crear diagramas de flujo, wireflows y modelos conceptuales. Contribuyó a la claridad en el diseño funcional y ayudó a definir la lógica de interacción entre pantallas y procesos.
 
 <div style="text-align: center;">
-  <img src="../images/lucidchart.png" alt="LucidChart" style="width:10%;"/>
+  <img src="./assets/lucidchart.png" alt="LucidChart" style="width:10%;"/>
 </div>
 
 - **Figma**: Plataforma de diseño colaborativo utilizada para la creación de wireframes y prototipos visuales de alta fidelidad. Permitió validar la interfaz gráfica con antelación y alinear al equipo de desarrollo con la visión de diseño.
 
 <div style="text-align: center;">
-  <img src="../images/figma.png" alt="Figma" style="width:10%;"/>
+  <img src="./assets/figma.png" alt="Figma" style="width:10%;"/>
 </div>
 
 - **Android Studio**: Entorno de desarrollo para la aplicación móvil. Proporcionó las herramientas necesarias para programar, depurar, probar y empaquetar la app en dispositivos Android.
 
 <div style="text-align: center;">
-  <img src="../images/androidstudio.png" alt="CSS 3" style="width:10%;"/>
+  <img src="./assets/androidstudio.png" alt="CSS 3" style="width:10%;"/>
 </div>
 
 - **Kotlin**: Lenguaje de programación moderno utilizado para desarrollar la aplicación móvil. Su sintaxis clara y concisa mejoró la eficiencia del código y la productividad del equipo, alineándose con las mejores prácticas de desarrollo en Android.
 
 <div style="text-align: center;">
-  <img src="../images/kotilin.png" alt="Kotlin" style="width:10%;"/>
+  <img src="./assets/kotilin.png" alt="Kotlin" style="width:10%;"/>
 </div>
 
 - **Trello**: Plataforma de gestión de tareas basada en tableros y tarjetas, utilizada para organizar y hacer seguimiento del progreso del equipo durante el desarrollo del proyecto. Facilitó la planificación de sprints, la asignación de responsabilidades y la visualización del avance en tiempo real, promoviendo una colaboración efectiva y una mejor administración del tiempo.
 
 <div style="text-align: center;">
-  <img src="../images/Trello.png" alt="Trello" style="width:10%;"/>
+  <img src="./assets/Trello.png" alt="Trello" style="width:10%;"/>
 </div>
+
+- **Angular**: Framework de desarrollo web basado en TypeScript, empleado para construir la interfaz del panel administrativo. Su arquitectura modular, compatibilidad con APIs REST y componentes reutilizables facilitaron el desarrollo de un entorno web responsivo, escalable y mantenible.
+
+<div style="text-align: center;"> <img src="./assets/angular.png" alt="Angular" style="width:10%;"/> </div>
+
+- **NestJS**: Framework progresivo de Node.js utilizado para el desarrollo del backend de la plataforma. Permite estructurar los microservicios de manera modular y escalable, integrando MQTT para la comunicación IoT, REST APIs para el consumo desde Angular y Flutter, y PostgreSQL como base de datos principal.
+
+<div style="text-align: center;"> <img src="./assets/nestjs.png" alt="NestJS" style="width:10%;"/> </div>
+
+- **Node.js y npm**: Entorno de ejecución de JavaScript y su gestor de paquetes, utilizados para instalar dependencias y ejecutar scripts de desarrollo y despliegue tanto del frontend (Angular) como del backend (NestJS).
+
+<div style="text-align: center;"> <img src="./assets/nodejs.png" alt="Node.js" style="width:10%;"/> </div>
+
+- **Postman**: Herramienta de testing de APIs utilizada para validar la comunicación entre el backend y los clientes web/móvil. Permitió automatizar peticiones HTTP, gestionar entornos y realizar pruebas de integración antes del despliegue.
+
+<div style="text-align: center;"> <img src="./assets/postman.png" alt="Postman" style="width:10%;"/> </div>
+
+- **Git**: Sistema de control de versiones distribuido utilizado para el seguimiento de cambios y la colaboración en el código fuente del proyecto. Permitió mantener ramas independientes por módulo (web, móvil, backend) y facilitar la integración continua.
+
+<div style="text-align: center;"> <img src="./assets/git.png" alt="Git" style="width:10%;"/> </div>
 
 
 Cada una de estas herramientas fue seleccionada estratégicamente para cumplir con los objetivos del proyecto, asegurando una solución tecnológica robusta, escalable y centrada en la experiencia del usuario.
@@ -102,7 +122,7 @@ Para nuestra estrategia de gestión de versiones con Git, nos basamos en el mode
   - Se fusiona con: `develop` o `release`, según el caso
   
 <div style="text-align: center;">
-  <img src="../images/gitflow.png" alt="Ejemplo ramas Gitflow" style="width:70%;"/>
+  <img src="./assets/gitflow.png" alt="Ejemplo ramas Gitflow" style="width:70%;"/>
 </div>
 
 **Conventional Commits:**  
@@ -167,44 +187,49 @@ La aplicación sistemática de estas convenciones fortaleció la calidad del có
 
 ### 6.1.4 Software Deployment Configuration
 
-Para el despliegue de la Landing Page del proyecto, se utilizó **GitHub Pages**, una plataforma gratuita que permite publicar sitios web estáticos directamente desde un repositorio de GitHub. Esta herramienta facilitó la publicación rápida y eficiente del contenido web desarrollado en HTML, CSS y JavaScript, sin necesidad de utilizar servidores adicionales ni configuraciones complejas.
+#### Landing Page Deplyment
+La Landing Page de Dedalus está desarrollada con el framework Angular, utilizando componentes modulares y estilos en Angular Material. El código fuente se mantiene dentro del repositorio `Dedalus_Landing_Page` en la organización `KamaqLabs` (GitHub).
+El despliegue se realiza mediante GitHub Actions y GitHub Pages, asegurando una publicación continua (CI/CD) cada vez que se realizan cambios en la rama `develop`.
 
-El proceso de despliegue se realizó vinculando el repositorio del proyecto con GitHub Pages, configurando la rama correspondiente y asegurando que el contenido de la carpeta raíz (o `/docs`, según el caso) contuviera todos los archivos necesarios para el funcionamiento del sitio.
+#### Flujo de Despliegue Automatizado
+El proceso automatizado de despliegue está definido dentro del archivo:
+`.github/workflows/deploy.yml`
+![Workflow github](./assets/workflow.png)
+![deploy.yml](./assets/deploy.yml.png)
+Cada vez que se realiza un push hacia la rama develop, se ejecuta el flujo con las siguientes etapas:
+1. Checkout del repositorio
+- El flujo obtiene el código fuente desde la rama develop.
+2. Configuración del entorno Node.js
+- Se instala Node.js versión 20.19.0, necesaria para ejecutar Angular CLI.
+3. Instalación de dependencias
+- Se ejecuta el comando npm ci para instalar todas las dependencias del proyecto sin modificar el package-lock.json.
+4. Compilación del proyecto Angular
+- Se genera la build optimizada para producción mediante: <br>
+~~~
+npm run build -- --configuration production --base-href="/Dedalus_Landing_Page/"
+~~~
+- El resultado se almacena en el directorio:<br>
+~~~
+dist/LandingPage/browser/
+~~~
+5. Configuración de soporte de rutas
+- Se copia el archivo `index.html` como `404.html` dentro de la carpeta `browser` para asegurar el correcto enrutamiento de Angular en GitHub Pages.
+6. Publicación automática
+- Se usa la acción `JamesIves/github-pages-deploy-action@v4` para publicar el contenido generado en la rama gh-pages.
+- La configuración de GitHub Pages en el repositorio está establecida para usar `gh-pages` como rama fuente.
 
-**Enlace de la Landing Page:**  
-🔗 [https://1acc0238-2510-346-g3-eazylogistics.github.io/LandingPage/](https://1acc0238-2510-346-g3-eazylogistics.github.io/LandingPage/)
+![github actions](./assets/gh-pages.png)
 
-Este enlace corresponde a la versión publicada de la Landing Page, accesible desde cualquier dispositivo con conexión a internet, permitiendo validar su funcionamiento y presentación visual.
+#### Resultado del despliegue 
+Una vez finalizado el flujo, GitHub Pages publica automáticamente la última versión compilada del sitio en la siguiente URL: <br>
+🔗 [Enlace de landing page deplegada]: https://kamaqlabs.github.io/Dedalus_Landing_Page/
 
-#### Configuración del Despliegue
+Este proceso elimina la necesidad de desplegar manualmente, garantizando que cada modificación aprobada en la rama `develop` se refleje directamente en la versión pública.
 
-<div style="text-align: center;">
-  <img src="../images/landing_page_repository.png" alt="Inicio de Repositorio" style="width:70%;"/>
-</div>
-
-<div style="text-align: center;">
-  <img src="../images/github_pages_configuration.png" alt="Configuracion de Deploy" style="width:70%;"/>
-</div>
-
-<div style="text-align: center;">
-  <img src="../images/Deploy Github.png" alt="Github Pages Configuration" style="width:70%;"/>
-</div>
-
-- Selección de rama (`main`).
-- Ubicación del contenido (`root`).
-- Confirmación del estado en la pestaña **Pages** del repositorio.
-- Mensajes de confirmación de despliegue exitoso.
-
-#### Resultado del Despliegue
-
-<div style="text-align: center;">
-  <img src="../images/Landing Face.png" alt="Evidencia del Deploy" style="width:70%;"/>
-</div>
-
-Este despliegue permitió contar con una presentación web funcional del producto desde las primeras etapas del desarrollo, facilitando su validación por parte de usuarios, stakeholders y evaluadores.
+![Landing page deployed](./assets/landing-page-deployed.png)
 
 
-## 6.2 Landing Page & Mobile Application Implementation
+## 6.2 Landing Page, Services & Applications Implementation
 En esta sección se detalla el proceso completo de implementación, pruebas, documentación y despliegue de la Landing Page, los Web Services y las Aplicaciones Móviles. Abarca desde la planificación inicial hasta la entrega final, asegurando que cada componente cumpla con los requisitos establecidos y funcione correctamente.
 
 ## 6.2.1 Sprint 1
@@ -282,23 +307,23 @@ En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page, asegur
 
 <br>**Hero Section**: La sección principal de la Landing Page, que incluye una barra de navegación, un título
 atractivo, una imagen llamativa y un botón de llamada a la acción.
-<br> ![Landing Page Access](../images/landing_page_access.png)
+<br> ![Landing Page Access](./assets/landing_page_access.png)
 <br>**About Section**: La sección que proporciona información sobre la aplicación y sus características principales.
 Incluye un título, una descripción y una imagen representativa. Además, tiene uan sección sobre el equipo de
 desarrollo.
-<br> ![Landing Page About Section](../images/landing_page_about_section.png)
-<br> ![Landing Page About Team Section](../images/landing_page_about_team_section.png)
+<br> ![Landing Page About Section](./assets/landing_page_about_section.png)
+<br> ![Landing Page About Team Section](./assets/landing_page_about_team_section.png)
 <br>**Subscriptions Section**: La sección que muestra los diferentes planes de suscripción disponibles para los
 usuarios. Incluye un título, una descripción y nuestros dos planes con precios y características.
-<br> ![Landing Page Subscriptions Section](../images/landing_page_subscriptions_section.png)
+<br> ![Landing Page Subscriptions Section](./assets/landing_page_subscriptions_section.png)
 <br>**Customers Section**: La sección que muestra los clientes actuales de la aplicación. Incluye un título y una
 descripción de nuestros dos segmentos objetivos.
-<br> ![Landing Page Customers Section](../images/landing_page_customers_section.png)
+<br> ![Landing Page Customers Section](./assets/landing_page_customers_section.png)
 <br>**Contact Section**: La sección que permite a los usuarios ponerse en contacto con el equipo de desarrollo.
 Incluye un formulario de contacto con campos para el nombre, correo electrónico y mensaje.
-<br> ![Landing Page Contact Section](../images/landing_page_contact_section.png)
+<br> ![Landing Page Contact Section](./assets/landing_page_contact_section.png)
 <br>**Footer Section**: La sección que incluye un aviso de derechos de autor.
-<br> ![Landing Page Footer Section](../images/landing_page_footer_section.png)
+<br> ![Landing Page Footer Section](./assets/landing_page_footer_section.png)
 
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review  
 Este sprint 1 tuvo como enfoque principal la implementación de la Landing Page, por lo que no se han desarrollado Web Services. La documentación de Endpoints con OpenAPI y los detalles relacionados con Web Services serán relevantes en sprints futuros cuando se aborde la implementación y documentación de estos servicios. 
@@ -307,7 +332,7 @@ Este sprint 1 tuvo como enfoque principal la implementación de la Landing Page,
 En este Sprint 1, el equipo ha desplegado la Landing Page utilizando github pages. A continuación, se presentan las evidencias de despliegue del Sprint 1, que incluyen capturas de pantalla y pasos detallados del proceso de despliegue.
 1. **Creación del Repositorio**: Se creó un repositorio en GitHub para alojar el código de la Landing Page. El repositorio se llama "LandingPage" y está disponible en la cuenta de GitHub del equipo.
 
-url del repositorio: https://github.com/1ACC0238-2510-346-G3-EazyLogistics/LandingPage
+url del repositorio: https://github.com/KamaqLabs/Dedalus_Landing_Page
 
 2. **Configuración de GitHub Pages**: Se habilitó la opción de GitHub Pages en la configuración del repositorio. Esto permite que el contenido del repositorio se publique como una página web estática.
 <br>
@@ -315,7 +340,7 @@ url del repositorio: https://github.com/1ACC0238-2510-346-G3-EazyLogistics/Landi
 <br>
 
 4. **Acceso a la Landing Page**: La Landing Page se puede acceder a través de la URL proporcionada por GitHub Pages. Esta URL es pública y permite que cualquier persona acceda a la página.
-<br> url de la landing page: https://1acc0238-2510-346-g3-eazylogistics.github.io/LandingPage/
+<br> url de la landing page: https://kamaqlabs.github.io/Dedalus_Landing_Page/
 5. **Evidencia del Despliegue**: Se realizó una captura de pantalla de la Landing Page desplegada para mostrar su apariencia y funcionalidad.
 
 
@@ -324,160 +349,17 @@ Para el desarrollo de este sprint, el equipo designó a un integrante para el de
 
 GitHub insights del landing page:
 
-![insights 4](../images/insights%204.png)
+![insights 4](./assets/insights%204.png)
 
 ## 6.3 Validation Interviews  
 ### 6.3.1 Diseño de Entrevistas  
 #### 6.3.1.1 Preguntas para Gestores de Empresas Hoteleras
 #### 6.3.1.2 Información Demográfica
-
-| **Categoría**                   | **Preguntas**                                                                                                                               |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Edad y género**               | - ¿Podrías indicarme tu edad y género?                                                                                                      |
-|                                 | - ¿Consideras que tu perfil demográfico influye en tu familiaridad o preferencias al usar plataformas de gestión?                            |
-| **Ubicación del hotel**         | - ¿En qué ciudad o región se encuentra tu hotel?                                                                                            |
-|                                 | - ¿Tu ubicación influye en la necesidad de interacción digital con los huéspedes?                                                           |
-| **Experiencia en el sector hotelero** | - ¿Cuántos años de experiencia tienes en la gestión hotelera?                                                                       |
-|                                 | - ¿Qué cambios o actualizaciones esperas en plataformas de gestión con base en tu experiencia?                                              |
-
 #### 6.3.1.3 Evaluación del Landing Page y Aplicaciones
-
-| **Categoría**                   | **Preguntas**                                                                                                                               |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Navegación y facilidad de uso** | - ¿Qué tan fácil encontraste navegar en el landing page y la aplicación de Logistic Master?                                                   |
-|                                 | - ¿Hubo alguna sección que te costara trabajo localizar o entender?                                                                        |
-| **Funcionalidades clave**       | - ¿Qué características te parecen útiles en la gestión hotelera?                                                                           |
-|                                 | - ¿Qué opinas de la funcionalidad de notificaciones push en la plataforma?                                                                  |
-| **Eficiencia en la gestión**    | - ¿Crees que la plataforma te facilita la gestión de tu hotel de manera eficiente?                                                         |
-|                                 | - ¿Hay alguna funcionalidad que agregarías o mejorarías para adaptarla mejor a tus necesidades?                                            |
-
 ### 6.3.2 Preguntas para Huéspedes
-
 #### 6.3.2.1 Información Demográfica
-
-| **Categoría**                   | **Preguntas**                                                                                                                               |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Edad y género**               | - ¿Podrías indicarme tu edad y género?                                                                                                      |
-|                                 | - ¿Te sientes cómodo usando plataformas digitales para hacer reservas y recibir notificaciones?                                             |
-| **Distrito de residencia**      | - ¿En qué distrito o ciudad resides actualmente?                                                                                            |
-|                                 | - ¿Prefieres reservar en lugares cercanos a tu residencia o explorar destinos nuevos?                                                       |
-| **Ocupación**                   | - ¿Cuál es tu ocupación actual?                                                                                                             |
-|                                 | - ¿Crees que tu ocupación influye en la frecuencia o tipo de reservas que realizas?                                                         |
-
 #### 6.3.2.2 Evaluación del Landing Page y Aplicaciones
-
-| **Categoría**                   | **Preguntas**                                                                                                                               |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Interacción inicial**         | - ¿Fue fácil encontrar la información en el landing page y entender de qué trata Logistic Master?                                              |
-|                                 | - ¿Tuviste problemas para registrarte o iniciar sesión en la aplicación?                                                                    |
-| **Preferencias y expectativas** | - ¿Qué funcionalidades de la plataforma te resultaron más útiles para hacer reservas?                                                      |
-|                                 | - ¿Te gustaría recibir más información personalizada o notificaciones sobre servicios disponibles en los hoteles?                          |
-| **Experiencia de reserva**      | - ¿El flujo de reserva te pareció intuitivo? ¿Hubo algún paso que te generara dudas o frustración?                                         |
-|                                 | - ¿Qué cambios sugerirías para mejorar la experiencia de reserva en la plataforma?                                                         |
-
 #### 6.3.2.3  Conclusión de la Entrevista
-
-| **Categoría**                   | **Pregunta**                                                                                                                                |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Pregunta Final**              | - ¿Hay algo más que consideres relevante compartir sobre tu experiencia interactuando con la plataforma y realizando reservas?             |
-
-
 ### 6.3.3 Registro de Entrevistas  
-
-#### Entrevista 1
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:**  Miguel Polo |
-| **Link del video:**  https://youtu.be/mzMYdfkO-wQ |
-| **Edad:**  31 años |
-| **Procedencia:**  Lima, San Isidro |
-| ![Entrevista](../images/Entrevista1.1.png)|
-| **Resumen:** Ramiro es un gestor de hotel en San Isidro, Lima, con cinco años de experiencia en la industria hotelera. El administra las reservas directamente en el sistema del hotel y le da mucha importancia a aspectos como el precio, la ubicación y las opiniones de los huéspedes. Aunque se siente cómodo gestionando reservas desde su smartphone, sugiere que las plataformas de reservas hoteleras deberían incluir más opciones de personalización, enviar recordatorios automáticos y ofrecer mayor claridad en las tarifas adicionales. Además, considera esencial recibir notificaciones y tener la opción de comunicarse directamente con los clientes a través de la plataforma. |
-
-#### Entrevista 2
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:**  Aaron  |
-| **Link del video:**  https://youtu.be/_SB_7uG-c-I|
-| **Edad:**  22 años |
-| **Procedencia:**  Lima, Villa Salvador |
-| ![Entrevista](../images/Entrevista2.2.png)|
-| **Resumen:** Roberto Franco  es un gestor de hotel en Lima con 4 años de experiencia en el sector. Maneja las reservas directamente en el sistema del hotel y considera esenciales factores como el precio, la ubicación y los comentarios de los huéspedes. Sugiere que las aplicaciones de reservas deberían ser más visuales, ofreciendo opciones de personalización, recordatorios automáticos y mayor claridad en los cargos adicionales. Para él, es crucial recibir notificaciones y tener la opción de comunicarse de forma directa con los clientes a través de la plataforma. |
-
-## Segmento de huespedes
-
-#### Entrevista 3
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:**  Jose Shuan https://youtu.be/PHPDHfchmEA  |
-| **Link del video:** |
-| **Edad:**  24 años |
-| **Procedencia:**  Lima, Callao |
-| ![Entrevista](../images/Entrevista3.3.png)|
-| **Resumen:** Jose Shuan, un estudiante universitario de 24 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente cómodo Logistic Master para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva. |
-
-#### Entrevista 4
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:**  Lopez Diaz Gael Dario |
-| **Link del video:**  https://youtu.be/tG7F4AsYnO8 |
-| **Edad:**  20 años |
-| **Procedencia:**  Lima, San Miguel |
-| ![Entrevista](../images/Entrevista4.4.png)|
-| **Resumen:** Gael, un estudiante universitario de 19 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos pero si no cuenta con mucho tiempo por la universidad prefiere cercanos  , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente Logistic Master cómodo usando  para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva . |
-
 ### 6.3.3 Evaluacion segun heuristicas.
-
-- Escala de Severidad
-
-| Escala | 1             | 2     | 3         | 4     | 5         |
-|--------|---------------|-------|-----------|-------|-----------|
-| Nivel  | No tan grave  | Leve  | Moderado  | Grave | Muy grave |
-
---------------------------------------------------------
-
-| #Orden | Problema                                                                                         | Escala de Severidad | Heurística / Principio violado(a) |
-|--------|--------------------------------------------------------------------------------------------------|---------------------|------------------------------------|
-| #1     | No se muestra retroalimentación visual clara al iniciar sesión (ej. “Cargando” o validación visible).           | 4                   | Eficiencia de retroalimentación                  |
-| #2     | La interfaz presenta botones sin etiquetas claras o íconos sin descripción visible. | 3                   | Eficiencia de reconocimiento visual             |
-| #3     | No hay opción inmediata para deshacer acciones como cancelación o cambio de ruta.       | 3                   | Eficiencia de control del usuario                  |
-| #4     | No se presenta resumen comprensible del motivo por el que se eligió una ruta sobre otra.           | 4                   | Eficiencia de interpretación de decisiones                  |
-| #5     | Ausencia de mensajes proactivos o alertas sobre condiciones climáticas o bloqueos | 5                 | Eficiencia de prevención de errores
-| #6     | 	No hay acceso claro o visual a un historial de rutas anteriores desde la interfaz inicial. | 3                  | 	Eficiencia de recuperación de información
-
-**Heurísticas y Recomendaciones:**
-
-- **Problema #1: Falta de retroalimentación al iniciar sesión**
-  - *Heurística:* Visibilidad del estado del sistema
-  - *Recomendación:* Agregar un spinner o mensaje tipo “Verificando credenciales…” durante el login. Esto evita que el usuario piense que la app está congelada o fallando.
-<br>
-
-- **Problema #2: Botones e íconos sin etiquetas claras**
-  - *Heurística:* Reconocimiento antes que recuerdo
-  - *Recomendación:* Añadir etiquetas debajo o junto a los íconos, especialmente en funciones críticas como recalcular ruta o ver reportes. También aplicar tooltips si es web.
-<br>
-
-- **Problema #3: No se puede deshacer acciones fácilmente**
-  - *Heurística:* Control y libertad del usuario
-  - *Recomendación:* Incorporar botones de "Deshacer" o "Confirmar antes de proceder" para evitar errores graves, especialmente en funciones de recalculo de ruta o cierre de sesión.
-<br>
-
-- **Problema #4: Ruta seleccionada sin justificación visible**
-  - *Heurística:* Diagnóstico de errores
-  - *Recomendación:* Mostrar siempre un resumen breve del porqué de la ruta seleccionada (Ejem: “ruta óptima por menor tiempo estimado y condiciones climáticas favorables”).
-<br>
-
-- **Problema #5: Falta de alertas proactivas visibles**
-  - *Heurística:* Prevención de errores
-  - *Recomendación:* Implementar un panel o ícono de alerta que indique eventos en tiempo real (cierres de puertos, tormentas, etc.) y permita actuar de inmediato.
-<br>
-
-- **Problema #6: Historial de rutas poco accesible**
-  - *Heurística:* Flexibilidad y eficiencia
-  - *Recomendación:* Añadir en el menú principal un acceso directo a “Historial de rutas” con filtrado por fecha, destino y embarcación.
- 
-- - -
-
 ## 6.4 Video About-the-Product
-
-https://drive.google.com/file/d/1nEC2087NMDjZOr1kUtbodWaVe4GtZ2F0/view?usp=sharing
