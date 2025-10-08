@@ -209,7 +209,7 @@ Para la optimización de búsqueda en motores web, se definen las siguientes eti
 ## 5.5 Applications Prototyping
 
 <a href="https://youtu.be/DpDvyiFZYfk" target="_blank">
-  <img src="../assets/Prototyping-Dedalus.png" alt="Haz clic para ver el video en YouTube">
+  <img src="/assets/Prototyping-Dedalus.png" alt="Haz clic para ver el video en YouTube">
 </a>
 
 Link de figma: https://www.figma.com/design/bbKcl86Op3sFtBF6jHzzG0/Dedalus-MuckUps?node-id=2001-1221&t=LA4A0IOFnLQJ93jI-1
