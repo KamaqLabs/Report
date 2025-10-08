@@ -272,7 +272,7 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 | Sum of Story Points                | 18                                                                                                                                                                                                                                                                                                                                 |
 
 ### 6.2.1.3 Sprint Backlog 1  
-En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tareas y actividades planificadas para el desarrollo de la Landing Page. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
+En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tareas y actividades planificadas para el desarrollo de la Landing Page y el avance de nuestro Web Application. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
 
 Screenshot del Sprint Backlog del Sprint 1 en Trello: https://trello.com/b/xzXIrtZu/Dedalus
 
@@ -324,6 +324,16 @@ Incluye un formulario de contacto con campos para el nombre, correo electrónico
 <br>**Footer Section**: La sección que incluye un aviso de derechos de autor.
 <br> ![Landing Page Footer Section](/assets/LandingPageMockup6.png)
 
+
+Y respecto a la Web Application aqui se puede evidenciar parte del avance que hemos realizado para esta entrega:
+
+![Web Application Evidence](/assets/Mockup1.png)
+![Web Application Evidence](/assets/Mockup2.png)
+![Web Application Evidence](/assets/Mockup3.png)
+![Web Application Evidence](/assets/Mockup4.png)
+![Web Application Evidence](/assets/Mockup5.png)
+
+
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review  
 Este sprint 1 tuvo como enfoque principal la implementación de la Landing Page, por lo que no se han desarrollado Web Services. La documentación de Endpoints con OpenAPI y los detalles relacionados con Web Services serán relevantes en sprints futuros cuando se aborde la implementación y documentación de estos servicios. 
 
@@ -346,9 +356,9 @@ url del repositorio: https://github.com/KamaqLabs/Dedalus_Landing_Page
 ### 6.2.1.9 Team Collaboration Insights during Sprint  
 Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
 
-GitHub insights del landing page:
+GitHub insights del landing page y web application:
 
-![insights 4](./assets/insights%204.png)
-
+![insights ](/assets/TeamCollaboration%20Landing.png)
+![insights ](/assets/TeamCollaboration%20WebApp.png)
 
 ## 6.4 Video About-the-Product
