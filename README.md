@@ -28,7 +28,7 @@ width=50%"/>
 |    Carpio Cornejo, Miguel Ángel Jesús    | u20221c360 |
 |Braithuaite Toledo, Gabriel Anthony       | u20201e889 |
 
-<h5 style="text-align: center"> Ciclo 2025-02 </h5>
+<h5 style="text-align: center"> Ciclo 2025-20 </h5>
 
 # Registro de Versiones del Informe
 
