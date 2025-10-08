@@ -170,29 +170,17 @@ Para la optimización de búsqueda en motores web, se definen las siguientes eti
 
 ### 5.4.2 Applications Wireflow Diagrams
 
-- **User Goal 1: Iniciar sesión**
-<br>
-<img src="../assets/UserGoal1.png">
+- **User Goal 1: Iniciar sesión y/o Registro de cuenta**
 
-- **User Goal 2: Asignar una tarea a un empleado**
-<br>
-<img src="../assets/UserGoal2.png">
+<img src="/assets/Wireflow1.png">
 
-- **User Goal 3: Añadir una reserva**
-<br>
-<img src="../assets/UserGoal4.png">
+- **User Goal 2: El administrador crea su hotel en la aplicacion**
 
-- **User Goal 4: Modificar una reserva existente**
-<br>
-<img src="../assets/UserGoal5.png">
+<img src="/assets/Wireflow2.png">
 
-- **User Goal 5: Cancelar una reserva**
-<br>
-<img src="../assets/UserGoal6.png">
+- **User Goal 3: El administrador una vez creado su hotel puede crear todos las habitaciones disponibles**
 
-- **User Goal 6: Generar reportes de estadísticas personalizadas**
-<br>
-<img src="../assets/UserGoal7.png">
+<img src="/assets/Wireflow3.png">
 
 #### 5.4.2.1 Applications Mock-ups
 
@@ -205,12 +193,17 @@ Para la optimización de búsqueda en motores web, se definen las siguientes eti
 
 ### 5.4.3 Applications User Flow Diagrams
 
-<img src="../assets/UserFlow1-Dedalus.png">
-<img src="../assets/UserFlow2-Dedalus.png">
-<img src="../assets/UserFlow3-Dedalus.png">
-<img src="../assets/UserFlow4-Dedalus.png">
-<img src="../assets/UserFlow5-Dedalus.png">
-<img src="../assets/UserFlow6-Dedalus.png">
+- **User Goal 1: Iniciar sesión y/o Registro de cuenta**
+
+<img src="/assets/User flow 1.png">
+
+- **User Goal 2: Como administrador quiero crear y registrar mi hotel en la aplicacion**
+
+<img src="/assets/User flow 2.png">
+
+- **User Goal 3: Como administrador una vez creado mi hotel quiero crear todos las habitaciones disponibles con las caracteristicas de cada una**
+
+<img src="/assets/Userflow3.png">
 
 
 ## 5.5 Applications Prototyping
