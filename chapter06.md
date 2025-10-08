@@ -239,19 +239,18 @@ En esta sección se registra y explica el avance en términos de producto y trab
 En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 1, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
 
 
-
 ### 6.2.1.2 Aspect Leaders and Collaborators
 En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 1, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
 
 
 ### 6.2.1.3 Sprint Backlog 1  
-En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tareas y actividades planificadas para el desarrollo de la Landing Page. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
+En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tareas y actividades planificadas para el desarrollo de la Landing Page y el avance de nuestro Web Application. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
 
 Screenshot del Sprint Backlog del Sprint 1 en Trello: 
 
 
 ### 6.2.1.4 Development Evidence for Sprint Review  
-En esta sección se explican y presentan los avances en la implementación de los productos de la solución según el alcance del Sprint 1. Durante este sprint, el equipo se ha enfocado en la creación y despliegue de la Landing Page
+En esta sección se explican y presentan los avances en la implementación de los productos de la solución según el alcance del Sprint 1. Durante este sprint, el equipo se ha enfocado en la creación y despliegue de la Landing Page, asi como el avance de nuestra Web Application.
 
 | Repository             | Branch | Commit Id | Commit Message       | Commit Message Body                                                     | Commited on (Date) |
 |------------------------|--------|-----------|----------------------|-------------------------------------------------------------------------|--------------------|
@@ -262,27 +261,34 @@ Para este sprint, no se han realizado pruebas automatizadas, ya que el equipo ha
 Se podrían implementar pruebas automatizadas utilizando herramientas como Selenium en futuros sprints, pero por el momento, el equipo ha optado por realizar pruebas manuales para asegurar la calidad del producto.
 
 ### 6.2.1.6 Execution Evidence for Sprint Review  
-En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
+En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page, asi como una version de nuestra Web Application, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
 
 <br>**Hero Section**: La sección principal de la Landing Page, que incluye una barra de navegación, un título
 atractivo, una imagen llamativa y un botón de llamada a la acción.
-<br> ![Landing Page Access](./assets/landing_page_access.png)
+<br> ![Landing Page Access](/assets/LandingPageMockup1.png)
 <br>**About Section**: La sección que proporciona información sobre la aplicación y sus características principales.
 Incluye un título, una descripción y una imagen representativa. Además, tiene uan sección sobre el equipo de
 desarrollo.
-<br> ![Landing Page About Section](./assets/landing_page_about_section.png)
-<br> ![Landing Page About Team Section](./assets/landing_page_about_team_section.png)
+<br> ![Landing Page About Section](/assets/LandingPageMockup2.png)
+<br> ![Landing Page About Team Section](/assets/LandingPageMockup3.png)
 <br>**Subscriptions Section**: La sección que muestra los diferentes planes de suscripción disponibles para los
 usuarios. Incluye un título, una descripción y nuestros dos planes con precios y características.
-<br> ![Landing Page Subscriptions Section](./assets/landing_page_subscriptions_section.png)
-<br>**Customers Section**: La sección que muestra los clientes actuales de la aplicación. Incluye un título y una
-descripción de nuestros dos segmentos objetivos.
-<br> ![Landing Page Customers Section](./assets/landing_page_customers_section.png)
+<br> ![Landing Page Subscriptions Section](/assets/LandingPageMockup4.png)
 <br>**Contact Section**: La sección que permite a los usuarios ponerse en contacto con el equipo de desarrollo.
 Incluye un formulario de contacto con campos para el nombre, correo electrónico y mensaje.
-<br> ![Landing Page Contact Section](./assets/landing_page_contact_section.png)
+<br> ![Landing Page Contact Section](/assets/LandingPageMockup5.png)
 <br>**Footer Section**: La sección que incluye un aviso de derechos de autor.
-<br> ![Landing Page Footer Section](./assets/landing_page_footer_section.png)
+<br> ![Landing Page Footer Section](/assets/LandingPageMockup6.png)
+
+
+Y respecto a la Web Application aqui se puede evidenciar parte del avance que hemos realizado para esta entrega:
+
+![Web Application Evidence](/assets/Mockup1.png)
+![Web Application Evidence](/assets/Mockup2.png)
+![Web Application Evidence](/assets/Mockup3.png)
+![Web Application Evidence](/assets/Mockup4.png)
+![Web Application Evidence](/assets/Mockup5.png)
+
 
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review  
 Este sprint 1 tuvo como enfoque principal la implementación de la Landing Page, por lo que no se han desarrollado Web Services. La documentación de Endpoints con OpenAPI y los detalles relacionados con Web Services serán relevantes en sprints futuros cuando se aborde la implementación y documentación de estos servicios. 
@@ -306,19 +312,9 @@ url del repositorio: https://github.com/KamaqLabs/Dedalus_Landing_Page
 ### 6.2.1.9 Team Collaboration Insights during Sprint  
 Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
 
-GitHub insights del landing page:
+GitHub insights del landing page y web application:
 
-![insights 4](./assets/insights%204.png)
+![insights ](/assets/TeamCollaboration%20Landing.png)
+![insights ](/assets/TeamCollaboration%20WebApp.png)
 
-## 6.3 Validation Interviews  
-### 6.3.1 Diseño de Entrevistas  
-#### 6.3.1.1 Preguntas para Gestores de Empresas Hoteleras
-#### 6.3.1.2 Información Demográfica
-#### 6.3.1.3 Evaluación del Landing Page y Aplicaciones
-### 6.3.2 Preguntas para Huéspedes
-#### 6.3.2.1 Información Demográfica
-#### 6.3.2.2 Evaluación del Landing Page y Aplicaciones
-#### 6.3.2.3  Conclusión de la Entrevista
-### 6.3.3 Registro de Entrevistas  
-### 6.3.3 Evaluacion segun heuristicas.
 ## 6.4 Video About-the-Product
