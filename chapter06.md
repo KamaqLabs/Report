@@ -238,6 +238,21 @@ En esta sección se registra y explica el avance en términos de producto y trab
 ### 6.2.1.1 Sprint Planning 1  
 En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 1, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
 
+| **Sprint #**                       | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Date                               | 2025-09-23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Time                               | 16:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Location                           | Google Meet Reunion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Prepared by                        | Valentino Cervantes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Attendees (to planning meeting)    | Valentino Cervantes, Miguel Carpio, Mathias Vasquez, Gabriel Braithuaite, Sihuar Ccotarma                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint n - 1 Review  Summary       | No aplica para este Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint n - 1 Retrospective Summary | No aplica para este Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint 1 Goal                      | Our focus is on delivering the initial web presence and management interface for the Dedalus Platform, including a responsive landing page and a functional web module for administrators to manage rooms, reservations, and IoT device data. <br> We believe it delivers visibility, credibility, and early digital interaction for potential hotel clients, while providing administrators with the first version of the digital control panel for operational management. <br> This will be confirmed when the landing page is publicly accessible and administrators can successfully log in, create rooms, and visualize basic IoT sensor data from the web application. |
+| Sprint 1 Velocity                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sum of Story Points                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
 
 ### 6.2.1.2 Aspect Leaders and Collaborators
 En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 1, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
@@ -246,22 +261,46 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 ### 6.2.1.3 Sprint Backlog 1  
 En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tareas y actividades planificadas para el desarrollo de la Landing Page y el avance de nuestro Web Application. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
 
+| **Sprint #** | Sprint 1                     |                |                                          |                                                                                                                 |                       |              |        |
+|--------------|------------------------------|----------------|------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------|--------------|--------|
+| User Story   |                              | Work Item/Task |                                          |                                                                                                                 |                       |              |        |
+| Id           | Title                        | Id             | Title                                    | Description                                                                                                     | Estimation<br>(Hours) | Assined To   | Status |
+| US021        | Página inicial               | WI01           | Diseñar la estructura de la Landing Page | Crear un esquema básico de la Landing Page, incluyendo secciones principales y descripción inicial del sistema. | 1                     | Valentino    | Done   |
+| US022        | Sección Proyecto             | WI02           | Diseñar la sección “¿Qué es Dedalus?”    | Incluir una descripción de las características principales del sistema.                                         | 1                     | Mathias      | Done   |
+| US025        | Llamada a la acción (CTA)    | WI03           | Implementar botón de "Probar ahora"      | Crear un botón que permita a los usuarios ir hacia la aplicación web.                                           | 1                     | Gabriel      | Done   |
+| US026        | Sección “About the Product”  | WI04           | Diseñar la sección "About the product"   | Incluir una descripción resumida del producto y sus beneficios.                                                 | 1                     | Sihuar       | Done   |
+| US027        | Sección “About the Team”     | WI05           | Diseñar la sección "About the team"      | Incluir una breve descripción de que es Dedalus.                                                                | 1                     | Miguel       | Done   |
+| US024        | Sección de planes            | WI06           | Diseñar la sección "Planes de Pago"      | Incluir dos planes de suscripción con precios y características.                                                | 1                     | Miguel       | Done   |
+| US028        | Sección “Miembros del grupo” | WI07           | Diseñar la sección "Miembros del grupo"  | Incluir fotos y nombres de los miembros del equipo de desarrollo.                                               | 1                     | Valentino    | Done   |
+| US023        | Sección de contacto          | WI08           | Diseñar la sección "Contacto"            | Incluir un formulario de contacto con campos para nombre, correo electrónico, teléfono y mensaje.               | 1                     | Mathias      | Done   |
+| US029        | Footer                       | WI09           | Diseñar el footer                        | Incluir un aviso de derechos de autor.                                                                          | 1                     | Gabriel      | Done   |
+
 Screenshot del Sprint Backlog del Sprint 1 en Trello: 
 
+![Sprint Backlog 1](./assets/sprint-backlog-1.png)
+
+Enlace al Sprint Backlog del Sprint 1 en Trello: https://trello.com/c/ecIEDWCF
 
 ### 6.2.1.4 Development Evidence for Sprint Review  
 En esta sección se explican y presentan los avances en la implementación de los productos de la solución según el alcance del Sprint 1. Durante este sprint, el equipo se ha enfocado en la creación y despliegue de la Landing Page, asi como el avance de nuestra Web Application.
 
-| Repository             | Branch | Commit Id | Commit Message       | Commit Message Body                                                     | Commited on (Date) |
-|------------------------|--------|-----------|----------------------|-------------------------------------------------------------------------|--------------------|
+| Repository                          | Branch  | Commit Id | Commit Message                                                                      | Commit Message Body                                                                                                                                                            | Commited on (Date) |
+|-------------------------------------|---------|-----------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| Anx0123/Dedalus_Landing_Page        | main    | 6a185d8   | Initial commit                                                                      | Initial commit with basic project structure and dependencies.                                                                                                                  | 2025-09-03         |
+| KiwiAmenazante/Dedalus_Landing_Page | main    | e9fc982   | Move HTML and CSS files to new locations                                            | Renamed index.html and main.css to new paths and updated the stylesheet link in index.html to reflect the new location. This helps organize assets under the public directory. | 2025-09-2022       | 
+| LordSack/Dedalus_Landing_Page       | develop | 1ef8598   | feat: change to angular project                                                     | feat: change to angular project                                                                                                                                                | 2025-09-24         |
+| Gabooo04/Dedalus_Landing_Page       | develop | f994716   | feat: update GitHub Actions workflow for deploying Angular app to GitHub Pages      | feat: update GitHub Actions workflow for deploying Angular app to GitHub Pages                                                                                                 | 2025-10-06         |
+| KiwiAmenazante/Dedalus-FrontEndApp  | main    | 3e7366    | feat: add dashboard route and session storage service for improved state management | feat: add dashboard route and session storage service for improved state management                                                                                            | 2025-10-05         |
+| Dedalus-FrontEndApp                 | main    | 4f6dd38   | feat: updating session storage                                                      | feat: updating session storage                                                                                                                                                 | 2025-10-06         |
 
-Enlace al repositorio: 
+Enlace al repositorio: https://github.com/KamaqLabs/Dedalus_Landing_Page
+
 ### 6.2.1.5 Testing Suite Evidence for Sprint Review  
-Para este sprint, no se han realizado pruebas automatizadas, ya que el equipo ha decidido enfocarse en la implementación de la Landing Page y no se han desarrollado pruebas unitarias o de integración. Sin embargo, se han realizado pruebas manuales para asegurar que la Landing Page funcione correctamente y cumpla con los requisitos establecidos.
+Para este sprint, no se han realizado pruebas automatizadas. Sin embargo, se han realizado pruebas manuales para asegurar que la Landing Page y la web application funcionen correctamente y cumplan con los requisitos establecidos.
 Se podrían implementar pruebas automatizadas utilizando herramientas como Selenium en futuros sprints, pero por el momento, el equipo ha optado por realizar pruebas manuales para asegurar la calidad del producto.
 
 ### 6.2.1.6 Execution Evidence for Sprint Review  
-En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page, asi como una version de nuestra Web Application, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
+En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page y la primera version de nuestra Web Application, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
 
 <br>**Hero Section**: La sección principal de la Landing Page, que incluye una barra de navegación, un título
 atractivo, una imagen llamativa y un botón de llamada a la acción.
@@ -291,28 +330,39 @@ Y respecto a la Web Application aqui se puede evidenciar parte del avance que he
 
 
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review  
-Este sprint 1 tuvo como enfoque principal la implementación de la Landing Page, por lo que no se han desarrollado Web Services. La documentación de Endpoints con OpenAPI y los detalles relacionados con Web Services serán relevantes en sprints futuros cuando se aborde la implementación y documentación de estos servicios. 
+Este sprint 1 tuvo como enfoque principal la implementación de la Landing Page y la Web Application, por lo que no se han desarrollado Web Services. La documentación de Endpoints con OpenAPI y los detalles relacionados con Web Services serán relevantes en sprints futuros cuando se aborde la implementación y documentación de estos servicios. 
 
 ### 6.2.1.8 Software Deployment Evidence for Sprint Review  
-En este Sprint 1, el equipo ha desplegado la Landing Page utilizando github pages. A continuación, se presentan las evidencias de despliegue del Sprint 1, que incluyen capturas de pantalla y pasos detallados del proceso de despliegue.
-1. **Creación del Repositorio**: Se creó un repositorio en GitHub para alojar el código de la Landing Page. El repositorio se llama "LandingPage" y está disponible en la cuenta de GitHub del equipo.
-
-url del repositorio: https://github.com/KamaqLabs/Dedalus_Landing_Page
-
-2. **Configuración de GitHub Pages**: Se habilitó la opción de GitHub Pages en la configuración del repositorio. Esto permite que el contenido del repositorio se publique como una página web estática.
-<br>
-3. **Despliegue de la Landing Page**: Se subió el código HTML, CSS y JavaScript de la Landing Page al repositorio. GitHub Pages generó automáticamente una URL para acceder a la página.
-<br>
-
-4. **Acceso a la Landing Page**: La Landing Page se puede acceder a través de la URL proporcionada por GitHub Pages. Esta URL es pública y permite que cualquier persona acceda a la página.
-<br> url de la landing page: https://kamaqlabs.github.io/Dedalus_Landing_Page/
-5. **Evidencia del Despliegue**: Se realizó una captura de pantalla de la Landing Page desplegada para mostrar su apariencia y funcionalidad.
-
-
+#### Software Deployment Evidence – Landing Page
+Durante este Sprint se realizó el despliegue de la Landing Page oficial de la plataforma Dedalus, la cual tiene como propósito presentar la solución al público objetivo (hoteles, resorts y hospedajes boutique) y proporcionar una primera interacción digital con la marca.
+El despliegue se efectuó utilizando GitHub Pages como servicio de hosting estático y GitHub Actions como herramienta de automatización continua (CI/CD).
+Este proceso permitió garantizar que cada actualización en el repositorio principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
+#### Pasos del proceso de Deployment
+1. **Creación y configuración del repositorio** 
+   - Se creó el repositorio público Dedalus_Landing_Page en GitHub para centralizar el código fuente de la landing.
+   - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
+   - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
+   - Estructura del repositorio: ![Repo Structure](/assets/repo-structure.png)
+2. **Configuración de GitHub Pages**
+   - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
+   - Se habilitó el dominio del proyecto, generando la URL pública: https://kamaqlabs.github.io/Dedalus_Landing_Page/
+   - La visibilidad se configuró como pública para permitir el acceso de los stakeholders y usuarios de prueba.
+3. **Automatización mediante GitHub Actions (CI/CD)**
+   - Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función:
+     - Compilar automáticamente la landing page al hacer push en la rama develop.
+     - Generar la carpeta dist/ optimizada para producción.
+     - Publicar el contenido en la rama gh-pages de manera automática.
+     - Script configurado: ![Deploy Script](/assets/deploy-script.png)
+4. **Verificación del despliegue**
+   - Se validó el acceso público a la landing desde el navegador.
+   - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
+   - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
+   - Landing Page desplegada: ![Landing Page Deployed](/assets/landing-page-deployed.png)
+    
 ### 6.2.1.9 Team Collaboration Insights during Sprint  
 Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
 
-GitHub insights del landing page y web application:
+GitHub insights del landing page y Web Application:
 
 ![insights ](/assets/TeamCollaboration%20Landing.png)
 ![insights ](/assets/TeamCollaboration%20WebApp.png)
