@@ -250,7 +250,7 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 | Sprint n – 1 Retrospective Summary | No aplica para Sprint 1                                                                                                                                                                                                                                                                                                            |
 | **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                    | 
 | Sprint 1 Goal                      | **Our focus is** on developing and implementing a functional and attractive Landing Page. <br> **We believe it delivers** a positive first impression and attracts potential users to explore more about our product. <br> **This will be confirmed when** the Landing Page is deployed and receives positive feedback from users. |
-| Sprint 1 Velocity                  | Para este sprint 1, el equipo de EazyLogistics puede aceptar 18 Story Points, los cuales son abarcados en las User Stories de la primera EPIC.                                                                                                                                                                                     |
+| Sprint 1 Velocity                  | Para este sprint 1, el equipo de Dedalus puede aceptar 18 Story Points, los cuales son abarcados en las User Stories de la primera EPIC.                                                                                                                                                                                     | 
 | Sum of Story Points                | 18                                                                                                                                                                                                                                                                                                                                 |
 
 ### 6.2.1.2 Aspect Leaders and Collaborators
@@ -268,13 +268,13 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 | Sprint n – 1 Retrospective Summary | No aplica para Sprint 1                                                                                                                                                                                                                                                                                                            |
 | **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                    | 
 | Sprint 1 Goal                      | **Our focus is** on developing and implementing a functional and attractive Landing Page. <br> **We believe it delivers** a positive first impression and attracts potential users to explore more about our product. <br> **This will be confirmed when** the Landing Page is deployed and receives positive feedback from users. |
-| Sprint 1 Velocity                  | Para este sprint 1, el equipo de EazyLogistics puede aceptar 18 Story Points, los cuales son abarcados en las User Stories de la primera EPIC.                                                                                                                                                                                     |
+| Sprint 1 Velocity                  | Para este sprint 1, el equipo de Dedalus puede aceptar 18 Story Points, los cuales son abarcados en las User Stories de la primera EPIC.                                                                                                                                                                                     |
 | Sum of Story Points                | 18                                                                                                                                                                                                                                                                                                                                 |
 
 ### 6.2.1.3 Sprint Backlog 1  
 En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tareas y actividades planificadas para el desarrollo de la Landing Page. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
 
-Screenshot del Sprint Backlog del Sprint 1 en Trello: https://trello.com/b/xzXIrtZu/eazylogistics
+Screenshot del Sprint Backlog del Sprint 1 en Trello: https://trello.com/b/xzXIrtZu/Dedalus
 
 | **Sprint #** | Sprint 1                                     |                |                                                                               |                                                                                                                                                                                                    |                       |              |        |
 |--------------|----------------------------------------------|----------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------|--------|
@@ -290,40 +290,39 @@ Screenshot del Sprint Backlog del Sprint 1 en Trello: https://trello.com/b/xzXIr
 | US008        | 	Conexión de Easylogistics con la Aplicación | WI008          | Implementación de la sección de Conexión de Easylogistics con LogisticsMaster | Desarrollar y configurar una sección en la página que explique cómo Easylogistics está conectado con la aplicación, proporcionando a los visitantes una comprensión clara de su propósito y origen | 1 hora                | Fabian Reyes | Done   |
 
 ### 6.2.1.4 Development Evidence for Sprint Review  
-En esta sección se explican y presentan los avances en la implementación de los productos de la solución según el alcance del Sprint 1. Durante este sprint, el equipo se ha enfocado en la creación y despliegue de la Landing Page
+En esta sección se explican y presentan los avances en la implementación de los productos de la solución según el alcance del Sprint 1. Durante este sprint, el equipo se ha enfocado en la creación y despliegue de la Landing Page, asi como el avance de nuestra Web Application.
 
 | Repository             | Branch | Commit Id | Commit Message       | Commit Message Body                                                     | Commited on (Date) |
 |------------------------|--------|-----------|----------------------|-------------------------------------------------------------------------|--------------------|
-| FabianTG25/LandingPage | main   | 2511ded   | Add files via upload | Se implementó la Landing Page con todas las funcionalidades requeridas. | 2025/05/14         |
+| KiwiAmenazante/LandingPage | main   | e9fc982 | Move HTML and CSS files to new locations | Se implementó la Landing Page con todas las funcionalidades requeridas. | 10/01/2025        |
+| KiwiAmenazante/FrontEndApp | main   | 4f6dd38  | feat: updating session storage | Se implementó la web app en una primera version | 10/08/2025          |
 
-Enlace al repositorio: https://github.com/1ACC0238-2510-346-G3-EazyLogistics/LandingPage
+Enlace al repositorio Landing Page: https://github.com/KamaqLabs/Dedalus_Landing_Page
+Enlace al repositorio de Web Application: https://github.com/KamaqLabs/Dedalus-FrontEndApp
 
 ### 6.2.1.5 Testing Suite Evidence for Sprint Review  
 Para este sprint, no se han realizado pruebas automatizadas, ya que el equipo ha decidido enfocarse en la implementación de la Landing Page y no se han desarrollado pruebas unitarias o de integración. Sin embargo, se han realizado pruebas manuales para asegurar que la Landing Page funcione correctamente y cumpla con los requisitos establecidos.
 Se podrían implementar pruebas automatizadas utilizando herramientas como Selenium en futuros sprints, pero por el momento, el equipo ha optado por realizar pruebas manuales para asegurar la calidad del producto.
 
 ### 6.2.1.6 Execution Evidence for Sprint Review  
-En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
+En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page, asi como una version de nuestra Web Application, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
 
 <br>**Hero Section**: La sección principal de la Landing Page, que incluye una barra de navegación, un título
 atractivo, una imagen llamativa y un botón de llamada a la acción.
-<br> ![Landing Page Access](./assets/landing_page_access.png)
+<br> ![Landing Page Access](/assets/LandingPageMockup1.png)
 <br>**About Section**: La sección que proporciona información sobre la aplicación y sus características principales.
 Incluye un título, una descripción y una imagen representativa. Además, tiene uan sección sobre el equipo de
 desarrollo.
-<br> ![Landing Page About Section](./assets/landing_page_about_section.png)
-<br> ![Landing Page About Team Section](./assets/landing_page_about_team_section.png)
+<br> ![Landing Page About Section](/assets/LandingPageMockup2.png)
+<br> ![Landing Page About Team Section](/assets/LandingPageMockup3.png)
 <br>**Subscriptions Section**: La sección que muestra los diferentes planes de suscripción disponibles para los
 usuarios. Incluye un título, una descripción y nuestros dos planes con precios y características.
-<br> ![Landing Page Subscriptions Section](./assets/landing_page_subscriptions_section.png)
-<br>**Customers Section**: La sección que muestra los clientes actuales de la aplicación. Incluye un título y una
-descripción de nuestros dos segmentos objetivos.
-<br> ![Landing Page Customers Section](./assets/landing_page_customers_section.png)
+<br> ![Landing Page Subscriptions Section](/assets/LandingPageMockup4.png)
 <br>**Contact Section**: La sección que permite a los usuarios ponerse en contacto con el equipo de desarrollo.
 Incluye un formulario de contacto con campos para el nombre, correo electrónico y mensaje.
-<br> ![Landing Page Contact Section](./assets/landing_page_contact_section.png)
+<br> ![Landing Page Contact Section](/assets/LandingPageMockup5.png)
 <br>**Footer Section**: La sección que incluye un aviso de derechos de autor.
-<br> ![Landing Page Footer Section](./assets/landing_page_footer_section.png)
+<br> ![Landing Page Footer Section](/assets/LandingPageMockup6.png)
 
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review  
 Este sprint 1 tuvo como enfoque principal la implementación de la Landing Page, por lo que no se han desarrollado Web Services. La documentación de Endpoints con OpenAPI y los detalles relacionados con Web Services serán relevantes en sprints futuros cuando se aborde la implementación y documentación de estos servicios. 
@@ -351,15 +350,5 @@ GitHub insights del landing page:
 
 ![insights 4](./assets/insights%204.png)
 
-## 6.3 Validation Interviews  
-### 6.3.1 Diseño de Entrevistas  
-#### 6.3.1.1 Preguntas para Gestores de Empresas Hoteleras
-#### 6.3.1.2 Información Demográfica
-#### 6.3.1.3 Evaluación del Landing Page y Aplicaciones
-### 6.3.2 Preguntas para Huéspedes
-#### 6.3.2.1 Información Demográfica
-#### 6.3.2.2 Evaluación del Landing Page y Aplicaciones
-#### 6.3.2.3  Conclusión de la Entrevista
-### 6.3.3 Registro de Entrevistas  
-### 6.3.3 Evaluacion segun heuristicas.
+
 ## 6.4 Video About-the-Product
