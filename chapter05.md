@@ -24,7 +24,7 @@ Se usa **Roboto Regular** para textos, **Roboto Medium** para subtítulos y **Ro
 La paleta de colores se centra en tonos **azules y grises tecnológicos**, que evocan profesionalismo, innovación y confianza, combinados con acentos cálidos en dorado o verde azulado que transmiten confort y hospitalidad.  
 Los tonos claros se reservan para fondos o áreas de lectura, mientras que los tonos oscuros se aplican en paneles, encabezados y dashboards, favoreciendo el contraste visual y la legibilidad.
 
-<img src="/assets/Colors Dedalus.png">
+<img src="/assets/Colors Dedalus.png"> 
 
 ---
 
@@ -142,22 +142,31 @@ Para la optimización de búsqueda en motores web, se definen las siguientes eti
 ## 5.3 Landing Page UI Design 
 ### 5.3.1 Landing Page Wireframe
 
-<img src="../assets/Wireframe Landing 1.png">
-<img src="../assets/Wireframe Landing 2.png">
-<img src="../assets/Wireframe Landing 3.png">
+<img src="/assets/Landing Wireframe1.png">
+<img src="/assets/Landing Wireframe2.png">
+<img src="/assets/Landing Wireframe3.png">
+<img src="/assets/Landing Wireframe4.png">
+<img src="/assets/Landing Wireframe5.png">
+<img src="/assets/Landing Wireframe6.png">
 
 ### 5.3.2 Landing Page Mock-up
 
-<img src="../assets/Wireframe Landing 1.png">
-<img src="../assets/Wireframe Landing 2.png">
-<img src="../assets/Wireframe Landing 3.png">
+<img src="/assets/LandingPageMockup1.png">
+<img src="/assets/LandingPageMockup2.png">
+<img src="/assets/LandingPageMockup3.png">
+<img src="/assets/LandingPageMockup4.png">
+<img src="/assets/LandingPageMockup5.png">
+<img src="/assets/LandingPageMockup6.png">
 
 ## 5.4 Applications UX/UI Design
 
 ### 5.4.1 Applications Wireframes
 
-<img src="/assets/Wireframe1.png">
-
+<img src="/assets/Mockup1-photoaidcom-greyscale.png">
+<img src="/assets/Mockup2-photoaidcom-greyscale.png">
+<img src="/assets/Mockup3-photoaidcom-greyscale.png">
+<img src="/assets/Mockup4-photoaidcom-greyscale.png">
+<img src="/assets/Mockup5-photoaidcom-greyscale.png">
 
 ### 5.4.2 Applications Wireflow Diagrams
 
