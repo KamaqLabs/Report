@@ -30,6 +30,8 @@ width=50%"/>
 
 <h5 style="text-align: center"> Ciclo 2025-20 </h5>
 
+<div style="page-break-after: always;"></div>
+
 # Registro de Versiones del Informe
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva y se incluye un cuadro con la siguiente estructura:
@@ -78,11 +80,14 @@ Los integrantes son:
         - [1.1.2. Perfiles de Integrantes del equipo](/docs/Chapter-01.md#112-perfiles-de-integrantes-del-equipo)
     - [1.2. Solution Profile](/docs/Chapter-01.md#12-solution-profile)
         - [1.2.1. Antecedentes y Problemática](/docs/Chapter-01.md#121-antecedentes-y-problemática)
-        - [1.2.2. Lean UX Process](/docs/Chapter-01.md#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](/docs/Chapter-01.md#1221-lean-ux-problem-statements)
+         - [1.2.2. Lean UX Process](/docs/Chapter-01.md#122-lean-ux-process)
+            - [1.2.2.1. Problem Statement](/docs/Chapter-01.md#1221-problem-statement)
             - [1.2.2.2. Lean UX Assumptions](/docs/Chapter-01.md#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hyphotesis Statements](/docs/Chapter-01.md#1223-lean-ux-hyphotesis-statements)
-            - [1.2.2.4. Lean UX Canvas](/docs/Chapter-01.md#1224-lean-ux-canvas)
+            - [1.2.2.3. User Outcomes](/docs/Chapter-01.md#1223-user-outcomes)
+            - [1.2.2.4. Business Outcomes](/docs/Chapter-01.md#1224-business-outcomes)
+            - [1.2.2.5. Feature Outcomes](/docs/Chapter-01.md#1225-feature-outcomes)
+            - [1.2.2.6. Lean UX Hypothesis Statements](/docs/Chapter-01.md#1226-lean-ux-hypothesis-statements)
+            - [1.2.2.7. Lean UX Canvas](/docs/Chapter-01.md#1227-lean-ux-canvas)
     - [1.3. Segmentos objetivo](/docs/Chapter-01.md#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
@@ -445,7 +450,7 @@ Propuesta de Valor
 
 
 
-#### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.7. Lean UX Canvas
 
 - Mediante la realizacion Lean UX Canvas podemos mostrar toda informacion anterior pero de una manera resumida, didactica y mas accesible al lector. Tambien se resume la problematica que estamos abordando y la solucion que proponemos, junto con los supuestos de las hipotesis y los puntos mas importantes de las mismas.
 
