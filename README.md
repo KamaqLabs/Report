@@ -1100,34 +1100,37 @@ Las User Stories son una herramienta fundamental para definir los requisitos del
 
 ## 3.3 Product Backlog
 
-| **Orden** | **User Story** | **Título**                                | **Descripción** | **Story Points** |
-|-----------|----------------|-------------------------------------------|-----------------|------------------|
-| 1         | US001          | Crear habitación                          | Como administrador, quiero crear habitaciones en el sistema, para gestionar disponibilidad. | 3 |
-| 2         | US002          | Editar habitación                         | Como administrador, quiero editar habitaciones, para actualizar datos como tipo o estado. | 2 |
-| 3         | US003          | Eliminar habitación                       | Como administrador, quiero eliminar habitaciones, para mantener actualizado el inventario. | 2 |
-| 4         | US004          | Gestionar reservas                        | Como administrador, quiero crear, modificar y cancelar reservas, para evitar sobreasignaciones. | 5 |
-| 5         | US005          | Reporte de ocupación                      | Como administrador, quiero ver un reporte de ocupación de habitaciones, para optimizar la gestión. | 3 |
-| 6         | US006          | Acceso con NFC                            | Como huésped, quiero abrir mi habitación con NFC, para ingresar sin usar llave física. | 5 |
-| 7         | US007          | Acceso con Bluetooth                      | Como huésped, quiero abrir mi habitación con Bluetooth, para acceder sin tarjeta. | 5 |
-| 8         | US008          | Uso de tarjeta física                     | Como huésped, quiero usar tarjeta física, para entrar en caso de no tener NFC/Bluetooth. | 2 |
-| 9         | US009          | Revocación de acceso en checkout          | Como administrador, quiero que los accesos digitales se revocan en checkout, para garantizar seguridad. | 3 |
-| 10        | US010          | Registro de accesos                       | Como administrador, quiero ver un historial de accesos, para auditar la seguridad. | 3 |
-| 11        | US011          | Control de luces                          | Como huésped, quiero encender y apagar las luces desde la app, para ajustar el ambiente. | 3 |
-| 12        | US012          | Control de cortinas                       | Como huésped, quiero abrir o cerrar cortinas desde la app, para personalizar la iluminación. | 3 |
-| 13        | US013          | Control de temperatura                    | Como huésped, quiero regular el termostato desde la app, para tener confort climático. | 5 |
-| 14        | US014          | Escena de bienvenida                      | Como administrador, quiero que al check-in se activen luces y clima, para recibir al huésped. | 3 |
-| 15        | US015          | Escena de ahorro energético               | Como administrador, quiero que luces y clima se apaguen al detectar desocupación, para reducir costos. | 5 |
-| 16        | US016          | Detección de humo                         | Como administrador, quiero recibir alertas de humo, para actuar rápidamente. | 5 |
-| 17        | US017          | Detección de gas                          | Como administrador, quiero recibir alertas de gas, para evitar emergencias. | 5 |
-| 18        | US018          | Notificación en tiempo real               | Como huésped, quiero recibir notificaciones de seguridad, para sentirme protegido. | 3 |
-| 19        | US019          | Registro histórico de alertas             | Como administrador, quiero consultar historial de alertas, para tener trazabilidad. | 3 |
-| 20        | US020          | Integración de alertas con tareas de staff| Como administrador, quiero que alertas IoT generen tareas automáticas, para acelerar la respuesta. | 5 |
-| 21        | US021          | Página inicial de la landing page         | Como visitante, quiero ver la página inicial, para obtener una visión general del sistema. | 2 |
-| 22        | US022          | Sección de características de la landing  | Como visitante, quiero ver las características del sistema, para entender sus beneficios. | 2 |
-| 23        | US023          | Sección de contacto en la landing         | Como visitante, quiero enviar un mensaje desde la landing, para solicitar más información. | 3 |
-| 24        | US024          | Sección de planes de la landing           | Como visitante, quiero ver los planes de suscripción, para conocer opciones de precios. | 2 |
-| 25        | US025          | Llamada a la acción (CTA – Solicitar demo)| Como visitante, quiero tener un botón de "Solicitar Demo", para pedir una prueba del sistema. | 2 |
-
+| **Orden** | **User Story** | **Título**                                 | **Descripción**                                                                                                 | **Story Points** |
+|-----------|----------------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------|------------------|
+| 1         | US001          | Crear habitación                           | Como administrador, quiero crear habitaciones en el sistema, para gestionar disponibilidad.                     | 3                |
+| 2         | US002          | Editar habitación                          | Como administrador, quiero editar habitaciones, para actualizar datos como tipo o estado.                       | 2                |
+| 3         | US003          | Eliminar habitación                        | Como administrador, quiero eliminar habitaciones, para mantener actualizado el inventario.                      | 2                |
+| 4         | US004          | Gestionar reservas                         | Como administrador, quiero crear, modificar y cancelar reservas, para evitar sobreasignaciones.                 | 5                |
+| 5         | US005          | Reporte de ocupación                       | Como administrador, quiero ver un reporte de ocupación de habitaciones, para optimizar la gestión.              | 3                |
+| 6         | US006          | Acceso con NFC                             | Como huésped, quiero abrir mi habitación con NFC, para ingresar sin usar llave física.                          | 5                |
+| 7         | US007          | Acceso con Bluetooth                       | Como huésped, quiero abrir mi habitación con Bluetooth, para acceder sin tarjeta.                               | 5                |
+| 8         | US008          | Uso de tarjeta física                      | Como huésped, quiero usar tarjeta física, para entrar en caso de no tener NFC/Bluetooth.                        | 2                |
+| 9         | US009          | Revocación de acceso en checkout           | Como administrador, quiero que los accesos digitales se revocan en checkout, para garantizar seguridad.         | 3                |
+| 10        | US010          | Registro de accesos                        | Como administrador, quiero ver un historial de accesos, para auditar la seguridad.                              | 3                |
+| 11        | US011          | Control de luces                           | Como huésped, quiero encender y apagar las luces desde la app, para ajustar el ambiente.                        | 3                |
+| 12        | US012          | Control de cortinas                        | Como huésped, quiero abrir o cerrar cortinas desde la app, para personalizar la iluminación.                    | 3                |
+| 13        | US013          | Control de temperatura                     | Como huésped, quiero regular el termostato desde la app, para tener confort climático.                          | 5                |
+| 14        | US014          | Escena de bienvenida                       | Como administrador, quiero que al check-in se activen luces y clima, para recibir al huésped.                   | 3                |
+| 15        | US015          | Escena de ahorro energético                | Como administrador, quiero que luces y clima se apaguen al detectar desocupación, para reducir costos.          | 5                |
+| 16        | US016          | Detección de humo                          | Como administrador, quiero recibir alertas de humo, para actuar rápidamente.                                    | 5                |
+| 17        | US017          | Detección de gas                           | Como administrador, quiero recibir alertas de gas, para evitar emergencias.                                     | 5                |
+| 18        | US018          | Notificación en tiempo real                | Como huésped, quiero recibir notificaciones de seguridad, para sentirme protegido.                              | 3                |
+| 19        | US019          | Registro histórico de alertas              | Como administrador, quiero consultar historial de alertas, para tener trazabilidad.                             | 3                |
+| 20        | US020          | Integración de alertas con tareas de staff | Como administrador, quiero que alertas IoT generen tareas automáticas, para acelerar la respuesta.              | 5                |
+| 21        | US021          | Página inicial de la landing page          | Como visitante, quiero ver la página inicial, para obtener una visión general del sistema.                      | 2                |
+| 22        | US022          | Sección Sección Proyecto                   | Como visitante, quiero ver las características del sistema, para entender sus beneficios.                       | 2                |
+| 23        | US023          | Sección de contacto en la landing          | Como visitante, quiero enviar un mensaje desde la landing, para solicitar más información.                      | 3                |
+| 24        | US024          | Sección de planes de la landing            | Como visitante, quiero ver los planes de suscripción, para conocer opciones de precios.                         | 2                |
+| 25        | US025          | Llamada a la acción (CTA – Solicitar demo) | Como visitante, quiero tener un botón de "Solicitar Demo", para pedir una prueba del sistema.                   | 2                |
+| 26        | US026          | Sección About the Product                  | Como visitante, quiero conocer detalles técnicos del producto, para evaluar su utilidad.                        | 2                |
+| 27        | US027          | Sección About The Team                     | Como visitante, quiero conocer al equipo detrás del sistema, para confiar en el producto.                       | 2                |
+| 28        | US028          | Sección Miembros del grupo                 | Como visitante, quiero ver los perfiles de los desarrolladores, para saber quiénes están detrás del proyecto.   | 2                |
+| 29        | US029          | Sección Footer                             | Como visitante, quiero ver el footer en la página para ver los derechos de autor.                               | 1                |
 
 ## Capítulo IV: Solution Software Design
 
