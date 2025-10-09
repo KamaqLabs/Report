@@ -1309,7 +1309,7 @@ Estos diseños proporcionan una visión clara de la arquitectura del sistema, lo
 ### 4.1.3.1. Software Architecture Context Level Diagrams
 ![img.png](img.png)
 ### 4.1.3.2. Software Architecture Container Level Diagrams
-![img.png](img.png)
+![img_5.png](assets/img_5.jpeg)
 ### 4.1.3.3. Software Architecture Deployment Diagrams
 ![img_4.png](assets/img_4.png)
 
