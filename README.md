@@ -1307,7 +1307,7 @@ En el nivel más alto, el diseño C4 nos muestra el contexto del sistema, identi
 Estos diseños proporcionan una visión clara de la arquitectura del sistema, lo que facilita la comunicación entre los miembros del equipo y ayuda a identificar posibles problemas o mejoras. Al utilizar los diseños C4 en el proyecto LogistcsMasters, podemos asegurarnos de que todos los involucrados tengan una comprensión común de la arquitectura y puedan colaborar de manera efectiva en su implementación y evolución.
 
 ### 4.1.3.1. Software Architecture Context Level Diagrams
-![img.png](img.png)
+![img.png](assets/img.png)
 ### 4.1.3.2. Software Architecture Container Level Diagrams
 ![img_5.png](assets/img_5.jpeg)
 ### 4.1.3.3. Software Architecture Deployment Diagrams
