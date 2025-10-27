@@ -1,18 +1,19 @@
-<h1 style="text-align: center;"> Informe del TB1 </h1>
-<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
-
 <img src=assets\UPC_logo_transparente.png
 style="display: block;
 margin-left:auto;
 margin-right: auto;
 width=50%"/>
 
-<h5 style="text-align: center"> Área: Ingeniería de Software </h5>
+<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
+<h5 style="text-align: center"> Área: Ingeniería de Software </h5>
+<h5 style="text-align: center"> Codigo del curso: 1ASI0572 </h5> 
 <h5 style="text-align: center"> Curso: Desarrollo de soluciones IOT </h5>
-<h5 style="text-align: center"> Sección: 3475 </h5>
+<h5 style="text-align: center"> NRC: 3475 </h5>
 
 <h5 style="text-align: center"> Docente: Marco Antonio Leon Baca </h5>
+
+<h3 style="text-align: center;"> "Informe del trabajo final" </h3>
 
 <h5 style="text-align: center"> Startup: KamaqLabs </h5>
 
@@ -28,7 +29,7 @@ width=50%"/>
 |    Carpio Cornejo, Miguel Ángel Jesús    | u20221c360 |
 |Braithuaite Toledo, Gabriel Anthony       | u20201e889 |
 
-<h5 style="text-align: center"> Ciclo 2025-20 </h5>
+<h5 style="text-align: center"> Noviembre 2025 </h5>
 
 <div style="page-break-after: always;"></div>
 
