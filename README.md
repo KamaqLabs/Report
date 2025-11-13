@@ -2317,12 +2317,14 @@ Este proceso permitió garantizar que cada actualización en el repositorio prin
     - Landing Page desplegada: ![Landing Page Deployed](/assets/landing-page-deployed.png)
 
 ### 6.2.1.9 Team Collaboration Insights during Sprint
-Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
+Para el desarrollo de este sprint, el equipo designó a integrantes para el desarrollo de las actividades de desarrollo de Web y Mobile Application:
 
-GitHub insights del landing page y Web Application:
 
-![insights ](/assets/TeamCollaboration%20Landing.png)
-![insights ](/assets/TeamCollaboration%20WebApp.png)
+GitHub insights de Web y Mobile Application:
+
+![insights ](/assets/Mobile%20Insights.png)
+![insights ](/assets/Dedalus%20Insights%202.png)
+![insights ](/assets/Dedalus%20Insights%203.png)
 
 ## 6.3 Validation Interviews  
 ### 6.3.1 Diseño de Entrevistas  
