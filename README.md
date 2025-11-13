@@ -2254,7 +2254,7 @@ GitHub insights del landing page y Web Application:
 | **Link del video:**  https://youtu.be/mzMYdfkO-wQ |
 | **Edad:**  31 años |
 | **Procedencia:**  Lima, San Isidro |
-| ![Entrevista](../images/Entrevista1.1.png)|
+| ![Entrevista](/assets/Entrevista%20Validacion%201.png)|
 | **Resumen:** Ramiro es un gestor de hotel en San Isidro, Lima, con cinco años de experiencia en la industria hotelera. El administra las reservas directamente en el sistema del hotel y le da mucha importancia a aspectos como el precio, la ubicación y las opiniones de los huéspedes. Aunque se siente cómodo gestionando reservas desde su smartphone, sugiere que las plataformas de reservas hoteleras deberían incluir más opciones de personalización, enviar recordatorios automáticos y ofrecer mayor claridad en las tarifas adicionales. Además, considera esencial recibir notificaciones y tener la opción de comunicarse directamente con los clientes a través de la plataforma. |
 
 #### Entrevista 2
@@ -2264,7 +2264,7 @@ GitHub insights del landing page y Web Application:
 | **Link del video:**  https://youtu.be/_SB_7uG-c-I|
 | **Edad:**  22 años |
 | **Procedencia:**  Lima, Villa Salvador |
-| ![Entrevista](../images/Entrevista2.2.png)|
+| ![Entrevista](/assets/Entrevista%20Validacion%202.png)|
 | **Resumen:** Roberto Franco  es un gestor de hotel en Lima con 4 años de experiencia en el sector. Maneja las reservas directamente en el sistema del hotel y considera esenciales factores como el precio, la ubicación y los comentarios de los huéspedes. Sugiere que las aplicaciones de reservas deberían ser más visuales, ofreciendo opciones de personalización, recordatorios automáticos y mayor claridad en los cargos adicionales. Para él, es crucial recibir notificaciones y tener la opción de comunicarse de forma directa con los clientes a través de la plataforma. |
 
 ## Segmento de huespedes
@@ -2276,7 +2276,7 @@ GitHub insights del landing page y Web Application:
 | **Link del video:** |
 | **Edad:**  24 años |
 | **Procedencia:**  Lima, Callao |
-| ![Entrevista](../images/Entrevista3.3.png)|
+| ![Entrevista](/assets/Entrevista%20Validacion%203.png)|
 | **Resumen:** Jose Shuan, un estudiante universitario de 24 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente cómodo Logistic Master para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva. |
 
 #### Entrevista 4
@@ -2286,7 +2286,7 @@ GitHub insights del landing page y Web Application:
 | **Link del video:**  https://youtu.be/tG7F4AsYnO8 |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, San Miguel |
-| ![Entrevista](../images/Entrevista4.4.png)|
+| ![Entrevista](/assets/Entrevista%20Validacion%204.png)|
 | **Resumen:** Gael, un estudiante universitario de 19 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos pero si no cuenta con mucho tiempo por la universidad prefiere cercanos  , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente Logistic Master cómodo usando  para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva . |
 
 ### 6.3.3 Evaluaciones segun heuristicas
@@ -2301,43 +2301,43 @@ GitHub insights del landing page y Web Application:
 
 | #Orden | Problema                                                                                         | Escala de Severidad | Heurística / Principio violado(a) |
 |--------|--------------------------------------------------------------------------------------------------|---------------------|------------------------------------|
-| #1     | No se muestra retroalimentación visual clara al iniciar sesión (ej. “Cargando” o validación visible).           | 4                   | Eficiencia de retroalimentación                  |
-| #2     | La interfaz presenta botones sin etiquetas claras o íconos sin descripción visible. | 3                   | Eficiencia de reconocimiento visual             |
-| #3     | No hay opción inmediata para deshacer acciones como cancelación o cambio de ruta.       | 3                   | Eficiencia de control del usuario                  |
-| #4     | No se presenta resumen comprensible del motivo por el que se eligió una ruta sobre otra.           | 4                   | Eficiencia de interpretación de decisiones                  |
-| #5     | Ausencia de mensajes proactivos o alertas sobre condiciones climáticas o bloqueos | 5                 | Eficiencia de prevención de errores
-| #6     | 	No hay acceso claro o visual a un historial de rutas anteriores desde la interfaz inicial. | 3                  | 	Eficiencia de recuperación de información
+| #1     | Al iniciar sesión en el panel administrativo, la interfaz no muestra un estado claro de validación (pantalla queda estática sin mensaje de “cargando” o “verificando credenciales”).           | 4                   | Eficiencia de retroalimentación                  |
+| #2     | Los íconos de sensores (humo, gas, ocupación) en el panel IoT no tienen etiquetas visibles ni leyenda explicativa. | 3                   | Eficiencia de reconocimiento visual             |
+| #3     | No existe una opción inmediata para revertir una cancelación de reserva realizada por error en el panel de gerente.       | 3                   | Eficiencia de control del usuario                  |
+| #4     | El reporte de ocupación no muestra claramente por qué una habitación está marcada como “Fuera de servicio” u “Ocupada”.           | 4                   | Eficiencia de interpretación de decisiones                  |
+| #5     | El sistema permite revocar credenciales NFC/Bluetooth sin mensaje de confirmación ni resumen de la acción. | 5                 | Eficiencia de prevención de errores
+| #6     | 	El historial de alertas de humo/gas está oculto a varios clics y sin buscador, dificultando encontrar incidentes previos. | 3                  | 	Eficiencia de recuperación de información
 
 **Heurísticas y Recomendaciones:**
 
-- **Problema #1: Falta de retroalimentación al iniciar sesión**
-  - *Heurística:* Visibilidad del estado del sistema
-  - *Recomendación:* Agregar un spinner o mensaje tipo “Verificando credenciales…” durante el login. Esto evita que el usuario piense que la app está congelada o fallando.
+- **Problema #1: Falta de retroalimentación al iniciar sesión en el panel administrativo**
+  - *Heurística:* Eficiencia de retroalimentación
+  - *Recomendación:* Agregar un spinner o barra de progreso con el mensaje “Verificando credenciales…” mientras se procesa el login, y mostrar claramente los estados “Sesión iniciada” o “Credenciales incorrectas”. Esto evita que el usuario piense que el sistema está congelado o que el formulario no se envió.
 <br>
 
-- **Problema #2: Botones e íconos sin etiquetas claras**
-  - *Heurística:* Reconocimiento antes que recuerdo
-  - *Recomendación:* Añadir etiquetas debajo o junto a los íconos, especialmente en funciones críticas como recalcular ruta o ver reportes. También aplicar tooltips si es web.
+- **Problema #2: Iconos de sensores sin etiquetas claras en el panel IoT**
+  - *Heurística:* Eficiencia de reconocimiento visual
+  - *Recomendación:* Añadir etiquetas breves bajo cada ícono (ej. “Humo”, “Gas”, “Ocupación”) y una leyenda de colores (verde = normal, amarillo = alerta, rojo = crítico). Así el administrador reconoce el estado sin memorizar significados.
 <br>
 
-- **Problema #3: No se puede deshacer acciones fácilmente**
-  - *Heurística:* Control y libertad del usuario
-  - *Recomendación:* Incorporar botones de "Deshacer" o "Confirmar antes de proceder" para evitar errores graves, especialmente en funciones de recalculo de ruta o cierre de sesión.
+- **Problema #3: Imposibilidad de deshacer cancelaciones de reserva recientes**
+  - *Heurística:* Eficiencia de control del usuario
+  - *Recomendación:* Incorporar una opción “Deshacer” visible durante unos segundos tras cancelar una reserva y un historial rápido de cambios recientes. Esto otorga al administrador control para corregir errores sin re-crear toda la reserva.
 <br>
 
-- **Problema #4: Ruta seleccionada sin justificación visible**
-  - *Heurística:* Diagnóstico de errores
-  - *Recomendación:* Mostrar siempre un resumen breve del porqué de la ruta seleccionada (Ejem: “ruta óptima por menor tiempo estimado y condiciones climáticas favorables”).
+- **Problema #4: Reporte de ocupación sin explicación del estado de cada habitación**
+  - *Heurística:* Eficiencia de interpretación de decisiones
+  - *Recomendación:* Agregar una columna “Motivo de estado” (ej. mantenimiento, sobreventa, bloqueo manual) y tooltips que expliquen reglas de negocio. Así, el gerente entiende por qué el sistema marcó una habitación como ocupada o fuera de servicio.
 <br>
 
-- ¨**Problema #5: Falta de alertas proactivas visibles**
-  - *Heurística:* Prevención de errores
-  - *Recomendación:* Implementar un panel o ícono de alerta que indique eventos en tiempo real (cierres de puertos, tormentas, etc.) y permita actuar de inmediato.
+- ¨**Problema #5: Revocación de credenciales IoT sin confirmación previa**
+  - *Heurística:* Eficiencia de prevención de errores
+  - *Recomendación:* Antes de revocar accesos, mostrar un diálogo de confirmación: “¿Deseas revocar todas las credenciales de la habitación 304? El huésped ya no podrá ingresar.” con opciones Confirmar / Cancelar. Esto reduce el riesgo de dejar a un huésped sin acceso por un clic accidental.
 <br>
 
-- **Problema #6: Historial de rutas poco accesible**
-  - *Heurística:* Flexibilidad y eficiencia
-  - *Recomendación:* Añadir en el menú principal un acceso directo a “Historial de rutas” con filtrado por fecha, destino y embarcación.
+- **Problema #6: Historial de alertas de humo/gas difícil de localizar y filtrar**
+  - *Heurística:* Eficiencia de recuperación de información
+  - *Recomendación:* Ubicar un acceso directo al historial de alertas en el menú principal e incluir filtros por fecha, tipo de alerta y habitación, además de un buscador. De esta manera, el personal puede recuperar incidentes específicos de forma rápida para auditorías o investigación.
  
 - - -
 
