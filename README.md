@@ -2192,6 +2192,138 @@ GitHub insights del landing page y Web Application:
 ![insights ](/assets/TeamCollaboration%20Landing.png)
 ![insights ](/assets/TeamCollaboration%20WebApp.png)
 
+## 6.2.1 Sprint 2
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2. Durante este sprint, el equipo se enfocará en la implementación de la web application y desarrollar el mobile de nuestra aplicacion, asegurando que cumpla con los requisitos establecidos y funcione correctamente.
+
+### 6.2.1.1 Sprint Planning 2
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 2, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
+
+| **Sprint #**                       | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Date                               | 2025-11-10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Time                               | 16:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Location                           | Google Meet Reunion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Prepared by                        | Valentino Cervantes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Attendees (to planning meeting)    | Valentino Cervantes, Miguel Carpio, Mathias Vasquez, Gabriel Braithuaite, Sihuar Ccotarma                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint n - 1 Review  Summary       | Se completó y desplegó la Landing Page y el MVP de la Web Application cumpliendo la DoD (responsive ≥320px, SEO semántico básico, navegación por teclado, rendimiento aceptable en 4G para hero/CTA, enlaces externos seguros y formularios validados); se cerraron las US021, US022, US023, US024, US025, US026, US027, US028 y US029 con 23/23 SP (100%); entregables visibles: Home/hero+CTA, Proyecto, About the Product, About the Team, Miembros del grupo, Planes, Contacto y Footer; además, módulo administrador inicial operativo (login, navegación base, vistas para gestión de habitaciones/reservas y visualización de datos IoT básicos), sin bloqueadores abiertos al cierre.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sprint n - 1 Retrospective Summary | Lo que salió bien: comunicación diaria breve, PRs pequeños y frecuentes, maquetación responsive consistente y deploy temprano que habilitó feedback; por mejorar: aumentar cobertura de pruebas (E2E para CTA y Contacto), documentar el playbook de deploy/rollback y afinar estimaciones de UI; acciones para Sprint 2: configurar E2E (Valentino), crear checklist de deploy/rollback y plantilla de release notes (Miguel), ampliar accesibilidad/ARIA en componentes clave (Sihuar), instrumentar analítica de CTA y eventos de navegación (Gabriel) y definir Definition of Ready para historias de la Web App (Mathias).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint 1 Goal                      | Our focus is on delivering the initial web presence and management interface for the Dedalus Platform, including a responsive landing page and a functional web module for administrators to manage rooms, reservations, and IoT device data. <br> We believe it delivers visibility, credibility, and early digital interaction for potential hotel clients, while providing administrators with the first version of the digital control panel for operational management. <br> This will be confirmed when the landing page is publicly accessible and administrators can successfully log in, create rooms, and visualize basic IoT sensor data from the web application. |
+| Sprint 1 Velocity                  |           23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points                |      23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+
+### 6.2.1.2 Aspect Leaders and Collaborators
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 2, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
+
+
+### 6.2.1.3 Sprint Backlog 2
+En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tareas y actividades planificadas para el desarrollo de la Landing Page y el avance de nuestro Web Application. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
+
+| Sprint # | User Story Id | Title                        | Work Item Id | Task Title                                          | Description                                                                                                                                          | Estimation (Hours) | Assigned To | Status      |
+|---------:|---------------|-----------------------------|--------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------:|-------------|-------------|
+| Sprint 2 | US006         | Acceso con NFC              | WI10         | Diseñar flujo de acceso NFC en app móvil           | Definir pantallas y navegación para que el huésped inicie sesión, seleccione su habitación y utilice el botón de “Abrir con NFC” dentro de la app.  |                2.0 | Valentino   | Done        |
+| Sprint 2 | US006         | Acceso con NFC              | WI10A        | Implementar lectura y validación de credenciales   | Programar en la app móvil la invocación al endpoint de credenciales NFC, manejo de estados (válida/expirada) y registro local del resultado.        |                3.0 | Mathias     | Done        |
+| Sprint 2 | US007         | Acceso con Bluetooth        | WI11         | Configurar emparejamiento BLE en la app móvil      | Implementar la lógica para escanear cerraduras cercanas vía Bluetooth, seleccionar la habitación autorizada y guardar el dispositivo emparejado.    |                3.0 | Gabriel     | Done        |
+| Sprint 2 | US007         | Acceso con Bluetooth        | WI11A        | Apertura de puerta vía comando BLE                 | Desarrollar la función que envía el comando de apertura a la cerradura, mostrando feedback en pantalla y registrando el evento en el log local.     |                2.0 | Gabriel     | Done        |
+| Sprint 2 | US011         | Control de luces            | WI12         | UI de control de luces en app móvil                | Diseñar e implementar sliders/switches por ambiente (habitación, baño) para encender/apagar luces desde la pantalla principal de la habitación.     |                2.5 | Sihuar      | Done        |
+| Sprint 2 | US011         | Control de luces            | WI12A        | Integración con API IoT de luces                   | Conectar la UI de la app móvil con el servicio REST/MQTT de luces, incluyendo reintentos y mensajes de error cuando no haya conexión.               |                3.0 | Sihuar      | Done        |
+| Sprint 2 | US013         | Control de temperatura      | WI13         | Diseñar componente de termostato en app móvil      | Crear un control de temperatura (slider o stepper) que permita al huésped ajustar el setpoint dentro del rango permitido (18–26 °C).                |                2.0 | Valentino   | Done        |
+| Sprint 2 | US013         | Control de temperatura      | WI13A        | Conectar termostato con backend                    | Implementar la llamada al backend para actualizar el setpoint, mostrar temperatura actual vs objetivo y manejar estados “Eco” y “Standby”.          |                3.0 | Mathias     | Done        |
+| Sprint 2 | US004         | Crear/gestionar reservas    | WI14         | Vista de calendario de reservas en web application | Implementar en la aplicación web una vista de calendario donde el administrador pueda visualizar reservas por habitación y rango de fechas.         |                3.5 | Miguel      | In Progress  |
+| Sprint 2 | US004         | Crear/gestionar reservas    | WI14A        | Formulario de creación/edición de reserva web      | Desarrollar el formulario para crear/modificar reservas en la web app, con validación de disponibilidad y mensajes claros de error/éxito.           |                3.0 | Miguel      | To Do       |
+| Sprint 2 | US010         | Registro de accesos         | WI15         | Listado filtrable de accesos en web application    | Crear en la web app una tabla con los accesos por habitación/usuario/método, con filtros por fecha y paginación básica.                             |                2.5 | Sihuar      | In Progress  |
+| Sprint 2 | US010         | Registro de accesos         | WI15A        | Exportación y detalle de acceso                    | Implementar la vista de detalle de cada acceso (fecha, método, dispositivo) y la opción de exportar el historial visible a CSV desde la web app.   |                2.0 | Mathias     | To Do       |
+
+
+Screenshot del Sprint Backlog del Sprint 2 en Trello:
+
+![Sprint Backlog 2](/assets/Trello%20Spint%202.png)
+
+Enlace al Sprint Backlog del Sprint 2 en Trello: https://trello.com/invite/b/68db1fce75d44c2edfbab7de/ATTI5bd0a4792f4fb64ae03d2faff0bb8ad585EDC93F/sprint-1 
+
+### 6.2.1.4 Development Evidence for Sprint Review
+En esta sección se explican y presentan los avances en la implementación de los productos de la solución según el alcance del Sprint 2. Durante este sprint, el equipo se ha enfocado en el avance de nuestra Web y Mobile Application.
+
+| Repository                          | Branch  | Commit Id | Commit Message                                                                      | Commit Message Body                                                                                                                                                            | Commited on (Date) |
+|-------------------------------------|---------|-----------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| https://github.com/KamaqLabs/Dedalus-MobileApp        | main    | f845bd4   | Initial commit                                                                      | chore(mvp): initial mobile MVP                                                                                                                  | 2025-11-12         |
+| https://github.com/KamaqLabs/Dedalus-Platform | main    | 8b97fe4   |  feat: add endpoints to retrieve all bookingslocations                                            | feat: add endpoints to retrieve all bookings, bookings by hotelId, and bookings by guestId | 2025-11-12       | 
+| https://github.com/KamaqLabs/Dedalus-Platform     | main | c3db5c9  | feat: add endpoint to retrieve all hotels                                                    | feat: add endpoint to retrieve all hotels and implement corresponding service method                                                                                                                                              | 2025-11-12         |
+
+
+Enlace al repositorio: https://github.com/KamaqLabs/Dedalus_Landing_Page
+Enlace al repositorio de la Web Application: https://github.com/KamaqLabs/Dedalus-Platform
+Enlace al repositorio del Mobile Application: https://github.com/KamaqLabs/Dedalus-MobileApp
+
+### 6.2.1.5 Testing Suite Evidence for Sprint Review
+Para este sprint, no se han realizado pruebas automatizadas. Sin embargo, se han realizado pruebas manuales para asegurar que la Landing Page, la web application y el mobile app funcionen correctamente y cumplan con los requisitos establecidos.
+Se podrían implementar pruebas automatizadas utilizando herramientas como Selenium en futuros sprints, pero por el momento, el equipo ha optado por realizar pruebas manuales para asegurar la calidad del producto.
+
+### 6.2.1.6 Execution Evidence for Sprint Review
+En este Sprint 2, el equipo ha desarrollado con una mayor precision la web applicacion y la primera version de nuestro mobile app, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
+
+Se puede evidenciar parte del avance que hemos realizado para esta entrega de nuestro web application:
+
+![Web Application Evidence](/assets/Mockup1.png)
+![Web Application Evidence](/assets/Mockup2.png)
+![Web Application Evidence](/assets/Mockup3.png)
+![Web Application Evidence](/assets/Mockup4.png)
+![Web Application Evidence](/assets/Mockup5.png)
+
+Se puede evidenciar parte del avance que hemos realizado para esta entrega de nuestro mobile application:
+
+![Mobile Application Evidence](/assets/Dedalus%20Movil%201.jpg)
+![Mobile Application Evidence](/assets/Dedalus%20Movil%202.jpg)
+![Mobile Application Evidence](/assets/Dedalus%20Movil%203.jpg)
+![Mobile Application Evidence](/assets/Dedalus%20Movil%204.jpg)
+![Mobile Application Evidence](/assets/Dedalus%20Movil%205.jpg)
+![Mobile Application Evidence](/assets/Dedalus%20Movil%206.jpg)
+![Mobile Application Evidence](/assets/Dedalus%20Movil%207.jpg)
+![Mobile Application Evidence](/assets/Dedalus%20Movil%208.jpg)
+![Mobile Application Evidence](/assets/Dedalus%20Movil%209.jpg)
+
+
+### 6.2.1.7 Services Documentation Evidence for Sprint Review
+Este sprint 2 tuvo como enfoque principal la implementación de la Web Application y la primera version del mobile application, por lo que no se han desarrollado Web Services. La documentación de Endpoints con OpenAPI y los detalles relacionados con Web Services serán relevantes en sprints futuros cuando se aborde la implementación y documentación de estos servicios.
+
+### 6.2.1.8 Software Deployment Evidence for Sprint Review
+#### Software Deployment Evidence – Landing Page
+Durante este Sprint se realizó el despliegue de la Landing Page oficial de la plataforma Dedalus, la cual tiene como propósito presentar la solución al público objetivo (hoteles, resorts y hospedajes boutique) y proporcionar una primera interacción digital con la marca.
+El despliegue se efectuó utilizando GitHub Pages como servicio de hosting estático y GitHub Actions como herramienta de automatización continua (CI/CD).
+Este proceso permitió garantizar que cada actualización en el repositorio principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
+
+#### Pasos del proceso de Deployment
+1. **Creación y configuración del repositorio**
+    - Se creó el repositorio público Dedalus_Landing_Page en GitHub para centralizar el código fuente de la landing.
+    - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
+    - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
+    - Estructura del repositorio: ![Repo Structure](/assets/repo-structure.png)
+2. **Configuración de GitHub Pages**
+    - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
+    - Se habilitó el dominio del proyecto, generando la URL pública: https://kamaqlabs.github.io/Dedalus_Landing_Page/
+    - La visibilidad se configuró como pública para permitir el acceso de los stakeholders y usuarios de prueba.
+3. **Automatización mediante GitHub Actions (CI/CD)**
+    - Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función:
+        - Compilar automáticamente la landing page al hacer push en la rama develop.
+        - Generar la carpeta dist/ optimizada para producción.
+        - Publicar el contenido en la rama gh-pages de manera automática.
+        - Script configurado: ![Deploy Script](/assets/deploy-script.png)
+4. **Verificación del despliegue**
+    - Se validó el acceso público a la landing desde el navegador.
+    - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
+    - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
+    - Landing Page desplegada: ![Landing Page Deployed](/assets/landing-page-deployed.png)
+
+### 6.2.1.9 Team Collaboration Insights during Sprint
+Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
+
+GitHub insights del landing page y Web Application:
+
+![insights ](/assets/TeamCollaboration%20Landing.png)
+![insights ](/assets/TeamCollaboration%20WebApp.png)
+
 ## 6.3 Validation Interviews  
 ### 6.3.1 Diseño de Entrevistas  
 #### 1. Preguntas para Gestores de Empresas Hoteleras
