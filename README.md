@@ -46,7 +46,9 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 ## Project Report Collaboration Insights
 
 
-URL del repositorio para el reporte del proyecto: https://github.com/KamaqLabs/Report
+*URL del repositorio para el reporte del proyecto:*
+
+https://github.com/KamaqLabs/Report
 
 
 
@@ -258,7 +260,7 @@ Propuesta de Valor
 
 | Nombre Completo del integrante         | Descripcion de Carrera                                                                          | Fotografía                                                                                                                                                                 | Conocimientos y Habilidades a apuntar                                                                                                                                                                                                                                               |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Augusto Mathias Vasquez Requejo        | Ingeniería de Software<br> 6to Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="/assets/profiles/Augusto Vasquez.jpg" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |
+| Augusto Mathias Vasquez Requejo        | Ingeniería de Software<br> 6to Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="assets/profiles/Augusto Vasquez.jpg" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |
 | Miguel Ángel Carpio Cornejo         | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil Miguel](assets/profiles/carpio.jpg)                                                                                  | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |
 | Gabriel Anthony Braithuaite Toledo     | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="https://i.postimg.cc/wvY8Z72w/gabriell.png" alt="pr" style="width: auto height: auto;">                                                                          | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. |.      
 | Eduardo Eusebio SIhuar Ccotarma Ttito  | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     |![Imagen de sihuar](assets/profiles/sihuar.jpg);">                                                                                           | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |
@@ -994,10 +996,10 @@ Después de llevar a cabo y describir los registros de los entrevistados, esta s
 
 ##### Huesped
 
-![image]assets/User%20Persona%20Huesped.png)
+![image](assets\UserPersonaHuesped.png)
 
 ##### Administrador
-![María Delia Martínez]assets/User%20persona%20Admin.png)
+![María Delia Martínez](assets\UserpersonaAdmin.png)
 
 #### 2.3.2 User Task Matrix
 
@@ -1036,10 +1038,10 @@ En esta sección se presenta el user task matrix, que es una herramienta que nos
 
 #### Huesped
 
-![image]assets/User%20Journey%20Mapping%20Huesped.png)
+![image](assets/User%20Journey%20Mapping%20Huesped.png)
 
 #### Administrador
-![image]assets/User%20Journey%20Mapping%20Admin.png)
+![image](assets/User%20Journey%20Mapping%20Admin.png)
 
 ### 2.3.4 Empathy Mapping
 
@@ -1047,10 +1049,10 @@ En esta sección se presenta el user task matrix, que es una herramienta que nos
 ![Huesped empathy map]assets/Empathy%20map%20Huesped.png)
 
 #### Administrador
-![Hotel empathy map]assets/Empathy%20map%20Admin.png)
+![Hotel (empathy map]assets/Empathy%20map%20Admin.png)
 
 ## 2.4 Big Picture EventStorming
-![Event storming]assets/Big%20Picture%20Eventstorming.jpg)
+![Event storming](assets/Big%20Picture%20Eventstorming.jpg)
 
 Link Miro: https://miro.com/app/board/uXjVJF6ySiI=/?share_link_id=547814286151
 
@@ -1611,7 +1613,7 @@ En esta sección se definen los estilos de diseño front-end que serán la base 
 El branding del logo de nuestra plataforma “IoT Hotel Management” combina elementos que transmiten **innovación, seguridad y confort**, valores esenciales en la experiencia hotelera digital.  
 El diseño del logotipo utiliza una tipografía moderna acompañada de un ícono alusivo a la conectividad IoT (ondas o nodos interconectados). Su forma transmite **tecnología, confiabilidad y elegancia**, reforzando la identidad de un sistema que integra gestión, automatización y hospitalidad inteligente.
 
-<img src="/assets/Logo Dedalus.jpg">
+<img src="assets/Logo Dedalus.jpg">
 
 
 **Typography:**  
@@ -1619,13 +1621,13 @@ Para la tipografía se ha seleccionado **Roboto**, por su legibilidad y adaptabi
 Esta fuente equilibra un aspecto profesional y moderno, asegurando buena lectura en pantallas de administración (web) y en interfaces móviles para huéspedes.  
 Se usa **Roboto Regular** para textos, **Roboto Medium** para subtítulos y **Roboto Bold** para títulos o botones interactivos.
 
-<img src="/assets/Tipografia Dedalus.png">
+<img src="assets/Tipografia Dedalus.png">
 
 **Colors:**  
 La paleta de colores se centra en tonos **azules y grises tecnológicos**, que evocan profesionalismo, innovación y confianza, combinados con acentos cálidos en dorado o verde azulado que transmiten confort y hospitalidad.  
 Los tonos claros se reservan para fondos o áreas de lectura, mientras que los tonos oscuros se aplican en paneles, encabezados y dashboards, favoreciendo el contraste visual y la legibilidad.
 
-<img src="/assets/Colors Dedalus.png"> 
+<img src="assets/Colors Dedalus.png"> 
 
 ---
 
@@ -1743,74 +1745,74 @@ Para la optimización de búsqueda en motores web, se definen las siguientes eti
 ## 5.3 Landing Page UI Design
 ### 5.3.1 Landing Page Wireframe
 
-<img src="/assets/Landing Wireframe1.png">
-<img src="/assets/Landing Wireframe2.png">
-<img src="/assets/Landing Wireframe3.png">
-<img src="/assets/Landing Wireframe4.png">
-<img src="/assets/Landing Wireframe5.png">
-<img src="/assets/Landing Wireframe6.png">
+<img src="assets/Landing Wireframe1.png">
+<img src="assets/Landing Wireframe2.png">
+<img src="assets/Landing Wireframe3.png">
+<img src="assets/Landing Wireframe4.png">
+<img src="assets/Landing Wireframe5.png">
+<img src="assets/Landing Wireframe6.png">
 
 ### 5.3.2 Landing Page Mock-up
 
-<img src="/assets/LandingPageMockup1.png">
-<img src="/assets/LandingPageMockup2.png">
-<img src="/assets/LandingPageMockup3.png">
-<img src="/assets/LandingPageMockup4.png">
-<img src="/assets/LandingPageMockup5.png">
-<img src="/assets/LandingPageMockup6.png">
+<img src="assets/LandingPageMockup1.png">
+<img src="assets/LandingPageMockup2.png">
+<img src="assets/LandingPageMockup3.png">
+<img src="assets/LandingPageMockup4.png">
+<img src="assets/LandingPageMockup5.png">
+<img src="assets/LandingPageMockup6.png">
 
 ## 5.4 Applications UX/UI Design
 
 ### 5.4.1 Applications Wireframes
 
-<img src="/assets/Mockup1-photoaidcom-greyscale.png">
-<img src="/assets/Mockup2-photoaidcom-greyscale.png">
-<img src="/assets/Mockup3-photoaidcom-greyscale.png">
-<img src="/assets/Mockup4-photoaidcom-greyscale.png">
-<img src="/assets/Mockup5-photoaidcom-greyscale.png">
+<img src="assets/Mockup1-photoaidcom-greyscale.png">
+<img src="assets/Mockup2-photoaidcom-greyscale.png">
+<img src="assets/Mockup3-photoaidcom-greyscale.png">
+<img src="assets/Mockup4-photoaidcom-greyscale.png">
+<img src="assets/Mockup5-photoaidcom-greyscale.png">
 
 ### 5.4.2 Applications Wireflow Diagrams
 
 - **User Goal 1: Iniciar sesión y/o Registro de cuenta**
 
-<img src="/assets/Wireflow1.png">
+<img src="assets/Wireflow1.png">
 
 - **User Goal 2: El administrador crea su hotel en la aplicacion**
 
-<img src="/assets/Wireflow2.png">
+<img src="assets/Wireflow2.png">
 
 - **User Goal 3: El administrador una vez creado su hotel puede crear todos las habitaciones disponibles**
 
-<img src="/assets/Wireflow3.png">
+<img src="assets/Wireflow3.png">
 
 #### 5.4.2.1 Applications Mock-ups
 
-<img src="/assets/Mockup1.png">
-<img src="/assets/Mockup2.png">
-<img src="/assets/Mockup3.png">
-<img src="/assets/Mockup4.png">
-<img src="/assets/Mockup5.png">
+<img src="assets/Mockup1.png">
+<img src="assets/Mockup2.png">
+<img src="assets/Mockup3.png">
+<img src="assets/Mockup4.png">
+<img src="assets/Mockup5.png">
 
 
 ### 5.4.3 Applications User Flow Diagrams
 
 - **User Goal 1: Iniciar sesión y/o Registro de cuenta**
 
-<img src="/assets/User flow 1.png">
+<img src="assets/User flow 1.png">
 
 - **User Goal 2: Como administrador quiero crear y registrar mi hotel en la aplicacion**
 
-<img src="/assets/User flow 2.png">
+<img src="assets/User flow 2.png">
 
 - **User Goal 3: Como administrador una vez creado mi hotel quiero crear todos las habitaciones disponibles con las caracteristicas de cada una**
 
-<img src="/assets/Userflow3.png">
+<img src="assets/Userflow3.png">
 
 
 ## 5.5 Applications Prototyping
 
 <a href="https://youtu.be/DpDvyiFZYfk" target="_blank">
-  <img src="/assets/Prototyping-Dedalus.png" alt="Haz clic para ver el video en YouTube">
+  <img src="assets/Prototyping-Dedalus.png" alt="Haz clic para ver el video en YouTube">
 </a>
 
 Link de figma: https://www.figma.com/design/bbKcl86Op3sFtBF6jHzzG0/Dedalus-MuckUps?node-id=2001-1221&t=LA4A0IOFnLQJ93jI-1
@@ -1835,82 +1837,82 @@ Asimismo, se detallan las configuraciones iniciales requeridas para compilar, ej
 - **Visual Studio Code**: Editor de código utilizado para desarrollar la Landing Page. Su entorno ligero, personalizable y con soporte para múltiples lenguajes facilitó la colaboración entre desarrolladores y la implementación ágil de componentes web.
 
 <div style="text-align: center;">
-  <img src="./assets/visualstudio.png" alt="Visual Studio Code" style="width:10%;"/>
+  <img src="assets/visualstudio.png" alt="Visual Studio Code" style="width:10%;"/>
 </div>
 
 - **HTML5**: Lenguaje de marcado base para estructurar el contenido de la Landing Page. Permitió organizar la información de forma semántica y accesible, mejorando la navegación y la experiencia del usuario.
 
 <div style="text-align: center;">
-  <img src="./assets/html5.png" alt="HTML 5" style="width:10%;"/>
+  <img src="assets/html5.png" alt="HTML 5" style="width:10%;"/>
 </div>
 
 - **CSS3**: Utilizado para aplicar estilos visuales a la Landing Page. Ayudó a mantener una identidad gráfica coherente, responsiva y atractiva, lo cual es clave para captar la atención del usuario final.
 
 <div style="text-align: center;">
-  <img src="./assets/css3.png" alt="CSS 3" style="width:10%;"/>
+  <img src="assets/css3.png" alt="CSS 3" style="width:10%;"/>
 </div>
 
 - **JavaScript**: Lenguaje que permitió incorporar lógica e interactividad a la Landing Page, como animaciones, validaciones y mejoras en la experiencia dinámica del usuario.
 
 <div style="text-align: center;">
-  <img src="./assets/js.png" alt="JavaScript" style="width:10%;"/>
+  <img src="assets/js.png" alt="JavaScript" style="width:10%;"/>
 </div>
 
 - **GitHub**: Plataforma de control de versiones que centralizó el código del proyecto. Facilitó el trabajo colaborativo del equipo, permitió el seguimiento de cambios y mejoró la trazabilidad del desarrollo.
 
 <div style="text-align: center;">
-  <img src="./assets/github.png" alt="Github" style="width:10%;"/>
+  <img src="assets/github.png" alt="Github" style="width:10%;"/>
 </div>
 
 - **LucidChart**: Herramienta usada para crear diagramas de flujo, wireflows y modelos conceptuales. Contribuyó a la claridad en el diseño funcional y ayudó a definir la lógica de interacción entre pantallas y procesos.
 
 <div style="text-align: center;">
-  <img src="./assets/lucidchart.png" alt="LucidChart" style="width:10%;"/>
+  <img src="assets/lucidchart.png" alt="LucidChart" style="width:10%;"/>
 </div>
 
 - **Figma**: Plataforma de diseño colaborativo utilizada para la creación de wireframes y prototipos visuales de alta fidelidad. Permitió validar la interfaz gráfica con antelación y alinear al equipo de desarrollo con la visión de diseño.
 
 <div style="text-align: center;">
-  <img src="./assets/figma.png" alt="Figma" style="width:10%;"/>
+  <img src="assets/figma.png" alt="Figma" style="width:10%;"/>
 </div>
 
 - **Android Studio**: Entorno de desarrollo para la aplicación móvil. Proporcionó las herramientas necesarias para programar, depurar, probar y empaquetar la app en dispositivos Android.
 
 <div style="text-align: center;">
-  <img src="./assets/androidstudio.png" alt="CSS 3" style="width:10%;"/>
+  <img src="assets/androidstudio.png" alt="CSS 3" style="width:10%;"/>
 </div>
 
 - **Kotlin**: Lenguaje de programación moderno utilizado para desarrollar la aplicación móvil. Su sintaxis clara y concisa mejoró la eficiencia del código y la productividad del equipo, alineándose con las mejores prácticas de desarrollo en Android.
 
 <div style="text-align: center;">
-  <img src="./assets/kotilin.png" alt="Kotlin" style="width:10%;"/>
+  <img src="assets/kotilin.png" alt="Kotlin" style="width:10%;"/>
 </div>
 
 - **Trello**: Plataforma de gestión de tareas basada en tableros y tarjetas, utilizada para organizar y hacer seguimiento del progreso del equipo durante el desarrollo del proyecto. Facilitó la planificación de sprints, la asignación de responsabilidades y la visualización del avance en tiempo real, promoviendo una colaboración efectiva y una mejor administración del tiempo.
 
 <div style="text-align: center;">
-  <img src="./assets/Trello.png" alt="Trello" style="width:10%;"/>
+  <img src="assets/Trello.png" alt="Trello" style="width:10%;"/>
 </div>
 
 - **Angular**: Framework de desarrollo web basado en TypeScript, empleado para construir la interfaz del panel administrativo. Su arquitectura modular, compatibilidad con APIs REST y componentes reutilizables facilitaron el desarrollo de un entorno web responsivo, escalable y mantenible.
 
-<div style="text-align: center;"> <img src="./assets/angular.png" alt="Angular" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="assets/angular.png" alt="Angular" style="width:10%;"/> </div>
 
 - **NestJS**: Framework progresivo de Node.js utilizado para el desarrollo del backend de la plataforma. Permite estructurar los microservicios de manera modular y escalable, integrando MQTT para la comunicación IoT, REST APIs para el consumo desde Angular y Flutter, y PostgreSQL como base de datos principal.
 
-<div style="text-align: center;"> <img src="./assets/nestjs.png" alt="NestJS" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="assets/nestjs.png" alt="NestJS" style="width:10%;"/> </div>
 
 - **Node.js y npm**: Entorno de ejecución de JavaScript y su gestor de paquetes, utilizados para instalar dependencias y ejecutar scripts de desarrollo y despliegue tanto del frontend (Angular) como del backend (NestJS).
 
-<div style="text-align: center;"> <img src="./assets/nodejs.png" alt="Node.js" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="assets/nodejs.png" alt="Node.js" style="width:10%;"/> </div>
 
 - **Postman**: Herramienta de testing de APIs utilizada para validar la comunicación entre el backend y los clientes web/móvil. Permitió automatizar peticiones HTTP, gestionar entornos y realizar pruebas de integración antes del despliegue.
 
-<div style="text-align: center;"> <img src="./assets/postman.png" alt="Postman" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="assets/postman.png" alt="Postman" style="width:10%;"/> </div>
 
 - **Git**: Sistema de control de versiones distribuido utilizado para el seguimiento de cambios y la colaboración en el código fuente del proyecto. Permitió mantener ramas independientes por módulo (web, móvil, backend) y facilitar la integración continua.
 
-<div style="text-align: center;"> <img src="./assets/git.png" alt="Git" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="assets/git.png" alt="Git" style="width:10%;"/> </div>
 
 
 Cada una de estas herramientas fue seleccionada estratégicamente para cumplir con los objetivos del proyecto, asegurando una solución tecnológica robusta, escalable y centrada en la experiencia del usuario.
@@ -1940,7 +1942,7 @@ Para nuestra estrategia de gestión de versiones con Git, nos basamos en el mode
     - Se fusiona con: `develop` o `release`, según el caso
 
 <div style="text-align: center;">
-  <img src="./assets/gitflow.png" alt="Ejemplo ramas Gitflow" style="width:70%;"/>
+  <img src="assets/gitflow.png" alt="Ejemplo ramas Gitflow" style="width:70%;"/>
 </div>
 
 **Conventional Commits:**  
@@ -2012,8 +2014,8 @@ El despliegue se realiza mediante GitHub Actions y GitHub Pages, asegurando una 
 #### Flujo de Despliegue Automatizado
 El proceso automatizado de despliegue está definido dentro del archivo:
 `.github/workflows/deploy.yml`
-![Workflow github](./assets/workflow.png)
-![deploy.yml](./assets/deploy.yml.png)
+![Workflow github](assets/workflow.png)
+![deploy.yml](assets/deploy.yml.png)
 Cada vez que se realiza un push hacia la rama develop, se ejecuta el flujo con las siguientes etapas:
 1. Checkout del repositorio
 - El flujo obtiene el código fuente desde la rama develop.
@@ -2036,7 +2038,7 @@ dist/LandingPage/browser/
 - Se usa la acción `JamesIves/github-pages-deploy-action@v4` para publicar el contenido generado en la rama gh-pages.
 - La configuración de GitHub Pages en el repositorio está establecida para usar `gh-pages` como rama fuente.
 
-![github actions](./assets/gh-pages.png)
+![github actions](assets/gh-pages.png)
 
 #### Resultado del despliegue
 Una vez finalizado el flujo, GitHub Pages publica automáticamente la última versión compilada del sitio en la siguiente URL: <br>
@@ -2044,7 +2046,7 @@ Una vez finalizado el flujo, GitHub Pages publica automáticamente la última ve
 
 Este proceso elimina la necesidad de desplegar manualmente, garantizando que cada modificación aprobada en la rama `develop` se refleje directamente en la versión pública.
 
-![Landing page deployed](./assets/landing-page-deployed.png)
+![Landing page deployed](assets/landing-page-deployed.png)
 
 
 ## 6.2 Landing Page, Services & Applications Implementation
@@ -2102,7 +2104,7 @@ En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tar
 
 Screenshot del Sprint Backlog del Sprint 1 en Trello:
 
-![Sprint Backlog 1](./assets/sprint-backlog-1.png)
+![Sprint Backlog 1](assets/sprint-backlog-1.png)
 
 Enlace al Sprint Backlog del Sprint 1 en Trello: https://trello.com/c/ecIEDWCF
 
@@ -2129,29 +2131,29 @@ En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page y la pr
 
 <br>**Hero Section**: La sección principal de la Landing Page, que incluye una barra de navegación, un título
 atractivo, una imagen llamativa y un botón de llamada a la acción.
-<br> ![Landing Page Access](/assets/LandingPageMockup1.png)
+<br> ![Landing Page Access](assets/LandingPageMockup1.png)
 <br>**About Section**: La sección que proporciona información sobre la aplicación y sus características principales.
 Incluye un título, una descripción y una imagen representativa. Además, tiene uan sección sobre el equipo de
 desarrollo.
-<br> ![Landing Page About Section](/assets/LandingPageMockup2.png)
-<br> ![Landing Page About Team Section](/assets/LandingPageMockup3.png)
+<br> ![Landing Page About Section](assets/LandingPageMockup2.png)
+<br> ![Landing Page About Team Section](assets/LandingPageMockup3.png)
 <br>**Subscriptions Section**: La sección que muestra los diferentes planes de suscripción disponibles para los
 usuarios. Incluye un título, una descripción y nuestros dos planes con precios y características.
-<br> ![Landing Page Subscriptions Section](/assets/LandingPageMockup4.png)
+<br> ![Landing Page Subscriptions Section](assets/LandingPageMockup4.png)
 <br>**Contact Section**: La sección que permite a los usuarios ponerse en contacto con el equipo de desarrollo.
 Incluye un formulario de contacto con campos para el nombre, correo electrónico y mensaje.
-<br> ![Landing Page Contact Section](/assets/LandingPageMockup5.png)
+<br> ![Landing Page Contact Section](assets/LandingPageMockup5.png)
 <br>**Footer Section**: La sección que incluye un aviso de derechos de autor.
-<br> ![Landing Page Footer Section](/assets/LandingPageMockup6.png)
+<br> ![Landing Page Footer Section](assets/LandingPageMockup6.png)
 
 
 Y respecto a la Web Application aqui se puede evidenciar parte del avance que hemos realizado para esta entrega:
 
-![Web Application Evidence](/assets/Mockup1.png)
-![Web Application Evidence](/assets/Mockup2.png)
-![Web Application Evidence](/assets/Mockup3.png)
-![Web Application Evidence](/assets/Mockup4.png)
-![Web Application Evidence](/assets/Mockup5.png)
+![Web Application Evidence](assets/Mockup1.png)
+![Web Application Evidence](assets/Mockup2.png)
+![Web Application Evidence](assets/Mockup3.png)
+![Web Application Evidence](assets/Mockup4.png)
+![Web Application Evidence](assets/Mockup5.png)
 
 
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review
@@ -2167,7 +2169,7 @@ Este proceso permitió garantizar que cada actualización en el repositorio prin
     - Se creó el repositorio público Dedalus_Landing_Page en GitHub para centralizar el código fuente de la landing.
     - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
     - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
-    - Estructura del repositorio: ![Repo Structure](/assets/repo-structure.png)
+    - Estructura del repositorio: ![Repo Structure](assets/repo-structure.png)
 2. **Configuración de GitHub Pages**
     - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
     - Se habilitó el dominio del proyecto, generando la URL pública: https://kamaqlabs.github.io/Dedalus_Landing_Page/
@@ -2177,20 +2179,20 @@ Este proceso permitió garantizar que cada actualización en el repositorio prin
         - Compilar automáticamente la landing page al hacer push en la rama develop.
         - Generar la carpeta dist/ optimizada para producción.
         - Publicar el contenido en la rama gh-pages de manera automática.
-        - Script configurado: ![Deploy Script](/assets/deploy-script.png)
+        - Script configurado: ![Deploy Script](assets/deploy-script.png)
 4. **Verificación del despliegue**
     - Se validó el acceso público a la landing desde el navegador.
     - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
     - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
-    - Landing Page desplegada: ![Landing Page Deployed](/assets/landing-page-deployed.png)
+    - Landing Page desplegada: ![Landing Page Deployed](assets/landing-page-deployed.png)
 
 ### 6.2.1.9 Team Collaboration Insights during Sprint
 Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
 
 GitHub insights del landing page y Web Application:
 
-![insights ](/assets/TeamCollaboration%20Landing.png)
-![insights ](/assets/TeamCollaboration%20WebApp.png)
+![insights ](assets/TeamCollaboration%20Landing.png)
+![insights ](assets/TeamCollaboration%20WebApp.png)
 
 ## 6.2.1 Sprint 2
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2. Durante este sprint, el equipo se enfocará en la implementación de la web application y desarrollar el mobile de nuestra aplicacion, asegurando que cumpla con los requisitos establecidos y funcione correctamente.
@@ -2239,7 +2241,7 @@ En esta sección se presenta el Sprint Backlog del Sprint 2, que incluye las tar
 
 Screenshot del Sprint Backlog del Sprint 2 en Trello:
 
-![Sprint Backlog 2](/assets/Trello%20Spint%202.png)
+![Sprint Backlog 2](assets/Trello%20Spint%202.png)
 
 Enlace al Sprint Backlog del Sprint 2 en Trello: https://trello.com/invite/b/68db1fce75d44c2edfbab7de/ATTI5bd0a4792f4fb64ae03d2faff0bb8ad585EDC93F/sprint-1 
 
@@ -2266,23 +2268,23 @@ En este Sprint 2, el equipo ha desarrollado con una mayor precision la web appli
 
 Se puede evidenciar parte del avance que hemos realizado para esta entrega de nuestro web application:
 
-![Web Application Evidence](/assets/Mockup1.png)
-![Web Application Evidence](/assets/Mockup2.png)
-![Web Application Evidence](/assets/Mockup3.png)
-![Web Application Evidence](/assets/Mockup4.png)
-![Web Application Evidence](/assets/Mockup5.png)
+![Web Application Evidence](assets/Mockup1.png)
+![Web Application Evidence](assets/Mockup2.png)
+![Web Application Evidence](assets/Mockup3.png)
+![Web Application Evidence](assets/Mockup4.png)
+![Web Application Evidence](assets/Mockup5.png)
 
 Se puede evidenciar parte del avance que hemos realizado para esta entrega de nuestro mobile application:
 
-![Mobile Application Evidence](/assets/Dedalus%20Movil%201.jpg)
-![Mobile Application Evidence](/assets/Dedalus%20Movil%202.jpg)
-![Mobile Application Evidence](/assets/Dedalus%20Movil%203.jpg)
-![Mobile Application Evidence](/assets/Dedalus%20Movil%204.jpg)
-![Mobile Application Evidence](/assets/Dedalus%20Movil%205.jpg)
-![Mobile Application Evidence](/assets/Dedalus%20Movil%206.jpg)
-![Mobile Application Evidence](/assets/Dedalus%20Movil%207.jpg)
-![Mobile Application Evidence](/assets/Dedalus%20Movil%208.jpg)
-![Mobile Application Evidence](/assets/Dedalus%20Movil%209.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%201.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%202.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%203.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%204.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%205.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%206.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%207.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%208.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%209.jpg)
 
 
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review
@@ -2299,7 +2301,7 @@ Este proceso permitió garantizar que cada actualización en el repositorio prin
     - Se creó el repositorio público Dedalus_Landing_Page en GitHub para centralizar el código fuente de la landing.
     - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
     - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
-    - Estructura del repositorio: ![Repo Structure](/assets/repo-structure.png)
+    - Estructura del repositorio: ![Repo Structure](assets/repo-structure.png)
 2. **Configuración de GitHub Pages**
     - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
     - Se habilitó el dominio del proyecto, generando la URL pública: https://kamaqlabs.github.io/Dedalus_Landing_Page/
@@ -2309,12 +2311,12 @@ Este proceso permitió garantizar que cada actualización en el repositorio prin
         - Compilar automáticamente la landing page al hacer push en la rama develop.
         - Generar la carpeta dist/ optimizada para producción.
         - Publicar el contenido en la rama gh-pages de manera automática.
-        - Script configurado: ![Deploy Script](/assets/deploy-script.png)
+        - Script configurado: ![Deploy Script](assets/deploy-script.png)
 4. **Verificación del despliegue**
     - Se validó el acceso público a la landing desde el navegador.
     - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
     - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
-    - Landing Page desplegada: ![Landing Page Deployed](/assets/landing-page-deployed.png)
+    - Landing Page desplegada: ![Landing Page Deployed](assets/landing-page-deployed.png)
 
 ### 6.2.1.9 Team Collaboration Insights during Sprint
 Para el desarrollo de este sprint, el equipo designó a integrantes para el desarrollo de las actividades de desarrollo de Web y Mobile Application:
@@ -2322,9 +2324,9 @@ Para el desarrollo de este sprint, el equipo designó a integrantes para el desa
 
 GitHub insights de Web y Mobile Application:
 
-![insights ](/assets/Mobile%20Insights.png)
-![insights ](/assets/Dedalus%20Insights%202.png)
-![insights ](/assets/Dedalus%20Insights%203.png)
+![insights ](assets/Mobile%20Insights.png)
+![insights ](assets/Dedalus%20Insights%202.png)
+![insights ](assets/Dedalus%20Insights%203.png)
 
 ## 6.3 Validation Interviews  
 ### 6.3.1 Diseño de Entrevistas  
@@ -2388,7 +2390,7 @@ GitHub insights de Web y Mobile Application:
 | **Link del video:**  https://youtu.be/mzMYdfkO-wQ |
 | **Edad:**  31 años |
 | **Procedencia:**  Lima, San Isidro |
-| ![Entrevista](/assets/Entrevista%20Validacion%201.png)|
+| ![Entrevista](assets/Entrevista%20Validacion%201.png)|
 | **Resumen:** Ramiro es un gestor de hotel en San Isidro, Lima, con cinco años de experiencia en la industria hotelera. El administra las reservas directamente en el sistema del hotel y le da mucha importancia a aspectos como el precio, la ubicación y las opiniones de los huéspedes. Aunque se siente cómodo gestionando reservas desde su smartphone, sugiere que las plataformas de reservas hoteleras deberían incluir más opciones de personalización, enviar recordatorios automáticos y ofrecer mayor claridad en las tarifas adicionales. Además, considera esencial recibir notificaciones y tener la opción de comunicarse directamente con los clientes a través de la plataforma. |
 
 #### Entrevista 2
@@ -2398,7 +2400,7 @@ GitHub insights de Web y Mobile Application:
 | **Link del video:**  https://youtu.be/_SB_7uG-c-I|
 | **Edad:**  22 años |
 | **Procedencia:**  Lima, Villa Salvador |
-| ![Entrevista](/assets/Entrevista%20Validacion%202.png)|
+| ![Entrevista](assets/Entrevista%20Validacion%202.png)|
 | **Resumen:** Roberto Franco  es un gestor de hotel en Lima con 4 años de experiencia en el sector. Maneja las reservas directamente en el sistema del hotel y considera esenciales factores como el precio, la ubicación y los comentarios de los huéspedes. Sugiere que las aplicaciones de reservas deberían ser más visuales, ofreciendo opciones de personalización, recordatorios automáticos y mayor claridad en los cargos adicionales. Para él, es crucial recibir notificaciones y tener la opción de comunicarse de forma directa con los clientes a través de la plataforma. |
 
 ## Segmento de huespedes
@@ -2410,7 +2412,7 @@ GitHub insights de Web y Mobile Application:
 | **Link del video:** |
 | **Edad:**  24 años |
 | **Procedencia:**  Lima, Callao |
-| ![Entrevista](/assets/Entrevista%20Validacion%203.png)|
+| ![Entrevista](assets/Entrevista%20Validacion%203.png)|
 | **Resumen:** Jose Shuan, un estudiante universitario de 24 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente cómodo Logistic Master para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva. |
 
 #### Entrevista 4
@@ -2420,7 +2422,7 @@ GitHub insights de Web y Mobile Application:
 | **Link del video:**  https://youtu.be/tG7F4AsYnO8 |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, San Miguel |
-| ![Entrevista](/assets/Entrevista%20Validacion%204.png)|
+| ![Entrevista](assets/Entrevista%20Validacion%204.png)|
 | **Resumen:** Gael, un estudiante universitario de 19 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos pero si no cuenta con mucho tiempo por la universidad prefiere cercanos  , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente Logistic Master cómodo usando  para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva . |
 
 ### 6.3.3 Evaluaciones segun heuristicas
@@ -2486,6 +2488,18 @@ GitHub insights de Web y Mobile Application:
 <br>
 
 3. Metodológicamente, el proyecto ha avanzado con un enfoque Lean UX y centrado en el usuario, definiendo segmentos (administradores, personal operativo y huéspedes), supuestos de negocio y de uso, así como métricas de éxito ligadas a eficiencia, seguridad y experiencia del cliente. La incorporación de evaluaciones heurísticas basadas en principios de usabilidad reconocidos internacionalmente ha permitido identificar tempranamente problemas concretos en la interfaz (retroalimentación, control del usuario, prevención de errores y recuperación de información) y priorizar mejoras antes de un despliegue masivo, reduciendo riesgos de adopción y aumentando la probabilidad de que Dedalus IoT se perciba como una solución intuitiva y confiable en hoteles reales.
+
+### Links
+#### Repositorios:
+- **FrontEndApp:** https://github.com/KamaqLabs/Dedalus-FrontEndApp
+- **BackEnd:** https://github.com/KamaqLabs/Dedalus-Platform
+- **LandingPage:** https://github.com/KamaqLabs/Dedalus_Landing_Page/tree/develop 
+- **MovileApp:** https://github.com/KamaqLabs/Dedalus-MobileApp 
+- **SystenEndebbed:** https://github.com/KamaqLabs/IOT_v1_dedalus 
+- **Edge Api:** https://github.com/KamaqLabs/Edge-api
+
+#### Desplegados:
+- **FrotEndApp:** https://vsc4k4koccgs40wgs804gkww.4.201.187.236.sslip.io/ 
 
 ## Bibliografia
 
