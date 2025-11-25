@@ -484,7 +484,7 @@ A continuación, se detallan los pasos principales del proceso de deployment.
    - El proyecto incluye la estructura típica del backend (carpetas `src`, `migrations`, `test`, archivos `Dockerfile`, `docker-compose.yml`, configuración de TypeScript y scripts de npm).
    - Este repositorio es utilizado por Coolify como origen de código para la construcción de la imagen Docker del backend.  
 
-   _[Línea para la imagen del repositorio en GitHub]_  
+![Despliegue](assets/Despliegue%20Backend%204.jpg) 
 
 ---
 
@@ -495,7 +495,8 @@ A continuación, se detallan los pasos principales del proceso de deployment.
      - Una base de datos **`mysql-dedalus`** como almacenamiento de producción.
    - Desde la vista de *Resources* se puede observar la relación entre la aplicación backend y la base de datos asociada.  
 
-   _[Línea para la imagen de la vista “Projects / Resources” en Coolify]_  
+![Despliegue](assets/Despliegue%20Backend%203.jpg) 
+![Despliegue](assets/Despliegue%20Backend%205.jpg) 
 
 ---
 
@@ -507,7 +508,7 @@ A continuación, se detallan los pasos principales del proceso de deployment.
      - Configuración de variables de entorno para la conexión con `mysql-dedalus` (host, usuario, contraseña y nombre de base de datos).
    - Desde esta misma pantalla se ejecutan las acciones de **Redeploy**, **Restart** y se accede a los logs para monitoreo del servicio.  
 
-   _[Línea para la imagen de la pantalla de configuración de la app en Coolify]_  
+![Despliegue](assets/Despliegue%20Backend%205.jpg)   
 
 ---
 
@@ -521,7 +522,7 @@ A continuación, se detallan los pasos principales del proceso de deployment.
      - (y el resto de recursos del dominio del sistema).
    - La respuesta exitosa de estos endpoints confirma que el backend está desplegado, funcional y disponible para ser consumido por la web application, la app móvil y los componentes IoT.  
 
-   _[Línea para la imagen de Swagger de la Dedalus Platform API]_  
+   ![Despliegue](assets/Despliegue%20Backend%206.jpg) 
 
 #### Software Deployment Evidence – Front-end Web Application
 
@@ -540,8 +541,6 @@ A continuación, se describen los pasos principales del proceso de deployment de
    - El proyecto incluye su propio `Dockerfile`, que empaqueta el front-end en una imagen lista para producción.
    - Este repositorio se configura en Coolify como fuente de la aplicación **front-end**, permitiendo que cada redeploy tome la última versión estable del código.  
 
-   _[Línea para la imagen del repositorio/estructura del front-end]_  
-
 ---
 
 2. **Definición del recurso de front-end en Coolify**
@@ -549,7 +548,7 @@ A continuación, se describen los pasos principales del proceso de deployment de
    - Desde la vista de *Projects → Resources* se puede observar la aplicación de front-end junto al backend y la base de datos MySQL que conforman el entorno productivo.
    - Esta configuración permite gestionar de forma centralizada los servicios de la plataforma (API, front-end y base de datos).  
 
-   _[Línea para la imagen de la vista “Projects / Resources” con el front-end]_  
+   ![Despliegue](assets/Despliegue%20Backend%203.jpg)  
 
 ---
 
@@ -560,7 +559,7 @@ A continuación, se describen los pasos principales del proceso de deployment de
      - **Domains:** se asignó el dominio generado por Coolify `http://vsc4k4koccgs40wgs804gkww.4.201.187.236.sslip.io`, el cual expone la aplicación al público.
    - Desde esta pantalla se dispone de acciones de **Redeploy**, **Restart** y **Stop**, y se pueden revisar los logs para monitorear el comportamiento de la aplicación en tiempo real.  
 
-   _[Línea para la imagen de la pantalla de configuración del front-end en Coolify]_  
+   ![Despliegue](assets/Despliegue%20Frontend%202.jpg) 
 
 ---
 
@@ -572,7 +571,7 @@ A continuación, se describen los pasos principales del proceso de deployment de
      - La correcta carga de estilos, imágenes de fondo y recursos estáticos.
    - Esta verificación confirma que la aplicación web de Dedalus se encuentra desplegada y accesible para los usuarios finales y para las pruebas de integración con el backend y los servicios IoT.  
 
-   _[Línea para la imagen de la landing / home del front-end desplegado]_  
+   ![Despliegue](assets/Despliegue%20Frontend%201.jpg)
 
 ### 6.2.1.9 Team Collaboration Insights during Sprint
 Para el desarrollo de este sprint, el equipo designó a integrantes para el desarrollo de las actividades de desarrollo de Web y Mobile Application:
