@@ -464,33 +464,115 @@ Se puede evidenciar parte del avance que hemos realizado para esta entrega de nu
 
 En este Sprint 2, el equipo ha avanzado con mayor precisión en el desarrollo de la web application, la primera versión de la mobile app y la integración con los componentes IoT (Edge y dispositivo embebido), asegurando que todo el ecosistema cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 2, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas tanto en la capa web/móvil como en la capa IoT.
 
-### 6.2.1.8 Software Deployment Evidence for Sprint Review
-#### Software Deployment Evidence – Landing Page
-Durante este Sprint se realizó el despliegue de la Landing Page oficial de la plataforma Dedalus, la cual tiene como propósito presentar la solución al público objetivo (hoteles, resorts y hospedajes boutique) y proporcionar una primera interacción digital con la marca.
-El despliegue se efectuó utilizando GitHub Pages como servicio de hosting estático y GitHub Actions como herramienta de automatización continua (CI/CD).
-Este proceso permitió garantizar que cada actualización en el repositorio principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
+### 6.2.1.8 Software Deployment Evidence for Sprint Review  
+
+#### Software Deployment Evidence – Backend (Dedalus Platform API)
+
+Durante este Sprint se realizó el despliegue del **backend de la plataforma Dedalus**, el cual expone la API REST utilizada por la web application, la app móvil y los componentes IoT (Edge y dispositivo embebido). El despliegue se efectuó utilizando **Coolify** como plataforma de orquestación y despliegue de contenedores, sobre un servidor con **Docker** y una base de datos **MySQL** dedicada para producción. La API se encuentra publicada y documentada mediante **Swagger** en la siguiente URL:
+
+> https://sogw0gwg8w0w8ok8gkgwsso0.4.201.187.236.sslip.io/api  
+
+A continuación, se detallan los pasos principales del proceso de deployment.
+
+---
 
 #### Pasos del proceso de Deployment
-1. **Creación y configuración del repositorio**
-    - Se creó el repositorio público Dedalus_Landing_Page en GitHub para centralizar el código fuente de la landing.
-    - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
-    - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
-    - Estructura del repositorio: ![Repo Structure](assets/repo-structure.png)
-2. **Configuración de GitHub Pages**
-    - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
-    - Se habilitó el dominio del proyecto, generando la URL pública: https://kamaqlabs.github.io/Dedalus_Landing_Page/
-    - La visibilidad se configuró como pública para permitir el acceso de los stakeholders y usuarios de prueba.
-3. **Automatización mediante GitHub Actions (CI/CD)**
-    - Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función:
-        - Compilar automáticamente la landing page al hacer push en la rama develop.
-        - Generar la carpeta dist/ optimizada para producción.
-        - Publicar el contenido en la rama gh-pages de manera automática.
-        - Script configurado: ![Deploy Script](assets/deploy-script.png)
-4. **Verificación del despliegue**
-    - Se validó el acceso público a la landing desde el navegador.
-    - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
-    - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
-    - Landing Page desplegada: ![Landing Page Deployed](assets/landing-page-deployed.png)
+
+1. **Creación y configuración del repositorio del backend**
+   - Se creó el repositorio público **`KamaqLabs/Dedalus-Platform`** en GitHub para centralizar el código fuente de la API RESTful.
+   - La rama `main` se definió como rama estable para las versiones desplegables.
+   - El proyecto incluye la estructura típica del backend (carpetas `src`, `migrations`, `test`, archivos `Dockerfile`, `docker-compose.yml`, configuración de TypeScript y scripts de npm).
+   - Este repositorio es utilizado por Coolify como origen de código para la construcción de la imagen Docker del backend.  
+
+   _[Línea para la imagen del repositorio en GitHub]_  
+
+---
+
+2. **Configuración del proyecto y entorno en Coolify**
+   - En Coolify se definió el proyecto **“Dedalus”** con el entorno **`production`**, donde se gestionan los recursos de la plataforma.
+   - Dentro de este entorno se configuraron:
+     - Una aplicación de backend denominada **`kamaq-labs/dedalus-platform`**.
+     - Una base de datos **`mysql-dedalus`** como almacenamiento de producción.
+   - Desde la vista de *Resources* se puede observar la relación entre la aplicación backend y la base de datos asociada.  
+
+   _[Línea para la imagen de la vista “Projects / Resources” en Coolify]_  
+
+---
+
+3. **Configuración de la aplicación backend en Coolify**
+   - En la sección **Configuration** de la aplicación `kamaq-labs/dedalus-platform` se establecieron los siguientes parámetros:
+     - **Build Pack:** `Dockerfile`, utilizando el `Dockerfile` del repositorio para construir la imagen.
+     - **Base Directory:** `/` y **Dockerfile Location:** `/Dockerfile`, indicando la ubicación del archivo Docker dentro del repo.
+     - **Dominio generado:** `http://sogw0gwg8w0w8ok8gkgwsso0.4.201.187.236.sslip.io`, que luego se usa para exponer la ruta `/api` con Swagger.
+     - Configuración de variables de entorno para la conexión con `mysql-dedalus` (host, usuario, contraseña y nombre de base de datos).
+   - Desde esta misma pantalla se ejecutan las acciones de **Redeploy**, **Restart** y se accede a los logs para monitoreo del servicio.  
+
+   _[Línea para la imagen de la pantalla de configuración de la app en Coolify]_  
+
+---
+
+4. **Verificación del despliegue y documentación de la API**
+   - Una vez completado el despliegue, se verificó el estado **Running** de la aplicación en Coolify y se revisaron los logs de inicio del contenedor.
+   - Se accedió al endpoint público de Swagger en:  
+     `https://sogw0gwg8w0w8ok8gkgwsso0.4.201.187.236.sslip.io/api`
+   - Desde esta interfaz se validó el correcto funcionamiento de los principales grupos de endpoints:
+     - **IAM:** `/api/v1/authentication/sign-in`, `/refresh-token`, `/me`, etc.
+     - **Profiles:** endpoints para guest profiles y administrator profiles.
+     - (y el resto de recursos del dominio del sistema).
+   - La respuesta exitosa de estos endpoints confirma que el backend está desplegado, funcional y disponible para ser consumido por la web application, la app móvil y los componentes IoT.  
+
+   _[Línea para la imagen de Swagger de la Dedalus Platform API]_  
+
+#### Software Deployment Evidence – Front-end Web Application
+
+Durante este Sprint se realizó el despliegue de la **aplicación web frontal de Dedalus**, la cual proporciona la interfaz gráfica para el acceso de administradores y futuros huéspedes (pantalla de bienvenida, log in, registro y navegación inicial hacia el panel). El despliegue se efectuó también mediante **Coolify**, utilizando un contenedor Docker propio para el front-end. La aplicación está publicada en el siguiente dominio público:
+
+> https://vsc4k4koccgs40wgs804gkww.4.201.187.236.sslip.io/  
+
+A continuación, se describen los pasos principales del proceso de deployment de la aplicación web.
+
+---
+
+##### Pasos del proceso de Deployment
+
+1. **Configuración del proyecto front-end**
+   - El código de la aplicación web se mantiene en un repositorio dedicado en GitHub, donde se administran las ramas de desarrollo y los cambios a través de pull requests.
+   - El proyecto incluye su propio `Dockerfile`, que empaqueta el front-end en una imagen lista para producción.
+   - Este repositorio se configura en Coolify como fuente de la aplicación **front-end**, permitiendo que cada redeploy tome la última versión estable del código.  
+
+   _[Línea para la imagen del repositorio/estructura del front-end]_  
+
+---
+
+2. **Definición del recurso de front-end en Coolify**
+   - Dentro del proyecto **“Dedalus”** y del entorno **`production`** en Coolify, se creó la aplicación **`kamaq-labs/-dedalus--front-end-app`**.
+   - Desde la vista de *Projects → Resources* se puede observar la aplicación de front-end junto al backend y la base de datos MySQL que conforman el entorno productivo.
+   - Esta configuración permite gestionar de forma centralizada los servicios de la plataforma (API, front-end y base de datos).  
+
+   _[Línea para la imagen de la vista “Projects / Resources” con el front-end]_  
+
+---
+
+3. **Configuración de build y dominio en Coolify**
+   - En la sección **Configuration** de la aplicación `kamaq-labs/-dedalus--front-end-app` se establecieron los siguientes parámetros:
+     - **Build Pack:** `Dockerfile`, usando el `Dockerfile` del proyecto front-end para construir la imagen.
+     - **Base Directory:** `/` y **Dockerfile Location:** `/Dockerfile`, indicando que el archivo Docker se encuentra en la raíz del repositorio.
+     - **Domains:** se asignó el dominio generado por Coolify `http://vsc4k4koccgs40wgs804gkww.4.201.187.236.sslip.io`, el cual expone la aplicación al público.
+   - Desde esta pantalla se dispone de acciones de **Redeploy**, **Restart** y **Stop**, y se pueden revisar los logs para monitorear el comportamiento de la aplicación en tiempo real.  
+
+   _[Línea para la imagen de la pantalla de configuración del front-end en Coolify]_  
+
+---
+
+4. **Verificación del despliegue de la aplicación web**
+   - Tras ejecutar el **redeploy** en Coolify, se verificó que el estado de la aplicación cambiara a **Running** sin errores en los logs de arranque.
+   - Se accedió al dominio público del front-end para comprobar:
+     - La carga correcta de la página principal “Welcome to Dedalus”.
+     - La visualización de los botones **Log In** y **Register**, así como los enlaces **Sign Up** y **Sign In** en el header.
+     - La correcta carga de estilos, imágenes de fondo y recursos estáticos.
+   - Esta verificación confirma que la aplicación web de Dedalus se encuentra desplegada y accesible para los usuarios finales y para las pruebas de integración con el backend y los servicios IoT.  
+
+   _[Línea para la imagen de la landing / home del front-end desplegado]_  
 
 ### 6.2.1.9 Team Collaboration Insights during Sprint
 Para el desarrollo de este sprint, el equipo designó a integrantes para el desarrollo de las actividades de desarrollo de Web y Mobile Application:
