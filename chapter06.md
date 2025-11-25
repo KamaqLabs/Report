@@ -367,4 +367,324 @@ GitHub insights del landing page y Web Application:
 ![insights ](/assets/TeamCollaboration%20Landing.png)
 ![insights ](/assets/TeamCollaboration%20WebApp.png)
 
+## 6.2.1 Sprint 2
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2. Durante este sprint, el equipo se enfocará en la implementación de la web application y desarrollar el mobile de nuestra aplicacion, asegurando que cumpla con los requisitos establecidos y funcione correctamente.
+
+### 6.2.1.1 Sprint Planning 2
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 2, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
+
+| **Sprint #**                       | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Date                               | 2025-11-10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Time                               | 16:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Location                           | Google Meet Reunion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Prepared by                        | Valentino Cervantes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Attendees (to planning meeting)    | Valentino Cervantes, Miguel Carpio, Mathias Vasquez, Gabriel Braithuaite, Sihuar Ccotarma                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint n - 1 Review  Summary       | Profundizaremos la Web Application para administradores, incorporando la gestión visual de reservas mediante un calendario, formularios de creación/edición con validación de disponibilidad y el historial de accesos a habitaciones con filtros y exportación. Con ello buscamos que el panel de administración evolucione desde un MVP a una herramienta más cercana al uso real en hoteles pequeños y medianos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Sprint n - 1 Retrospective Summary | Consideraremos que este objetivo se ha cumplido cuando los huéspedes puedan iniciar sesión en la app móvil, abrir su habitación usando NFC/Bluetooth y ajustar luces y temperatura desde su dispositivo, y cuando los administradores puedan gestionar reservas desde la vista de calendario y consultar el registro de accesos desde la Web Application sin bloqueadores críticos y con los flujos principales probados en al menos un dispositivo Android de referencia.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint 1 Goal                      | Nuestro foco en el Sprint 2 es entregar la primera versión funcional de la experiencia móvil para huéspedes de la plataforma Dedalus, junto con una versión más completa del módulo web de administración. Esto incluye implementar los flujos de acceso a habitaciones mediante NFC/Bluetooth, así como el control del ambiente de la habitación (luces y temperatura) desde la app móvil, garantizando retroalimentación clara al usuario y manejo básico de errores de conectividad. |
+| Sprint 1 Velocity                  |           24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points                |      24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+
+### 6.2.1.2 Aspect Leaders and Collaborators
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 2, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
+
+
+### 6.2.1.3 Sprint Backlog 2
+En esta sección se presenta el Sprint Backlog del Sprint 2, que incluye las tareas y actividades planificadas para el desarrollo del Web y Mobile Application. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
+
+| Sprint # | User Story Id | Title                        | Work Item Id | Task Title                                          | Description                                                                                                                                          | Estimation (Hours) | Assigned To | Status      |
+|---------:|---------------|-----------------------------|--------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------:|-------------|-------------|
+| Sprint 2 | US006         | Acceso con NFC              | WI10         | Diseñar flujo de acceso NFC en app móvil           | Definir pantallas y navegación para que el huésped inicie sesión, seleccione su habitación y utilice el botón de “Abrir con NFC” dentro de la app.  |                2.0 | Valentino   | Done        |
+| Sprint 2 | US006         | Acceso con NFC              | WI10A        | Implementar lectura y validación de credenciales   | Programar en la app móvil la invocación al endpoint de credenciales NFC, manejo de estados (válida/expirada) y registro local del resultado.        |                3.0 | Mathias     | Done        |
+| Sprint 2 | US007         | Acceso con Bluetooth        | WI11         | Configurar emparejamiento BLE en la app móvil      | Implementar la lógica para escanear cerraduras cercanas vía Bluetooth, seleccionar la habitación autorizada y guardar el dispositivo emparejado.    |                3.0 | Gabriel     | Done        |
+| Sprint 2 | US007         | Acceso con Bluetooth        | WI11A        | Apertura de puerta vía comando BLE                 | Desarrollar la función que envía el comando de apertura a la cerradura, mostrando feedback en pantalla y registrando el evento en el log local.     |                2.0 | Gabriel     | Done        |
+| Sprint 2 | US011         | Control de luces            | WI12         | UI de control de luces en app móvil                | Diseñar e implementar sliders/switches por ambiente (habitación, baño) para encender/apagar luces desde la pantalla principal de la habitación.     |                2.5 | Sihuar      | Done        |
+| Sprint 2 | US011         | Control de luces            | WI12A        | Integración con API IoT de luces                   | Conectar la UI de la app móvil con el servicio REST/MQTT de luces, incluyendo reintentos y mensajes de error cuando no haya conexión.               |                3.0 | Sihuar      | Done        |
+| Sprint 2 | US013         | Control de temperatura      | WI13         | Diseñar componente de termostato en app móvil      | Crear un control de temperatura (slider o stepper) que permita al huésped ajustar el setpoint dentro del rango permitido (18–26 °C).                |                2.0 | Valentino   | Done        |
+| Sprint 2 | US013         | Control de temperatura      | WI13A        | Conectar termostato con backend                    | Implementar la llamada al backend para actualizar el setpoint, mostrar temperatura actual vs objetivo y manejar estados “Eco” y “Standby”.          |                3.0 | Mathias     | Done        |
+| Sprint 2 | US004         | Crear/gestionar reservas    | WI14         | Vista de calendario de reservas en web application | Implementar en la aplicación web una vista de calendario donde el administrador pueda visualizar reservas por habitación y rango de fechas.         |                3.5 | Miguel      | In Progress  |
+| Sprint 2 | US004         | Crear/gestionar reservas    | WI14A        | Formulario de creación/edición de reserva web      | Desarrollar el formulario para crear/modificar reservas en la web app, con validación de disponibilidad y mensajes claros de error/éxito.           |                3.0 | Miguel      | To Do       |
+| Sprint 2 | US010         | Registro de accesos         | WI15         | Listado filtrable de accesos en web application    | Crear en la web app una tabla con los accesos por habitación/usuario/método, con filtros por fecha y paginación básica.                             |                2.5 | Sihuar      | In Progress  |
+| Sprint 2 | US010         | Registro de accesos         | WI15A        | Exportación y detalle de acceso                    | Implementar la vista de detalle de cada acceso (fecha, método, dispositivo) y la opción de exportar el historial visible a CSV desde la web app.   |                2.0 | Mathias     | To Do       |
+
+
+Screenshot del Sprint Backlog del Sprint 2 en Trello:
+
+![Sprint Backlog 2](assets/Trello%20Spint%202.png)
+
+Enlace al Sprint Backlog del Sprint 2 en Trello: https://trello.com/invite/b/68db1fce75d44c2edfbab7de/ATTI5bd0a4792f4fb64ae03d2faff0bb8ad585EDC93F/sprint-1 
+
+### 6.2.1.4 Development Evidence for Sprint Review
+En esta sección se explican y presentan los avances en la implementación de los productos de la solución según el alcance del Sprint 2. Durante este sprint, el equipo se ha enfocado en el avance de nuestra Web y Mobile Application.
+
+| Repository                          | Branch  | Commit Id | Commit Message                                                                      | Commit Message Body                                                                                                                                                            | Commited on (Date) |
+|-------------------------------------|---------|-----------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| https://github.com/KamaqLabs/Dedalus-MobileApp        | main    | f845bd4   | Initial commit                                                                      | chore(mvp): initial mobile MVP                                                                                                                  | 2025-11-12         |
+| https://github.com/KamaqLabs/Dedalus-Platform | main    | 8b97fe4   |  feat: add endpoints to retrieve all bookingslocations                                            | feat: add endpoints to retrieve all bookings, bookings by hotelId, and bookings by guestId | 2025-11-12       | 
+| https://github.com/KamaqLabs/Dedalus-Platform     | main | c3db5c9  | feat: add endpoint to retrieve all hotels                                                    | feat: add endpoint to retrieve all hotels and implement corresponding service method                                                                                                                                              | 2025-11-12         |
+
+
+Enlace al repositorio: https://github.com/KamaqLabs/Dedalus_Landing_Page
+Enlace al repositorio de la Web Application: https://github.com/KamaqLabs/Dedalus-Platform
+Enlace al repositorio del Mobile Application: https://github.com/KamaqLabs/Dedalus-MobileApp
+
+### 6.2.1.5 Testing Suite Evidence for Sprint Review
+Para este sprint, no se han realizado pruebas automatizadas. Sin embargo, se han realizado pruebas manuales para asegurar que la Landing Page, la web application y el mobile app funcionen correctamente y cumplan con los requisitos establecidos.
+Se podrían implementar pruebas automatizadas utilizando herramientas como Selenium en futuros sprints, pero por el momento, el equipo ha optado por realizar pruebas manuales para asegurar la calidad del producto.
+
+### 6.2.1.6 Execution Evidence for Sprint Review
+En este Sprint 2, el equipo ha desarrollado con una mayor precision la web applicacion y la primera version de nuestro mobile app, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
+
+Se puede evidenciar parte del avance que hemos realizado para esta entrega de nuestro web application:
+
+![Web Application Evidence](assets/Mockup1.png)
+![Web Application Evidence](assets/Mockup2.png)
+![Web Application Evidence](assets/Mockup3.png)
+![Web Application Evidence](assets/Mockup4.png)
+![Web Application Evidence](assets/Mockup5.png)
+
+Se puede evidenciar parte del avance que hemos realizado para esta entrega de nuestro mobile application:
+
+![Mobile Application Evidence](assets/Dedalus%20Movil%201.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%202.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%203.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%204.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%205.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%206.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%207.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%208.jpg)
+![Mobile Application Evidence](assets/Dedalus%20Movil%209.jpg)
+
+
+### 6.2.1.7 Services Documentation Evidence for Sprint Review
+Este sprint 2 tuvo como enfoque principal la implementación de la Web Application y la primera version del mobile application, por lo que no se han desarrollado Web Services. La documentación de Endpoints con OpenAPI y los detalles relacionados con Web Services serán relevantes en sprints futuros cuando se aborde la implementación y documentación de estos servicios.
+
+### 6.2.1.8 Software Deployment Evidence for Sprint Review
+#### Software Deployment Evidence – Landing Page
+Durante este Sprint se realizó el despliegue de la Landing Page oficial de la plataforma Dedalus, la cual tiene como propósito presentar la solución al público objetivo (hoteles, resorts y hospedajes boutique) y proporcionar una primera interacción digital con la marca.
+El despliegue se efectuó utilizando GitHub Pages como servicio de hosting estático y GitHub Actions como herramienta de automatización continua (CI/CD).
+Este proceso permitió garantizar que cada actualización en el repositorio principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
+
+#### Pasos del proceso de Deployment
+1. **Creación y configuración del repositorio**
+    - Se creó el repositorio público Dedalus_Landing_Page en GitHub para centralizar el código fuente de la landing.
+    - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
+    - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
+    - Estructura del repositorio: ![Repo Structure](assets/repo-structure.png)
+2. **Configuración de GitHub Pages**
+    - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
+    - Se habilitó el dominio del proyecto, generando la URL pública: https://kamaqlabs.github.io/Dedalus_Landing_Page/
+    - La visibilidad se configuró como pública para permitir el acceso de los stakeholders y usuarios de prueba.
+3. **Automatización mediante GitHub Actions (CI/CD)**
+    - Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función:
+        - Compilar automáticamente la landing page al hacer push en la rama develop.
+        - Generar la carpeta dist/ optimizada para producción.
+        - Publicar el contenido en la rama gh-pages de manera automática.
+        - Script configurado: ![Deploy Script](assets/deploy-script.png)
+4. **Verificación del despliegue**
+    - Se validó el acceso público a la landing desde el navegador.
+    - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
+    - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
+    - Landing Page desplegada: ![Landing Page Deployed](assets/landing-page-deployed.png)
+
+### 6.2.1.9 Team Collaboration Insights during Sprint
+Para el desarrollo de este sprint, el equipo designó a integrantes para el desarrollo de las actividades de desarrollo de Web y Mobile Application:
+
+
+GitHub insights de Web y Mobile Application:
+
+![insights ](assets/Mobile%20Insights.png)
+![insights ](assets/Dedalus%20Insights%202.png)
+![insights ](assets/Dedalus%20Insights%203.png)
+
+## 6.3 Validation Interviews  
+### 6.3.1 Diseño de Entrevistas  
+#### 1. Preguntas para Gestores de Empresas Hoteleras
+
+| **Categoría**                   | **Preguntas**                                                                                                                               |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Edad y género**               | - ¿Podrías indicarme tu edad y género?                                                                                                      |
+|                                 | - ¿Consideras que tu perfil demográfico influye en tu familiaridad o preferencias al usar plataformas de gestión?                            |
+| **Ubicación del hotel**         | - ¿En qué ciudad o región se encuentra tu hotel?                                                                                            |
+|                                 | - ¿Tu ubicación influye en la necesidad de interacción digital con los huéspedes?                                                           |
+| **Experiencia en el sector hotelero** | - ¿Cuántos años de experiencia tienes en la gestión hotelera?                                                                       |
+|                                 | - ¿Qué cambios o actualizaciones esperas en plataformas de gestión con base en tu experiencia?                                              |
+
+#### 1.2 Evaluación del Landing Page y Aplicaciones
+
+| **Categoría**                   | **Preguntas**                                                                                                                               |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Navegación y facilidad de uso** | - ¿Qué tan fácil encontraste navegar en el landing page y la aplicación de Logistic Master?                                                   |
+|                                 | - ¿Hubo alguna sección que te costara trabajo localizar o entender?                                                                        |
+| **Funcionalidades clave**       | - ¿Qué características te parecen útiles en la gestión hotelera?                                                                           |
+|                                 | - ¿Qué opinas de la funcionalidad de notificaciones push en la plataforma?                                                                  |
+| **Eficiencia en la gestión**    | - ¿Crees que la plataforma te facilita la gestión de tu hotel de manera eficiente?                                                         |
+|                                 | - ¿Hay alguna funcionalidad que agregarías o mejorarías para adaptarla mejor a tus necesidades?                                            |
+
+### 2. Preguntas para Huéspedes
+
+| **Categoría**                   | **Preguntas**                                                                                                                               |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Edad y género**               | - ¿Podrías indicarme tu edad y género?                                                                                                      |
+|                                 | - ¿Te sientes cómodo usando plataformas digitales para hacer reservas y recibir notificaciones?                                             |
+| **Distrito de residencia**      | - ¿En qué distrito o ciudad resides actualmente?                                                                                            |
+|                                 | - ¿Prefieres reservar en lugares cercanos a tu residencia o explorar destinos nuevos?                                                       |
+| **Ocupación**                   | - ¿Cuál es tu ocupación actual?                                                                                                             |
+|                                 | - ¿Crees que tu ocupación influye en la frecuencia o tipo de reservas que realizas?                                                         |
+
+#### 2.2 Evaluación del Landing Page y Aplicaciones
+
+| **Categoría**                   | **Preguntas**                                                                                                                               |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Interacción inicial**         | - ¿Fue fácil encontrar la información en el landing page y entender de qué trata Logistic Master?                                              |
+|                                 | - ¿Tuviste problemas para registrarte o iniciar sesión en la aplicación?                                                                    |
+| **Preferencias y expectativas** | - ¿Qué funcionalidades de la plataforma te resultaron más útiles para hacer reservas?                                                      |
+|                                 | - ¿Te gustaría recibir más información personalizada o notificaciones sobre servicios disponibles en los hoteles?                          |
+| **Experiencia de reserva**      | - ¿El flujo de reserva te pareció intuitivo? ¿Hubo algún paso que te generara dudas o frustración?                                         |
+|                                 | - ¿Qué cambios sugerirías para mejorar la experiencia de reserva en la plataforma?                                                         |
+
+### Conclusión de la Entrevista
+
+| **Categoría**                   | **Pregunta**                                                                                                                                |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta Final**              | - ¿Hay algo más que consideres relevante compartir sobre tu experiencia interactuando con la plataforma y realizando reservas?             |
+
+
+### 6.3.2 Registro de Entrevistas  
+
+#### Entrevista 1
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:**  Miguel Polo |
+| **Link del video:**  https://youtu.be/mzMYdfkO-wQ |
+| **Edad:**  31 años |
+| **Procedencia:**  Lima, San Isidro |
+| ![Entrevista](assets/Entrevista%20Validacion%201.png)|
+| **Resumen:** Ramiro es un gestor de hotel en San Isidro, Lima, con cinco años de experiencia en la industria hotelera. El administra las reservas directamente en el sistema del hotel y le da mucha importancia a aspectos como el precio, la ubicación y las opiniones de los huéspedes. Aunque se siente cómodo gestionando reservas desde su smartphone, sugiere que las plataformas de reservas hoteleras deberían incluir más opciones de personalización, enviar recordatorios automáticos y ofrecer mayor claridad en las tarifas adicionales. Además, considera esencial recibir notificaciones y tener la opción de comunicarse directamente con los clientes a través de la plataforma. |
+
+#### Entrevista 2
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:**  Aaron  |
+| **Link del video:**  https://youtu.be/_SB_7uG-c-I|
+| **Edad:**  22 años |
+| **Procedencia:**  Lima, Villa Salvador |
+| ![Entrevista](assets/Entrevista%20Validacion%202.png)|
+| **Resumen:** Roberto Franco  es un gestor de hotel en Lima con 4 años de experiencia en el sector. Maneja las reservas directamente en el sistema del hotel y considera esenciales factores como el precio, la ubicación y los comentarios de los huéspedes. Sugiere que las aplicaciones de reservas deberían ser más visuales, ofreciendo opciones de personalización, recordatorios automáticos y mayor claridad en los cargos adicionales. Para él, es crucial recibir notificaciones y tener la opción de comunicarse de forma directa con los clientes a través de la plataforma. |
+
+## Segmento de huespedes
+
+#### Entrevista 3
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:**  Jose Shuan https://youtu.be/PHPDHfchmEA  |
+| **Link del video:** |
+| **Edad:**  24 años |
+| **Procedencia:**  Lima, Callao |
+| ![Entrevista](assets/Entrevista%20Validacion%203.png)|
+| **Resumen:** Jose Shuan, un estudiante universitario de 24 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente cómodo Logistic Master para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva. |
+
+#### Entrevista 4
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:**  Lopez Diaz Gael Dario |
+| **Link del video:**  https://youtu.be/tG7F4AsYnO8 |
+| **Edad:**  20 años |
+| **Procedencia:**  Lima, San Miguel |
+| ![Entrevista](assets/Entrevista%20Validacion%204.png)|
+| **Resumen:** Gael, un estudiante universitario de 19 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos pero si no cuenta con mucho tiempo por la universidad prefiere cercanos  , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente Logistic Master cómodo usando  para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva . |
+
+### 6.3.3 Evaluaciones segun heuristicas
+
+- Escala de Severidad
+
+| Escala | 1             | 2     | 3         | 4     | 5         |
+|--------|---------------|-------|-----------|-------|-----------|
+| Nivel  | No tan grave  | Leve  | Moderado  | Grave | Muy grave |
+
+--------------------------------------------------------
+
+| #Orden | Problema                                                                                         | Escala de Severidad | Heurística / Principio violado(a) |
+|--------|--------------------------------------------------------------------------------------------------|---------------------|------------------------------------|
+| #1     | Al iniciar sesión en el panel administrativo, la interfaz no muestra un estado claro de validación (pantalla queda estática sin mensaje de “cargando” o “verificando credenciales”).           | 4                   | Eficiencia de retroalimentación                  |
+| #2     | Los íconos de sensores (humo, gas, ocupación) en el panel IoT no tienen etiquetas visibles ni leyenda explicativa. | 3                   | Eficiencia de reconocimiento visual             |
+| #3     | No existe una opción inmediata para revertir una cancelación de reserva realizada por error en el panel de gerente.       | 3                   | Eficiencia de control del usuario                  |
+| #4     | El reporte de ocupación no muestra claramente por qué una habitación está marcada como “Fuera de servicio” u “Ocupada”.           | 4                   | Eficiencia de interpretación de decisiones                  |
+| #5     | El sistema permite revocar credenciales NFC/Bluetooth sin mensaje de confirmación ni resumen de la acción. | 5                 | Eficiencia de prevención de errores
+| #6     | 	El historial de alertas de humo/gas está oculto a varios clics y sin buscador, dificultando encontrar incidentes previos. | 3                  | 	Eficiencia de recuperación de información
+
+**Heurísticas y Recomendaciones:**
+
+- **Problema #1: Falta de retroalimentación al iniciar sesión en el panel administrativo**
+  - *Heurística:* Eficiencia de retroalimentación
+  - *Recomendación:* Agregar un spinner o barra de progreso con el mensaje “Verificando credenciales…” mientras se procesa el login, y mostrar claramente los estados “Sesión iniciada” o “Credenciales incorrectas”. Esto evita que el usuario piense que el sistema está congelado o que el formulario no se envió.
+<br>
+
+- **Problema #2: Iconos de sensores sin etiquetas claras en el panel IoT**
+  - *Heurística:* Eficiencia de reconocimiento visual
+  - *Recomendación:* Añadir etiquetas breves bajo cada ícono (ej. “Humo”, “Gas”, “Ocupación”) y una leyenda de colores (verde = normal, amarillo = alerta, rojo = crítico). Así el administrador reconoce el estado sin memorizar significados.
+<br>
+
+- **Problema #3: Imposibilidad de deshacer cancelaciones de reserva recientes**
+  - *Heurística:* Eficiencia de control del usuario
+  - *Recomendación:* Incorporar una opción “Deshacer” visible durante unos segundos tras cancelar una reserva y un historial rápido de cambios recientes. Esto otorga al administrador control para corregir errores sin re-crear toda la reserva.
+<br>
+
+- **Problema #4: Reporte de ocupación sin explicación del estado de cada habitación**
+  - *Heurística:* Eficiencia de interpretación de decisiones
+  - *Recomendación:* Agregar una columna “Motivo de estado” (ej. mantenimiento, sobreventa, bloqueo manual) y tooltips que expliquen reglas de negocio. Así, el gerente entiende por qué el sistema marcó una habitación como ocupada o fuera de servicio.
+<br>
+
+- ¨**Problema #5: Revocación de credenciales IoT sin confirmación previa**
+  - *Heurística:* Eficiencia de prevención de errores
+  - *Recomendación:* Antes de revocar accesos, mostrar un diálogo de confirmación: “¿Deseas revocar todas las credenciales de la habitación 304? El huésped ya no podrá ingresar.” con opciones Confirmar / Cancelar. Esto reduce el riesgo de dejar a un huésped sin acceso por un clic accidental.
+<br>
+
+- **Problema #6: Historial de alertas de humo/gas difícil de localizar y filtrar**
+  - *Heurística:* Eficiencia de recuperación de información
+  - *Recomendación:* Ubicar un acceso directo al historial de alertas en el menú principal e incluir filtros por fecha, tipo de alerta y habitación, además de un buscador. De esta manera, el personal puede recuperar incidentes específicos de forma rápida para auditorías o investigación.
+ 
+- - -
+
 ## 6.4 Video About-the-Product
+
+## Conclusiones
+
+1.  El proyecto Dedalus IoT de KamaqLabs ha logrado definir con claridad un problema real del sector hotelero peruano y latinoamericano: alta informalidad, baja digitalización, procesos manuales y deficiencias en seguridad y eficiencia operativa, lo que genera errores en reservas, pérdidas económicas y experiencias negativas para los huéspedes. A partir de este diagnóstico, se ha formulado una pregunta guía concreta sobre cómo integrar tecnología IoT en la gestión hotelera para mejorar eficiencia, seguridad y personalización de la experiencia, lo que enmarca de forma sólida todo el alcance del proyecto.
+<br>
+
+2. Como respuesta al problema identificado, se ha diseñado una propuesta de solución integral que combina gestión web para gerentes, aplicación móvil para huéspedes e infraestructura IoT (sensores de humo y gas, cerraduras electrónicas, luces y termostatos inteligentes), consolidando en una sola plataforma la gestión de reservas, accesos y automatización de habitaciones Esta arquitectura apunta a cubrir una brecha real del mercado, donde actualmente no existe una solución accesible que unifique estas capacidades para hoteles pequeños y medianos de la región. Además, el modelo de negocio proyecta ahorros energéticos de hasta 30 %, reducción de errores de reservas y accesos en alrededor de 80 % e incrementos de 15–20 % en satisfacción y retención de huéspedes, reforzando la viabilidad económica y el impacto práctico del sistema.
+<br>
+
+3. Metodológicamente, el proyecto ha avanzado con un enfoque Lean UX y centrado en el usuario, definiendo segmentos (administradores, personal operativo y huéspedes), supuestos de negocio y de uso, así como métricas de éxito ligadas a eficiencia, seguridad y experiencia del cliente. La incorporación de evaluaciones heurísticas basadas en principios de usabilidad reconocidos internacionalmente ha permitido identificar tempranamente problemas concretos en la interfaz (retroalimentación, control del usuario, prevención de errores y recuperación de información) y priorizar mejoras antes de un despliegue masivo, reduciendo riesgos de adopción y aumentando la probabilidad de que Dedalus IoT se perciba como una solución intuitiva y confiable en hoteles reales.
+
+### Links
+#### Repositorios:
+- **FrontEndApp:** https://github.com/KamaqLabs/Dedalus-FrontEndApp
+- **BackEnd:** https://github.com/KamaqLabs/Dedalus-Platform
+- **LandingPage:** https://github.com/KamaqLabs/Dedalus_Landing_Page/tree/develop 
+- **MovileApp:** https://github.com/KamaqLabs/Dedalus-MobileApp 
+- **SystenEndebbed:** https://github.com/KamaqLabs/IOT_v1_dedalus 
+- **Edge Api:** https://github.com/KamaqLabs/Edge-api
+
+#### Desplegados:
+- **FrotEndApp:** https://vsc4k4koccgs40wgs804gkww.4.201.187.236.sslip.io/ 
+
+## Bibliografia
+
+- Balaguruswamy Naidu, G. (2024). IoT innovation in hospitality: A comprehensive technical analysis of implementation and impact. International Journal for Multidisciplinary Research, 6(6).
+
+- Gajić, T. (2024). Integrating artificial intelligence (AI) and the Internet of Things (IoT) for hotel operational efficiency and sustainability. Sustainability, 16(17), 7279.
+
+- Jiang, H. (2022). Research on hotel management based on Internet of Things and big data. International Journal of Modeling, Simulation, and Scientific Computing.
+
+
+- Kim, J. J., Kim, M., & Park, J. (2022). Hotel service innovation with smart technologies. Sustainability, 14(10), 5746.
+
+- Jung, K. H., & Jung, B. (2022). Usability enhancement based on usability heuristics. Applied Ergonomics, 102, 103747.
+
+- Nielsen, J. (2024). 10 usability heuristics for user interface design (updated). Nielsen Norman Group. 
