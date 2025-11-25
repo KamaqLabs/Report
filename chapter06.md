@@ -643,6 +643,16 @@ En esta sección se presenta el Sprint Backlog del Sprint 3, que incluye las tar
 | Sprint 3 | US018         | Mobile – refinamiento de servicio a habitación | WI24         | Mejoras UX y pruebas end-to-end mobile → staff                | Ajustar textos y feedback de la pantalla de servicio a la habitación, y ejecutar pruebas end-to-end para verificar que los pedidos se registran y aparecen en la pantalla de staff sin errores.                                             | 3.0               | Gabriel     | To Do    |
 | Sprint 3 | —             | Deploy final mobile & documentación IoT        | WI25         | Generar build final de la app móvil y evidencias de IoT       | Generar el build final de la app móvil (APK), comprobar su conexión con la API y el Edge, y capturar evidencias (screenshots, fotos del prototipo y paneles web) para la demo final del curso de IoT.                                     | 3.5               | Todo el equipo | To Do |
 
+### 6.2.3.4 Development Evidence for Sprint Review
+
+### 6.2.3.5 Testing Suite Evidence for Sprint Review
+
+### 6.2.3.6 Execution Evidence for Sprint Review
+
+### 6.2.3.7 Services Documentation Evidence for Sprint Review
+
+### 6.2.3.8 Software Deployment Evidence for Sprint Review
+
 
 ## 6.3 Validation Interviews  
 ### 6.3.1 Diseño de Entrevistas  
