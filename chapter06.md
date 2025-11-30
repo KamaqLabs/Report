@@ -645,16 +645,53 @@ En esta sección se presenta el Sprint Backlog del Sprint 3, que incluye las tar
 
 ### 6.2.3.4 Development Evidence for Sprint Review
 
-### 6.2.3.5 Testing Suite Evidence for Sprint Review
+| Repository                          | Branch  | Commit Id | Commit Message                                                                      | Commit Message Body                                                                                                                                                            | Commited on (Date) |
+|-------------------------------------|---------|-----------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| Gaboo04/Dedalus-MobileApp     | main    | e109d27 | add Google Services plugin        | feat: add Google Services plugin to Android build configuration.                                                                                                                  | 2025-11-30         |
+| KiwiAmenazante/Edge-api | main    |ea9b562   | clean up app initialization                                            | chore: clean up app initialization and update Dockerfile for dependencies | 2025-11-29      | 
+| KiwiAmenazante/Edge-api | main    |8aa47c5 |  update MQTT                                            | chore: update MQTT configuration and enable TLS support | 2025-11-29               |
+
+
+## 6.2.3.5 Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo realizó un conjunto completo de pruebas manuales abarcando todas las capas del ecosistema Dedalus: Landing Page, Web Application, Mobile Application y la arquitectura IoT (Embedded, Edge y comunicaciones vía MQTT/REST). Aunque aún no se han implementado pruebas automatizadas, se llevaron a cabo validaciones funcionales exhaustivas que permitieron confirmar el correcto funcionamiento integrado de todo el sistema, incluyendo la interacción entre la app móvil, el servidor Edge y el prototipo físico basado en ESP32.
+
+Las pruebas manuales incluyeron:
+
+**Web Application:** validación de autenticación, gestión de habitaciones, lectura de datos IoT en tiempo real y visualización correcta de estados.
+
+**Mobile Application:** acceso a habitaciones, control de ambientes (luces y temperatura), pruebas NFC/Bluetooth y comunicación estable con el servidor Edge.
+
+**Embedded Layer (ESP32):** verificación de conexión a WiFi, envío de lecturas (temperatura, humedad y gas), recepción de comandos y ejecución física en el prototipo.
+
+**Edge Layer:** validación de endpoints REST, correcto enrutamiento de datos IoT y funcionamiento del broker MQTT utilizado para telemetría y comandos.
+
+**Integración extremo a extremo:** pruebas de flujo completo (mobile → edge → embedded → edge → web), confirmando que los comandos enviados desde la app se reflejan inmediatamente en el dispositivo y la capa administrativa.
+
+Aunque la priorización del sprint estuvo centrada en lograr un ecosistema funcional extremo a extremo, para futuros sprints se propone incorporar pruebas automatizadas utilizando herramientas como Selenium, Postman test suites, JUnit, Robot Framework o Espresso, con el fin de fortalecer la trazabilidad, reducir riesgos y estandarizar la validación continua del sistema IoT–Web–Mobile.
 
 ### 6.2.3.6 Execution Evidence for Sprint Review
 
+En esta parte se puede observar cómo se ha ido avanzando en este caso el prototipo fisico de nuestro proyecto:
 ![Despliegue](assets/Prototipo%20Fisico%201.jpg)
+
+<br>
+
 ![Despliegue](assets/Prototipo%20Fisico%202.jpg)
+
+<br>
+
 ![Despliegue](assets/Prototipo%20Fisico%203.jpg)
 
+En esta parte se puede observar cómo se ha ido avanzando en este caso el MQTT:
 ![Despliegue](assets/Mqtt%20Dedalus%201.jpg)
+
+<br>
+
 ![Despliegue](assets/Mqtt%20Dedalus%202.jpg)
+
+<br>
+
 ![Despliegue](assets/Mqtt%20Dedalus%203.jpg)
 
 
