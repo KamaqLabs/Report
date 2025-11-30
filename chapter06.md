@@ -433,7 +433,7 @@ Enlace al repositorio de la Web Application: https://github.com/KamaqLabs/Dedalu
 Enlace al repositorio del Mobile Application: https://github.com/KamaqLabs/Dedalus-MobileApp
 
 ### 6.2.1.5 Testing Suite Evidence for Sprint Review
-Para este sprint, no se han realizado pruebas automatizadas. Sin embargo, se han realizado pruebas manuales para asegurar que la Landing Page, la web application y el mobile app funcionen correctamente y cumplan con los requisitos establecidos.
+Para este sprint, no se han realizado pruebas automatizadas. Sin embargo, se han realizado pruebas manuales para asegurar que la web application y el mobile app funcionen correctamente y cumplan con los requisitos establecidos.
 Se podrían implementar pruebas automatizadas utilizando herramientas como Selenium en futuros sprints, pero por el momento, el equipo ha optado por realizar pruebas manuales para asegurar la calidad del producto.
 
 ### 6.2.1.6 Execution Evidence for Sprint Review
@@ -462,7 +462,7 @@ Se puede evidenciar parte del avance que hemos realizado para esta entrega de nu
 
 ### 6.2.1.7 Services Documentation Evidence for Sprint Review
 
-En este Sprint 2, el equipo ha avanzado con mayor precisión en el desarrollo de la web application, la primera versión de la mobile app y la integración con los componentes IoT (Edge y dispositivo embebido), asegurando que todo el ecosistema cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 2, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas tanto en la capa web/móvil como en la capa IoT.
+En este Sprint 2, el equipo ha avanzado con mayor precisión en el desarrollo de la web application, la primera versión de la mobile app y la integración con los componentes IoT (Edge y dispositivo embebido), asegurando que todo el ecosistema cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 2, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas en la capa web y mobile.
 
 ### 6.2.1.8 Software Deployment Evidence for Sprint Review  
 
@@ -649,9 +649,92 @@ En esta sección se presenta el Sprint Backlog del Sprint 3, que incluye las tar
 
 ### 6.2.3.6 Execution Evidence for Sprint Review
 
+![Despliegue](assets/Prototipo%20Fisico%201.jpg)
+![Despliegue](assets/Prototipo%20Fisico%202.jpg)
+![Despliegue](assets/Prototipo%20Fisico%203.jpg)
+
+![Despliegue](assets/Mqtt%20Dedalus%201.jpg)
+![Despliegue](assets/Mqtt%20Dedalus%202.jpg)
+![Despliegue](assets/Mqtt%20Dedalus%203.jpg)
+
+
 ### 6.2.3.7 Services Documentation Evidence for Sprint Review
 
+En este Sprint 3, el equipo consolidó la integración completa de todos los servicios del ecosistema Dedalus, culminando en un sistema plenamente funcional que abarca la capa Web Application, Mobile Application, Edge Layer y los dispositivos embebidos IoT. Además, se construyó y validó un **prototipo físico operativo**, conformado por sensores y actuadores reales (temperatura, humedad, gas, y servo), conectados a la plataforma mediante la capa Edge desplegada en Coolify. 
+
+Los servicios fueron documentados y verificados en sus entornos correspondientes:  
+- **Frontend Web y Landing Page** desplegados correctamente y accesibles a través de la URL pública generada por Coolify.  
+- **Mobile Application (Android)** configurada y distribuida internamente mediante Firebase App Distribution.  
+- **Edge Layer** desplegada como servicio Docker, exponiendo endpoints estables para la comunicación en tiempo real con los dispositivos IoT.  
+- **Embedded Layer (ESP32)** enviando telemetría y ejecutando acciones como apertura de puerta
+
+La documentación de este sprint incluye la descripción del funcionamiento de cada servicio, sus endpoints principales, las interacciones entre capas y las validaciones realizadas durante las pruebas con el prototipo físico. Estas evidencias demuestran que todo el sistema opera de manera integrada y que los servicios se encuentran preparados para su siguiente fase de escalamiento.
+
+
 ### 6.2.3.8 Software Deployment Evidence for Sprint Review
+
+### Software Deployment Configuration – Mobile Application
+
+Esta sección detalla la configuración del despliegue de la **Mobile Application (Android)** utilizando **Firebase App Distribution** como plataforma de distribución interna para pruebas.
+
+---
+
+#### Pasos para el Despliegue (Resumen)
+
+1. **Generación del Artefacto (APK)**
+   - Se construyó el archivo **APK** desde el proyecto Android, obteniendo el artefacto de prueba que se utilizaría para el proceso de distribución en Firebase.
+
+2. **Creación y Configuración del Proyecto en Firebase**
+   - Se accedió a Firebase y se creó un nuevo proyecto con el nombre **“dedalus-app”**.
+   - Se completaron las configuraciones iniciales del proyecto necesarias para habilitar App Distribution.
+
+3. **Subida del Artefacto a App Distribution**
+   - En el módulo **App Distribution**, se arrastró el archivo **app-release.apk** a la sección de versiones para iniciar la carga.
+   - Firebase mostró el estado de “Subiendo app-release.apk…” hasta completar el proceso.
+
+4. **Configuración de la Release**
+   - Se registró la versión **0.1.0 (1)** de la aplicación.
+   - En las notas de la versión se consignó:  
+     *“MVP de dedalus mobile application”*.
+
+5. **Obtención del Enlace de Distribución**
+   - Una vez finalizada la carga, Firebase generó el enlace de release para distribución interna a testers.
+
+   **Release link obtenido:**  
+   https://appdistribution.firebase.google.com/testerapps/1:997817818618:android:45acd3cfad27ce349b1843/releases/36am545kvhulo?utm_source=firebase-console
+
+![Despliegue](assets/Deploy%20Mobile%20App%201.png)
+![Despliegue](assets/Deploy%20Mobile%20App%202.png)
+![Despliegue](assets/Deploy%20Mobile%20App%203.png)
+![Despliegue](assets/Deploy%20Mobile%20App%204.png)
+
+---
+
+### Software Deployment Evidence for Sprint Review – Mobile Application
+
+Durante este Sprint se completó el primer despliegue oficial de la aplicación móvil mediante **Firebase App Distribution**, habilitando el flujo de pruebas internas con un APK funcional del MVP. El proceso incluyó:
+
+1. Acceder al módulo **App Distribution** dentro del proyecto **dedalus-app**.
+2. Crear el proyecto y asociar la aplicación Android.
+3. Subir el archivo **app-release.apk** como nueva versión.
+4. Registrar la versión **0.1.0 (1)** con la nota de release correspondiente.
+5. Confirmar la carga exitosa del artefacto y obtener el **enlace de distribución** para los testers:
+
+**Enlace de release:**  
+https://appdistribution.firebase.google.com/testerapps/1:997817818618:android:45acd3cfad27ce349b1843/releases/36am545kvhulo?utm_source=firebase-console
+
+### Software Deployment Evidence - Edge Layer (IoT Edge Service)
+
+Durante este Sprint también se completó el despliegue de la **capa Edge**, responsable de recibir, procesar y exponer los datos provenientes de los dispositivos embebidos (temperatura, humedad, gas, servo, etc.). Esta capa actúa como intermediaria entre los microcontroladores (ESP32) y la plataforma web/móvil, garantizando disponibilidad continua y un punto estable de integración.
+
+El despliegue del servicio Edge se realizó utilizando **Coolify**, configurando un contenedor basado en Docker con las rutas de API necesarias para el consumo por parte del frontend y los dispositivos IoT. Una vez desplegado, se validó su correcto funcionamiento mediante el endpoint de salud pública.
+
+**Health Check del servicio Edge:**  
+https://o8wocw080g08ww88kgkgcskc.4.201.187.236.sslip.io/api/v1/health
+
+El endpoint respondió correctamente, confirmando que el servicio Edge está operativo, escuchando solicitudes externas y listo para integrarse con los módulos web, mobile y embedded dentro del ecosistema Dedalus.
+
+![Despliegue](assets/Edge%20Deploy.jpg)
 
 
 ## 6.3 Validation Interviews  
@@ -805,6 +888,8 @@ En esta sección se presenta el Sprint Backlog del Sprint 3, que incluye las tar
 
 ## 6.4 Video About-the-Product
 
+Video about the product: https://youtu.be/d_N5kA2hVug 
+
 ## Conclusiones
 
 1.  El proyecto Dedalus IoT de KamaqLabs ha logrado definir con claridad un problema real del sector hotelero peruano y latinoamericano: alta informalidad, baja digitalización, procesos manuales y deficiencias en seguridad y eficiencia operativa, lo que genera errores en reservas, pérdidas económicas y experiencias negativas para los huéspedes. A partir de este diagnóstico, se ha formulado una pregunta guía concreta sobre cómo integrar tecnología IoT en la gestión hotelera para mejorar eficiencia, seguridad y personalización de la experiencia, lo que enmarca de forma sólida todo el alcance del proyecto.
@@ -815,7 +900,7 @@ En esta sección se presenta el Sprint Backlog del Sprint 3, que incluye las tar
 
 3. Metodológicamente, el proyecto ha avanzado con un enfoque Lean UX y centrado en el usuario, definiendo segmentos (administradores, personal operativo y huéspedes), supuestos de negocio y de uso, así como métricas de éxito ligadas a eficiencia, seguridad y experiencia del cliente. La incorporación de evaluaciones heurísticas basadas en principios de usabilidad reconocidos internacionalmente ha permitido identificar tempranamente problemas concretos en la interfaz (retroalimentación, control del usuario, prevención de errores y recuperación de información) y priorizar mejoras antes de un despliegue masivo, reduciendo riesgos de adopción y aumentando la probabilidad de que Dedalus IoT se perciba como una solución intuitiva y confiable en hoteles reales.
 
-### Links
+### Anexos
 #### Repositorios:
 - **FrontEndApp:** https://github.com/KamaqLabs/Dedalus-FrontEndApp
 - **BackEnd:** https://github.com/KamaqLabs/Dedalus-Platform
@@ -826,7 +911,13 @@ En esta sección se presenta el Sprint Backlog del Sprint 3, que incluye las tar
 
 #### Desplegados:
 - **FrotEndApp:** https://vsc4k4koccgs40wgs804gkww.4.201.187.236.sslip.io/ 
+- **BackEndApp:** https://sogw0gwg8w0w8ok8gkgwsso0.4.201.187.236.sslip.io/api
+- **Edge:** https://o8wocw080g08ww88kgkgcskc.4.201.187.236.sslip.io/api/v1/health
+- **Mobile App:** https://appdistribution.firebase.google.com/testerapps/1:997817818618:android:45acd3cfad27ce349b1843/releases/36am545kvhulo?utm_source=firebase-console
 
+#### Videos:
+Video about the product: https://youtu.be/d_N5kA2hVug
+Video about the team: https://youtu.be/uSdF15-84II 
 ## Bibliografia
 
 - Balaguruswamy Naidu, G. (2024). IoT innovation in hospitality: A comprehensive technical analysis of implementation and impact. International Journal for Multidisciplinary Research, 6(6).
